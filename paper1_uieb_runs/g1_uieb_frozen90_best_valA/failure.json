@@ -1,0 +1,171 @@
+{
+ "event": "failed",
+ "dataset": "uieb",
+ "out": "D:\\MARINE_NET_RESEARCH\\paper1_uieb_runs\\g1_uieb_frozen90_best_valA",
+ "error_type": "FloatingPointError",
+ "error": "invalid value encountered in divide",
+ "time": "2026-11-02 06:16:12",
+ "models_scored_so_far": {
+  "marinenet_bn_s0": {
+   "run": "marinenet_bn_r3_fp32_s0",
+   "checkpoint": "best_valA",
+   "checkpoint_sha256": "d5e6538af11f141fd1e73e67d408cf002e5c248eeae392fd7d8ccf6018191007",
+   "psnr": 19.016886664761437,
+   "ssim": 0.8230982161230511,
+   "lpips": 0.18806183636188506,
+   "nonfinite_before_clamp": 0,
+   "finite_ok": true
+  },
+  "marinenet_in_s0": {
+   "run": "marinenet_in_r3_fp32_s0",
+   "checkpoint": "best_valA",
+   "checkpoint_sha256": "a1e5854951250e25ebae5f174c64fef8bf2498506f455ace7cf44b27192b0008",
+   "psnr": 21.581511510743034,
+   "ssim": 0.8614049057165781,
+   "lpips": 0.1490357848091258,
+   "nonfinite_before_clamp": 0,
+   "finite_ok": true
+  },
+  "attrunk_bn_s0": {
+   "run": "xf_attrunk_r3_fp32_s0",
+   "checkpoint": "best_valA",
+   "checkpoint_sha256": "f594348550d75f76f9f90188e4c151cf6af1d29451773beccbdd9c6d75202941",
+   "psnr": 19.962438570128548,
+   "ssim": 0.8465080239706569,
+   "lpips": 0.1674133687073158,
+   "nonfinite_before_clamp": 0,
+   "finite_ok": true
+  },
+  "attrunk_in_s0": {
+   "run": "xfin_attrunk_in_r3_fp32_s0",
+   "checkpoint": "best_valA",
+   "checkpoint_sha256": "28d2b2cf24caf493aa9e5bf596f968e0628bb5bf3a0525df398923fcd4b421e6",
+   "psnr": 20.21370901664098,
+   "ssim": 0.8500625911686156,
+   "lpips": 0.16449861352642378,
+   "nonfinite_before_clamp": 0,
+   "finite_ok": true
+  },
+  "armcin_s0": {
+   "run": "armcin_idres_r3_fp32_s0",
+   "checkpoint": "best_valA",
+   "checkpoint_sha256": "7fb868a8053258a67945026cc75299a4bee2ec25d42ec8fe7edf186dffb812f5",
+   "psnr": 19.875941819614834,
+   "ssim": 0.846968357761701,
+   "lpips": 0.1723934212492572,
+   "nonfinite_before_clamp": 0,
+   "finite_ok": true
+  },
+  "marinenet_bn_s1": {
+   "run": "marinenet_bn_r3_fp32_s1",
+   "checkpoint": "best_valA",
+   "checkpoint_sha256": "41d6abbe27c38779a585658d384bb42b4eebe048cd5285b4511f92860ad161cb",
+   "psnr": 20.11889921956592,
+   "ssim": 0.8544682919979095,
+   "lpips": 0.17603625032222933,
+   "nonfinite_before_clamp": 0,
+   "finite_ok": true
+  },
+  "marinenet_in_s1": {
+   "run": "marinenet_in_r3_fp32_s1",
+   "checkpoint": "best_valA",
+   "checkpoint_sha256": "f5ce4a268ebda2b13d989fe52a3a16e01bcefbed3a41be36e5858b36d1d2398d",
+   "psnr": 21.07103450430764,
+   "ssim": 0.8569615582625071,
+   "lpips": 0.15649938324673307,
+   "nonfinite_before_clamp": 0,
+   "finite_ok": true
+  },
+  "attrunk_bn_s1": {
+   "run": "xf_attrunk_r3_fp32_s1",
+   "checkpoint": "best_valA",
+   "checkpoint_sha256": "a3669cace97b97b7997c92ad892d1157c8bd68ecc4bbbbc3e91fc451fc897080",
+   "psnr": 19.992559366756016,
+   "ssim": 0.8566487169928021,
+   "lpips": 0.17043350805631943,
+   "nonfinite_before_clamp": 0,
+   "finite_ok": true
+  },
+  "attrunk_in_s1": {
+   "run": "xfin_attrunk_in_r3_fp32_s1",
+   "checkpoint": "best_valA",
+   "checkpoint_sha256": "26579f14f89f932f812455a30a8659c482971b245762cb35f5515c4b617e298e",
+   "psnr": 20.31672778394487,
+   "ssim": 0.8539801905552546,
+   "lpips": 0.1619094021825327,
+   "nonfinite_before_clamp": 0,
+   "finite_ok": true
+  },
+  "armcin_s1": {
+   "run": "armcin_idres_r3_fp32_s1",
+   "checkpoint": "best_valA",
+   "checkpoint_sha256": "2dda0874e9bf554c3be25a5d003cba5fe997b544383dee310434a7f356ecaa71",
+   "psnr": 20.133309351073372,
+   "ssim": 0.8523140346010526,
+   "lpips": 0.16741456828183598,
+   "nonfinite_before_clamp": 0,
+   "finite_ok": true
+  },
+  "marinenet_bn_s2": {
+   "run": "marinenet_bn_r3_fp32_s2",
+   "checkpoint": "best_valA",
+   "checkpoint_sha256": "a4c61b3dfeb2afb24ccccb644b93ca196e802cd4f77a60b3cc954983597ce47c",
+   "psnr": 20.00020307302475,
+   "ssim": 0.8445049269331826,
+   "lpips": 0.18094170122510858,
+   "nonfinite_before_clamp": 0,
+   "finite_ok": true
+  },
+  "marinenet_in_s2": {
+   "run": "marinenet_in_r3_fp32_s2",
+   "checkpoint": "best_valA",
+   "checkpoint_sha256": "8759df7e5e318a5c6b496eb39a601a5e5c7ce4d7d28d1355de4a4362d00355ab",
+   "psnr": 20.8864077395863,
+   "ssim": 0.8555318464835485,
+   "lpips": 0.16079680120779408,
+   "nonfinite_before_clamp": 0,
+   "finite_ok": true
+  },
+  "attrunk_bn_s2": {
+   "run": "xf_attrunk_r3_fp32_s2",
+   "checkpoint": "best_valA",
+   "checkpoint_sha256": "1301807ecab3a8f25bdad23b2c57ea2428211b0f14c60a6011225af55ffb4592",
+   "psnr": 20.176783839861553,
+   "ssim": 0.8573120474815369,
+   "lpips": 0.16740268733766345,
+   "nonfinite_before_clamp": 0,
+   "finite_ok": true
+  },
+  "attrunk_in_s2": {
+   "run": "xfin_attrunk_in_r3_fp32_s2",
+   "checkpoint": "best_valA",
+   "checkpoint_sha256": "6d88c6ea8f468e959588b7781a56d16ac8c21bf87ff064b3ba1c6f0e79f9abf3",
+   "psnr": 20.27957277165519,
+   "ssim": 0.8515282306406233,
+   "lpips": 0.1638115855347779,
+   "nonfinite_before_clamp": 0,
+   "finite_ok": true
+  },
+  "armcin_s2": {
+   "run": "armcin_idres_r3_fp32_s2",
+   "checkpoint": "best_valA",
+   "checkpoint_sha256": "53d01d79dd17405eaf58b4443f61468a5fec595643a2241c928543f7e05b1079",
+   "psnr": 20.11188644833035,
+   "ssim": 0.85034785370032,
+   "lpips": 0.17033951112793552,
+   "nonfinite_before_clamp": 0,
+   "finite_ok": true
+  },
+  "wwe_uie_s0": {
+   "run": "wwe_lr2e-4_s0",
+   "checkpoint": "best_valA",
+   "checkpoint_sha256": "fc9ebbeaffb1f56ca4297ef5d9a5b914274e5d6db32845cfd067fad490ca4bf5",
+   "psnr": 20.11432640420066,
+   "ssim": 0.8434098564916187,
+   "lpips": 0.17278371546417476,
+   "nonfinite_before_clamp": 0,
+   "finite_ok": true
+  }
+ },
+ "note": "FAILED RUN: diagnostics only. No summary.json exists for this attempt."
+}

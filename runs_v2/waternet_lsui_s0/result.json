@@ -1,0 +1,65 @@
+{
+ "model": "waternet",
+ "params": 1090668,
+ "seed": 0,
+ "epochs": 100,
+ "args": {
+  "model": "waternet",
+  "run_name": "waternet_lsui_s0",
+  "epochs": 100,
+  "warmup": 0,
+  "bs": 4,
+  "accum": 1,
+  "lr": 0.00025,
+  "wd": 0.0,
+  "eta_min": 0.0,
+  "clip": 1e+30,
+  "seed": 0,
+  "workers": 2,
+  "amp": false,
+  "loss_in_autocast": false,
+  "skip_zero_weight_perceptual": false,
+  "no_jitter": true,
+  "stop_after": null,
+  "time_iters": 0,
+  "smoke": 0,
+  "train_limit": null,
+  "resume": false,
+  "underfit_n": 300,
+  "select_on": "val_A",
+  "recipe": "WATERNET_lsui_lr2p5e-4",
+  "lr_decay_epoch": 50,
+  "lr_decay_gamma": 0.1
+ },
+ "train_300_random": {
+  "n": 300,
+  "psnr_mean": 25.65472420454025,
+  "psnr_median": 25.877891778945923,
+  "ssim_mean": 0.9084239975611369
+ },
+ "manifest_sha256": {
+  "train": "b4871a988053430c3023f4ee1055282a538be649a3d2b8df748ded54cde0e814",
+  "val": "c034978c1f94ad1404cba56d91068b991207a93f52485d5548461cc4fde3c88f",
+  "val_clean": "dd48c3485d803512b9a0db80530927cabdd4c398b34c37988c24eb254854c571",
+  "val_A": "2d8daae6aeb6f72af4f4b7450c2bbe53ebee6866f68cce0daedb14d15cf9ddc1"
+ },
+ "env": {
+  "git_commit": "031e725",
+  "python": "3.12.0",
+  "torch": "2.7.1+cu118",
+  "gpu": "NVIDIA GeForce RTX 3070",
+  "command": "v2_tools/train_v2_no_valb_waternet.py --recipe WATERNET_lsui_lr2p5e-4 --model waternet --seed 0 --run_name waternet_lsui_s0"
+ },
+ "best_valA_epoch": 99,
+ "best_valA": {
+  "n": 166,
+  "psnr_mean": 25.465468089264558,
+  "psnr_median": 25.63071608543396,
+  "ssim_mean": 0.9064945007663175
+ },
+ "checkpoint_sha256": {
+  "best_valA.pth": "af168d31cf1632bb2f9c550e32670eab1c39f28714c2a60bdfedbfc30c3565b3",
+  "last.pth": "5c3f935a3ff1168095bd4e67373a99a27aa29d49d64e2db99c2005b5d882a31b"
+ },
+ "run_seconds": 25355.745567798615
+}

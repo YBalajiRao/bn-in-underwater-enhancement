@@ -1,0 +1,49 @@
+run,status,arch,outcome,estimator,seed0,seed1,seed2,seed_mean,t95_lo,t95_hi,boot95_lo,boot95_hi
+square256_best_valA,reference,marinenet,BN,e_spearman,-0.8914,-0.8063,-0.8192,-0.8390,-0.9529,-0.7251,-0.9098,-0.7430
+square256_best_valA,reference,marinenet,BN,d_ols_slope_dB_per_NTU,-0.1019,-0.0646,-0.0848,-0.0838,-0.1301,-0.0374,-0.0999,-0.0703
+square256_best_valA,reference,marinenet,IN,e_spearman,0.0973,-0.1431,-0.1345,-0.0601,-0.3989,0.2788,-0.2206,0.1079
+square256_best_valA,reference,marinenet,IN,d_ols_slope_dB_per_NTU,0.0058,-0.0196,-0.0253,-0.0130,-0.0541,0.0281,-0.0314,0.0087
+square256_best_valA,reference,marinenet,d,e_spearman,0.6109,0.4807,0.4818,0.5245,0.3385,0.7105,0.4426,0.6033
+square256_best_valA,reference,marinenet,d,d_ols_slope_dB_per_NTU,0.1077,0.0450,0.0596,0.0708,-0.0107,0.1523,0.0511,0.0947
+square256_best_valA,reference,attrunk,BN,e_spearman,-0.8789,-0.7582,-0.9060,-0.8477,-1.0431,-0.6523,-0.8997,-0.7893
+square256_best_valA,reference,attrunk,BN,d_ols_slope_dB_per_NTU,-0.1078,-0.0677,-0.0923,-0.0893,-0.1395,-0.0391,-0.1081,-0.0752
+square256_best_valA,reference,attrunk,IN,e_spearman,0.1262,0.3442,-0.1999,0.0902,-0.5900,0.7704,-0.0524,0.2361
+square256_best_valA,reference,attrunk,IN,d_ols_slope_dB_per_NTU,0.0104,0.0324,-0.0208,0.0073,-0.0591,0.0738,-0.0092,0.0270
+square256_best_valA,reference,attrunk,d,e_spearman,0.7679,0.7073,0.4882,0.6545,0.2890,1.0199,0.5851,0.7224
+square256_best_valA,reference,attrunk,d,d_ols_slope_dB_per_NTU,0.1183,0.1001,0.0715,0.0966,0.0380,0.1552,0.0754,0.1245
+square256_last,exploratory,marinenet,BN,e_spearman,-0.9405,-0.7992,-0.8566,-0.8654,-1.0419,-0.6889,-0.9224,-0.7896
+square256_last,exploratory,marinenet,BN,d_ols_slope_dB_per_NTU,-0.1062,-0.0691,-0.1074,-0.0942,-0.1484,-0.0401,-0.1121,-0.0796
+square256_last,exploratory,marinenet,IN,e_spearman,0.0975,-0.1454,-0.1266,-0.0582,-0.3939,0.2776,-0.2190,0.1101
+square256_last,exploratory,marinenet,IN,d_ols_slope_dB_per_NTU,0.0058,-0.0199,-0.0241,-0.0128,-0.0531,0.0276,-0.0312,0.0090
+square256_last,exploratory,marinenet,d,e_spearman,0.6450,0.4994,0.5174,0.5539,0.3568,0.7511,0.4759,0.6293
+square256_last,exploratory,marinenet,d,d_ols_slope_dB_per_NTU,0.1120,0.0491,0.0833,0.0815,0.0033,0.1597,0.0599,0.1079
+square256_last,exploratory,attrunk,BN,e_spearman,-0.8789,-0.8097,-0.9082,-0.8656,-0.9913,-0.7399,-0.9127,-0.8118
+square256_last,exploratory,attrunk,BN,d_ols_slope_dB_per_NTU,-0.1078,-0.0809,-0.0919,-0.0935,-0.1272,-0.0599,-0.1126,-0.0792
+square256_last,exploratory,attrunk,IN,e_spearman,0.1251,0.3445,-0.1961,0.0911,-0.5843,0.7665,-0.0515,0.2368
+square256_last,exploratory,attrunk,IN,d_ols_slope_dB_per_NTU,0.0104,0.0322,-0.0206,0.0073,-0.0585,0.0732,-0.0092,0.0270
+square256_last,exploratory,attrunk,d,e_spearman,0.7709,0.7512,0.4911,0.6711,0.2832,1.0590,0.6048,0.7361
+square256_last,exploratory,attrunk,d,d_ols_slope_dB_per_NTU,0.1183,0.1130,0.0713,0.1009,0.0369,0.1648,0.0789,0.1293
+G455_best_valA,sensitivity,marinenet,BN,e_spearman,-0.8866,-0.8800,-0.8381,-0.8682,-0.9336,-0.8029,-0.9334,-0.7745
+G455_best_valA,sensitivity,marinenet,BN,d_ols_slope_dB_per_NTU,-0.1015,-0.0803,-0.0889,-0.0902,-0.1167,-0.0637,-0.1073,-0.0763
+G455_best_valA,sensitivity,marinenet,IN,e_spearman,-0.5638,-0.0770,-0.4189,-0.3532,-0.9742,0.2678,-0.5040,-0.1861
+G455_best_valA,sensitivity,marinenet,IN,d_ols_slope_dB_per_NTU,-0.0818,-0.0103,-0.0597,-0.0506,-0.1416,0.0404,-0.0664,-0.0326
+G455_best_valA,sensitivity,marinenet,d,e_spearman,0.1481,0.6448,0.3489,0.3806,-0.2402,1.0014,0.2891,0.4721
+G455_best_valA,sensitivity,marinenet,d,d_ols_slope_dB_per_NTU,0.0197,0.0700,0.0292,0.0396,-0.0267,0.1060,0.0248,0.0574
+G455_best_valA,sensitivity,attrunk,BN,e_spearman,-0.9198,-0.9108,-0.9464,-0.9256,-0.9716,-0.8797,-0.9563,-0.8880
+G455_best_valA,sensitivity,attrunk,BN,d_ols_slope_dB_per_NTU,-0.1256,-0.1029,-0.1121,-0.1136,-0.1419,-0.0852,-0.1357,-0.0974
+G455_best_valA,sensitivity,attrunk,IN,e_spearman,-0.1998,0.1861,-0.2883,-0.1006,-0.7273,0.5260,-0.2571,0.0630
+G455_best_valA,sensitivity,attrunk,IN,d_ols_slope_dB_per_NTU,-0.0184,0.0135,-0.0286,-0.0112,-0.0657,0.0434,-0.0272,0.0074
+G455_best_valA,sensitivity,attrunk,d,e_spearman,0.7479,0.8006,0.5402,0.6962,0.3543,1.0382,0.6304,0.7600
+G455_best_valA,sensitivity,attrunk,d,d_ols_slope_dB_per_NTU,0.1072,0.1164,0.0835,0.1024,0.0602,0.1445,0.0807,0.1302
+G455_last,supplementary (batch-equivalence preflight not run),marinenet,BN,e_spearman,-0.9418,-0.8792,-0.8713,-0.8975,-0.9935,-0.8015,-0.9472,-0.8261
+G455_last,supplementary (batch-equivalence preflight not run),marinenet,BN,d_ols_slope_dB_per_NTU,-0.1057,-0.0868,-0.1089,-0.1005,-0.1300,-0.0709,-0.1192,-0.0853
+G455_last,supplementary (batch-equivalence preflight not run),marinenet,IN,e_spearman,-0.5646,-0.0810,-0.4149,-0.3535,-0.9686,0.2616,-0.5042,-0.1865
+G455_last,supplementary (batch-equivalence preflight not run),marinenet,IN,d_ols_slope_dB_per_NTU,-0.0821,-0.0105,-0.0588,-0.0505,-0.1411,0.0402,-0.0663,-0.0325
+G455_last,supplementary (batch-equivalence preflight not run),marinenet,d,e_spearman,0.1664,0.6635,0.4030,0.4110,-0.2068,1.0287,0.3216,0.4991
+G455_last,supplementary (batch-equivalence preflight not run),marinenet,d,d_ols_slope_dB_per_NTU,0.0236,0.0763,0.0500,0.0500,-0.0155,0.1154,0.0335,0.0699
+G455_last,supplementary (batch-equivalence preflight not run),attrunk,BN,e_spearman,-0.9198,-0.9221,-0.9464,-0.9294,-0.9660,-0.8929,-0.9588,-0.8929
+G455_last,supplementary (batch-equivalence preflight not run),attrunk,BN,d_ols_slope_dB_per_NTU,-0.1256,-0.1149,-0.1100,-0.1168,-0.1367,-0.0970,-0.1389,-0.1008
+G455_last,supplementary (batch-equivalence preflight not run),attrunk,IN,e_spearman,-0.2033,0.1832,-0.2843,-0.1015,-0.7221,0.5191,-0.2584,0.0623
+G455_last,supplementary (batch-equivalence preflight not run),attrunk,IN,d_ols_slope_dB_per_NTU,-0.0191,0.0132,-0.0283,-0.0114,-0.0655,0.0427,-0.0274,0.0071
+G455_last,supplementary (batch-equivalence preflight not run),attrunk,d,e_spearman,0.7495,0.8251,0.5435,0.7060,0.3439,1.0681,0.6426,0.7670
+G455_last,supplementary (batch-equivalence preflight not run),attrunk,d,d_ols_slope_dB_per_NTU,0.1066,0.1280,0.0817,0.1054,0.0479,0.1630,0.0832,0.1337

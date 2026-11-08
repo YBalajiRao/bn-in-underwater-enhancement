@@ -1,0 +1,1003 @@
+{
+  "val_pairs": [
+    {
+      "id": 2301,
+      "filename": "2337.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\2337.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\2337.jpg"
+    },
+    {
+      "id": 434,
+      "filename": "437.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\437.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\437.jpg"
+    },
+    {
+      "id": 2958,
+      "filename": "2995.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\2995.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\2995.jpg"
+    },
+    {
+      "id": 1555,
+      "filename": "1591.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\1591.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\1591.jpg"
+    },
+    {
+      "id": 1066,
+      "filename": "1102.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\1102.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\1102.jpg"
+    },
+    {
+      "id": 2466,
+      "filename": "2503.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\2503.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\2503.jpg"
+    },
+    {
+      "id": 3431,
+      "filename": "3468.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\3468.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\3468.jpg"
+    },
+    {
+      "id": 1539,
+      "filename": "1575.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\1575.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\1575.jpg"
+    },
+    {
+      "id": 885,
+      "filename": "920.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\920.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\920.jpg"
+    },
+    {
+      "id": 2659,
+      "filename": "2696.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\2696.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\2696.jpg"
+    },
+    {
+      "id": 520,
+      "filename": "524.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\524.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\524.jpg"
+    },
+    {
+      "id": 1074,
+      "filename": "1110.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\1110.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\1110.jpg"
+    },
+    {
+      "id": 2964,
+      "filename": "3001.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\3001.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\3001.jpg"
+    },
+    {
+      "id": 3760,
+      "filename": "3797.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\3797.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\3797.jpg"
+    },
+    {
+      "id": 1947,
+      "filename": "1983.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\1983.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\1983.jpg"
+    },
+    {
+      "id": 3685,
+      "filename": "3722.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\3722.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\3722.jpg"
+    },
+    {
+      "id": 1819,
+      "filename": "1855.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\1855.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\1855.jpg"
+    },
+    {
+      "id": 3774,
+      "filename": "3811.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\3811.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\3811.jpg"
+    },
+    {
+      "id": 3160,
+      "filename": "3197.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\3197.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\3197.jpg"
+    },
+    {
+      "id": 3863,
+      "filename": "3900.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\3900.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\3900.jpg"
+    },
+    {
+      "id": 426,
+      "filename": "429.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\429.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\429.jpg"
+    },
+    {
+      "id": 357,
+      "filename": "358.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\358.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\358.jpg"
+    },
+    {
+      "id": 2985,
+      "filename": "3022.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\3022.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\3022.jpg"
+    },
+    {
+      "id": 2537,
+      "filename": "2574.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\2574.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\2574.jpg"
+    },
+    {
+      "id": 3049,
+      "filename": "3086.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\3086.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\3086.jpg"
+    },
+    {
+      "id": 1414,
+      "filename": "1450.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\1450.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\1450.jpg"
+    },
+    {
+      "id": 1868,
+      "filename": "1904.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\1904.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\1904.jpg"
+    },
+    {
+      "id": 146,
+      "filename": "146.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\146.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\146.jpg"
+    },
+    {
+      "id": 3396,
+      "filename": "3433.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\3433.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\3433.jpg"
+    },
+    {
+      "id": 2128,
+      "filename": "2164.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\2164.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\2164.jpg"
+    },
+    {
+      "id": 821,
+      "filename": "848.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\848.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\848.jpg"
+    },
+    {
+      "id": 844,
+      "filename": "877.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\877.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\877.jpg"
+    },
+    {
+      "id": 1436,
+      "filename": "1472.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\1472.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\1472.jpg"
+    },
+    {
+      "id": 1721,
+      "filename": "1757.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\1757.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\1757.jpg"
+    },
+    {
+      "id": 2637,
+      "filename": "2674.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\2674.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\2674.jpg"
+    },
+    {
+      "id": 20,
+      "filename": "20.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\20.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\20.jpg"
+    },
+    {
+      "id": 3746,
+      "filename": "3783.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\3783.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\3783.jpg"
+    },
+    {
+      "id": 663,
+      "filename": "669.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\669.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\669.jpg"
+    },
+    {
+      "id": 2447,
+      "filename": "2483.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\2483.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\2483.jpg"
+    },
+    {
+      "id": 2944,
+      "filename": "2981.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\2981.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\2981.jpg"
+    },
+    {
+      "id": 1941,
+      "filename": "1977.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\1977.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\1977.jpg"
+    },
+    {
+      "id": 1897,
+      "filename": "1933.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\1933.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\1933.jpg"
+    },
+    {
+      "id": 2624,
+      "filename": "2661.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\2661.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\2661.jpg"
+    },
+    {
+      "id": 2791,
+      "filename": "2828.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\2828.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\2828.jpg"
+    },
+    {
+      "id": 2801,
+      "filename": "2838.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\2838.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\2838.jpg"
+    },
+    {
+      "id": 3011,
+      "filename": "3048.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\3048.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\3048.jpg"
+    },
+    {
+      "id": 3750,
+      "filename": "3787.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\3787.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\3787.jpg"
+    },
+    {
+      "id": 2520,
+      "filename": "2557.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\2557.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\2557.jpg"
+    },
+    {
+      "id": 1860,
+      "filename": "1896.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\1896.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\1896.jpg"
+    },
+    {
+      "id": 19,
+      "filename": "19.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\19.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\19.jpg"
+    },
+    {
+      "id": 1604,
+      "filename": "1640.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\1640.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\1640.jpg"
+    },
+    {
+      "id": 2480,
+      "filename": "2517.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\2517.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\2517.jpg"
+    },
+    {
+      "id": 2639,
+      "filename": "2676.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\2676.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\2676.jpg"
+    },
+    {
+      "id": 2516,
+      "filename": "2553.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\2553.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\2553.jpg"
+    },
+    {
+      "id": 2399,
+      "filename": "2435.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\2435.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\2435.jpg"
+    },
+    {
+      "id": 73,
+      "filename": "73.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\73.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\73.jpg"
+    },
+    {
+      "id": 2766,
+      "filename": "2803.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\2803.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\2803.jpg"
+    },
+    {
+      "id": 3323,
+      "filename": "3360.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\3360.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\3360.jpg"
+    },
+    {
+      "id": 1959,
+      "filename": "1995.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\1995.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\1995.jpg"
+    },
+    {
+      "id": 199,
+      "filename": "200.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\200.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\200.jpg"
+    },
+    {
+      "id": 2018,
+      "filename": "2054.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\2054.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\2054.jpg"
+    },
+    {
+      "id": 1693,
+      "filename": "1729.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\1729.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\1729.jpg"
+    },
+    {
+      "id": 3727,
+      "filename": "3764.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\3764.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\3764.jpg"
+    },
+    {
+      "id": 987,
+      "filename": "1022.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\1022.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\1022.jpg"
+    },
+    {
+      "id": 3057,
+      "filename": "3094.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\3094.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\3094.jpg"
+    },
+    {
+      "id": 366,
+      "filename": "367.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\367.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\367.jpg"
+    },
+    {
+      "id": 3708,
+      "filename": "3745.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\3745.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\3745.jpg"
+    },
+    {
+      "id": 3055,
+      "filename": "3092.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\3092.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\3092.jpg"
+    },
+    {
+      "id": 3732,
+      "filename": "3769.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\3769.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\3769.jpg"
+    },
+    {
+      "id": 1602,
+      "filename": "1638.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\1638.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\1638.jpg"
+    },
+    {
+      "id": 1291,
+      "filename": "1327.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\1327.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\1327.jpg"
+    },
+    {
+      "id": 3024,
+      "filename": "3061.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\3061.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\3061.jpg"
+    },
+    {
+      "id": 530,
+      "filename": "534.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\534.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\534.jpg"
+    },
+    {
+      "id": 973,
+      "filename": "1008.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\1008.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\1008.jpg"
+    },
+    {
+      "id": 1053,
+      "filename": "1089.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\1089.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\1089.jpg"
+    },
+    {
+      "id": 878,
+      "filename": "913.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\913.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\913.jpg"
+    },
+    {
+      "id": 3133,
+      "filename": "3170.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\3170.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\3170.jpg"
+    },
+    {
+      "id": 1102,
+      "filename": "1138.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\1138.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\1138.jpg"
+    },
+    {
+      "id": 1752,
+      "filename": "1788.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\1788.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\1788.jpg"
+    },
+    {
+      "id": 949,
+      "filename": "984.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\984.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\984.jpg"
+    },
+    {
+      "id": 3161,
+      "filename": "3198.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\3198.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\3198.jpg"
+    },
+    {
+      "id": 3605,
+      "filename": "3642.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\3642.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\3642.jpg"
+    },
+    {
+      "id": 1538,
+      "filename": "1574.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\1574.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\1574.jpg"
+    },
+    {
+      "id": 296,
+      "filename": "297.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\297.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\297.jpg"
+    },
+    {
+      "id": 1992,
+      "filename": "2028.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\2028.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\2028.jpg"
+    },
+    {
+      "id": 2712,
+      "filename": "2749.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\2749.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\2749.jpg"
+    },
+    {
+      "id": 1439,
+      "filename": "1475.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\1475.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\1475.jpg"
+    },
+    {
+      "id": 2177,
+      "filename": "2213.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\2213.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\2213.jpg"
+    },
+    {
+      "id": 1348,
+      "filename": "1384.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\1384.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\1384.jpg"
+    },
+    {
+      "id": 55,
+      "filename": "55.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\55.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\55.jpg"
+    },
+    {
+      "id": 3754,
+      "filename": "3791.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\3791.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\3791.jpg"
+    },
+    {
+      "id": 1281,
+      "filename": "1317.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\1317.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\1317.jpg"
+    },
+    {
+      "id": 756,
+      "filename": "780.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\780.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\780.jpg"
+    },
+    {
+      "id": 503,
+      "filename": "506.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\506.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\506.jpg"
+    },
+    {
+      "id": 575,
+      "filename": "579.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\579.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\579.jpg"
+    },
+    {
+      "id": 1067,
+      "filename": "1103.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\1103.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\1103.jpg"
+    },
+    {
+      "id": 36,
+      "filename": "36.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\36.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\36.jpg"
+    },
+    {
+      "id": 2581,
+      "filename": "2618.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\2618.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\2618.jpg"
+    },
+    {
+      "id": 35,
+      "filename": "35.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\35.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\35.jpg"
+    },
+    {
+      "id": 3591,
+      "filename": "3628.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\3628.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\3628.jpg"
+    },
+    {
+      "id": 94,
+      "filename": "94.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\94.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\94.jpg"
+    },
+    {
+      "id": 668,
+      "filename": "674.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\674.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\674.jpg"
+    },
+    {
+      "id": 3164,
+      "filename": "3201.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\3201.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\3201.jpg"
+    },
+    {
+      "id": 266,
+      "filename": "267.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\267.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\267.jpg"
+    },
+    {
+      "id": 1708,
+      "filename": "1744.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\1744.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\1744.jpg"
+    },
+    {
+      "id": 3780,
+      "filename": "3817.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\3817.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\3817.jpg"
+    },
+    {
+      "id": 3116,
+      "filename": "3153.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\3153.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\3153.jpg"
+    },
+    {
+      "id": 3459,
+      "filename": "3496.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\3496.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\3496.jpg"
+    },
+    {
+      "id": 2147,
+      "filename": "2183.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\2183.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\2183.jpg"
+    },
+    {
+      "id": 3787,
+      "filename": "3824.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\3824.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\3824.jpg"
+    },
+    {
+      "id": 1619,
+      "filename": "1655.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\1655.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\1655.jpg"
+    },
+    {
+      "id": 2506,
+      "filename": "2543.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\2543.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\2543.jpg"
+    },
+    {
+      "id": 1852,
+      "filename": "1888.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\1888.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\1888.jpg"
+    },
+    {
+      "id": 698,
+      "filename": "711.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\711.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\711.jpg"
+    },
+    {
+      "id": 1220,
+      "filename": "1256.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\1256.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\1256.jpg"
+    },
+    {
+      "id": 2319,
+      "filename": "2355.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\2355.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\2355.jpg"
+    },
+    {
+      "id": 2909,
+      "filename": "2946.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\2946.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\2946.jpg"
+    },
+    {
+      "id": 638,
+      "filename": "643.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\643.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\643.jpg"
+    },
+    {
+      "id": 0,
+      "filename": "0.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\0.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\0.jpg"
+    },
+    {
+      "id": 702,
+      "filename": "715.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\715.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\715.jpg"
+    },
+    {
+      "id": 3280,
+      "filename": "3317.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\3317.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\3317.jpg"
+    },
+    {
+      "id": 3222,
+      "filename": "3259.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\3259.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\3259.jpg"
+    },
+    {
+      "id": 3501,
+      "filename": "3538.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\3538.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\3538.jpg"
+    },
+    {
+      "id": 797,
+      "filename": "822.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\822.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\822.jpg"
+    },
+    {
+      "id": 2838,
+      "filename": "2875.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\2875.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\2875.jpg"
+    },
+    {
+      "id": 3520,
+      "filename": "3557.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\3557.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\3557.jpg"
+    },
+    {
+      "id": 1706,
+      "filename": "1742.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\1742.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\1742.jpg"
+    },
+    {
+      "id": 3720,
+      "filename": "3757.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\3757.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\3757.jpg"
+    },
+    {
+      "id": 828,
+      "filename": "855.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\855.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\855.jpg"
+    },
+    {
+      "id": 2163,
+      "filename": "2199.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\2199.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\2199.jpg"
+    },
+    {
+      "id": 818,
+      "filename": "844.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\844.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\844.jpg"
+    },
+    {
+      "id": 3194,
+      "filename": "3231.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\3231.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\3231.jpg"
+    },
+    {
+      "id": 3498,
+      "filename": "3535.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\3535.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\3535.jpg"
+    },
+    {
+      "id": 2873,
+      "filename": "2910.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\2910.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\2910.jpg"
+    },
+    {
+      "id": 2546,
+      "filename": "2583.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\2583.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\2583.jpg"
+    },
+    {
+      "id": 3231,
+      "filename": "3268.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\3268.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\3268.jpg"
+    },
+    {
+      "id": 2797,
+      "filename": "2834.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\2834.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\2834.jpg"
+    },
+    {
+      "id": 597,
+      "filename": "601.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\601.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\601.jpg"
+    },
+    {
+      "id": 3647,
+      "filename": "3684.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\3684.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\3684.jpg"
+    },
+    {
+      "id": 2604,
+      "filename": "2641.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\2641.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\2641.jpg"
+    },
+    {
+      "id": 3728,
+      "filename": "3765.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\3765.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\3765.jpg"
+    },
+    {
+      "id": 1193,
+      "filename": "1229.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\1229.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\1229.jpg"
+    },
+    {
+      "id": 67,
+      "filename": "67.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\67.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\67.jpg"
+    },
+    {
+      "id": 1337,
+      "filename": "1373.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\1373.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\1373.jpg"
+    },
+    {
+      "id": 3699,
+      "filename": "3736.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\3736.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\3736.jpg"
+    },
+    {
+      "id": 2143,
+      "filename": "2179.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\2179.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\2179.jpg"
+    },
+    {
+      "id": 2794,
+      "filename": "2831.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\2831.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\2831.jpg"
+    },
+    {
+      "id": 1795,
+      "filename": "1831.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\1831.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\1831.jpg"
+    },
+    {
+      "id": 148,
+      "filename": "148.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\148.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\148.jpg"
+    },
+    {
+      "id": 3232,
+      "filename": "3269.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\3269.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\3269.jpg"
+    },
+    {
+      "id": 404,
+      "filename": "406.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\406.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\406.jpg"
+    },
+    {
+      "id": 762,
+      "filename": "786.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\786.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\786.jpg"
+    },
+    {
+      "id": 2876,
+      "filename": "2913.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\2913.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\2913.jpg"
+    },
+    {
+      "id": 1423,
+      "filename": "1459.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\1459.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\1459.jpg"
+    },
+    {
+      "id": 699,
+      "filename": "712.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\712.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\712.jpg"
+    },
+    {
+      "id": 352,
+      "filename": "353.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\353.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\353.jpg"
+    },
+    {
+      "id": 2061,
+      "filename": "2097.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\2097.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\2097.jpg"
+    },
+    {
+      "id": 2218,
+      "filename": "2254.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\2254.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\2254.jpg"
+    },
+    {
+      "id": 3594,
+      "filename": "3631.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\3631.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\3631.jpg"
+    },
+    {
+      "id": 1136,
+      "filename": "1172.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\1172.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\1172.jpg"
+    },
+    {
+      "id": 3290,
+      "filename": "3327.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\3327.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\3327.jpg"
+    },
+    {
+      "id": 2433,
+      "filename": "2469.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\2469.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\2469.jpg"
+    },
+    {
+      "id": 2290,
+      "filename": "2326.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\2326.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\2326.jpg"
+    },
+    {
+      "id": 2841,
+      "filename": "2878.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\2878.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\2878.jpg"
+    },
+    {
+      "id": 1419,
+      "filename": "1455.jpg",
+      "input_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\input\\1455.jpg",
+      "gt_path": "D:\\MARINE_NET_RESEARCH\\datasets\\source_copies\\LSUI\\GT\\1455.jpg"
+    }
+  ],
+  "reproducibility": {
+    "split_version": "val_B_v1",
+    "role": "Stage 3 comparison, used ONCE; no tuning",
+    "rule": "dHash 8x9 LANCZOS, Hamming <= 4 on input OR gt",
+    "seed": 0,
+    "assignment": "clusters sorted by first filename, RandomState(0) permutation, greedy to smaller split (tie->A)",
+    "parent_manifest": "datasets\\splits\\derived_v2\\lsui_val_clean.json",
+    "parent_sha256": "dd48c3485d803512b9a0db80530927cabdd4c398b34c37988c24eb254854c571"
+  }
+}

@@ -1,0 +1,268 @@
+{
+ "stage": "Stage 4 HICRD",
+ "execution": {
+  "A": "rc0 09:51:10-10:04:21",
+  "B": "rc0 10:04:21-10:18:35",
+  "C": "rc0 10:18:35-10:50:00",
+  "analyses": "rc0 10:50:00-11:07:36",
+  "gpu_peak_MiB": 7915
+ },
+ "decisions": {
+  "best_valA": {
+   "D1": {
+    "MARINE-Net": "SUPPORTED, NOT CONFOUND-ROBUST",
+    "AT-Trunk": "SUPPORTED, NOT CONFOUND-ROBUST"
+   },
+   "D2": {
+    "MARINE-Net": "WITHIN-SITE INCONCLUSIVE",
+    "AT-Trunk": "WITHIN-SITE SUPPORTED"
+   },
+   "joint_claim": {
+    "MARINE-Net": false,
+    "AT-Trunk": false
+   }
+  },
+  "last": {
+   "D1": {
+    "MARINE-Net": "SUPPORTED, NOT CONFOUND-ROBUST",
+    "AT-Trunk": "SUPPORTED, NOT CONFOUND-ROBUST"
+   },
+   "D2": {
+    "MARINE-Net": "WITHIN-SITE INCONCLUSIVE",
+    "AT-Trunk": "WITHIN-SITE SUPPORTED"
+   },
+   "joint_claim": {
+    "MARINE-Net": false,
+    "AT-Trunk": false
+   }
+  },
+  "G482": {
+   "D1": {
+    "MARINE-Net": "INCONCLUSIVE",
+    "AT-Trunk": "INCONCLUSIVE"
+   },
+   "D2": {
+    "MARINE-Net": "WITHIN-SITE INCONCLUSIVE",
+    "AT-Trunk": "WITHIN-SITE INCONCLUSIVE"
+   },
+   "joint_claim": {
+    "MARINE-Net": false,
+    "AT-Trunk": false
+   }
+  }
+ },
+ "rho_bar": {
+  "best_valA": {
+   "MARINE-Net": {
+    "P1": 0.23918112379528092,
+    "P1_ci": [
+     0.08109396941319658,
+     0.38772610011372904
+    ],
+    "P1_per_seed": [
+     0.004172426543106636,
+     0.2682319150579788,
+     0.44513902978475745
+    ],
+    "P1_partial_bc": -0.11337411829635664,
+    "P2": 0.2048268951552702,
+    "P2_ci": [
+     0.03451374234052211,
+     0.3672525535366222
+    ],
+    "P2_per_seed": [
+     -0.02606317597129215,
+     0.1805022409451274,
+     0.46004162049197533
+    ]
+   },
+   "AT-Trunk": {
+    "P1": 0.269317571829393,
+    "P1_ci": [
+     0.08472456656505838,
+     0.4412370914887456
+    ],
+    "P1_per_seed": [
+     0.18992846648211661,
+     0.29162961690740424,
+     0.32639463209865804
+    ],
+    "P1_partial_bc": 0.012988475879998166,
+    "P2": 0.2509459804155422,
+    "P2_ci": [
+     0.04369642468092914,
+     0.4477982186730548
+    ],
+    "P2_per_seed": [
+     0.23988549267841464,
+     0.23473033106429955,
+     0.27822211750391246
+    ]
+   }
+  },
+  "last": {
+   "MARINE-Net": {
+    "P1": 0.22940429585107394,
+    "P1_ci": [
+     0.05138506949180078,
+     0.40597329341053284
+    ],
+    "P1_per_seed": [
+     0.04027093156773289,
+     0.23412848553212137,
+     0.41381347045336764
+    ],
+    "P1_partial_bc": -0.0958991242255276,
+    "P2": 0.1704909056391131,
+    "P2_ci": [
+     -0.008344762506710063,
+     0.3537743070492799
+    ],
+    "P2_per_seed": [
+     -0.044420813935382,
+     0.13504673425910252,
+     0.4208467965936188
+    ]
+   },
+   "AT-Trunk": {
+    "P1": 0.26572910093227525,
+    "P1_ci": [
+     0.08898325175111226,
+     0.43421513486346514
+    ],
+    "P1_per_seed": [
+     0.19103337725834432,
+     0.30571980592995146,
+     0.3004341196085299
+    ],
+    "P1_partial_bc": 0.012039256617303538,
+    "P2": 0.24759344712093248,
+    "P2_ci": [
+     0.04704166809977879,
+     0.43762526957627035
+    ],
+    "P2_per_seed": [
+     0.24177500937988516,
+     0.2590741518400081,
+     0.24193118014290416
+    ]
+   }
+  },
+  "G482": {
+   "MARINE-Net": {
+    "P1": 0.17435163608790902,
+    "P1_ci": [
+     0.028893209208440344,
+     0.319654765659108
+    ],
+    "P1_per_seed": [
+     -0.05034980008745002,
+     0.2998068449517112,
+     0.27359786339946585
+    ],
+    "P1_partial_bc": -0.14520232430027807,
+    "P2": 0.13234410247992368,
+    "P2_ci": [
+     -0.020779564524994056,
+     0.2831741967579211
+    ],
+    "P2_per_seed": [
+     -0.09431989827052772,
+     0.22736828918243593,
+     0.2639839165278628
+    ]
+   },
+   "AT-Trunk": {
+    "P1": 0.06912835628208908,
+    "P1_ci": [
+     -0.14717443207595848,
+     0.27662986159690217
+    ],
+    "P1_per_seed": [
+     0.10722738580684645,
+     0.051461534365383595,
+     0.04869614867403717
+    ],
+    "P1_partial_bc": -0.016101508379988364,
+    "P2": 0.08701095841470252,
+    "P2_ci": [
+     -0.15383928565277796,
+     0.31772411282807983
+    ],
+    "P2_per_seed": [
+     0.13960472708971014,
+     0.0580034826367569,
+     0.06342466551764056
+    ]
+   }
+  }
+ },
+ "rho_x_brightness": 0.9894679498669875,
+ "independent_audit": {
+  "descriptor_max_abs_diff_100_images_opencv": 1.1102230246251565e-16,
+  "rho_x_b": 0.9894679498669875,
+  "rho_x_c": 0.5998283459570866,
+  "point_estimates_max_abs_diff": {
+   "best_valA": 5.412337245047638e-16,
+   "last": 1.0130785099704553e-15,
+   "G482": 1.5543122344752192e-15
+  },
+  "P1_ci": {
+   "MARINE-Net": {
+    "independent": [
+     0.08109396941319658,
+     0.38772610011372904
+    ],
+    "frozen": [
+     0.08109396941319658,
+     0.38772610011372904
+    ],
+    "max_abs_diff": 0.0
+   },
+   "AT-Trunk": {
+    "independent": [
+     0.08472456656505838,
+     0.4412370914887456
+    ],
+    "frozen": [
+     0.08472456656505838,
+     0.4412370914887456
+    ],
+    "max_abs_diff": 0.0
+   }
+  },
+  "P2_ci": {
+   "MARINE-Net": {
+    "independent": [
+     0.034513742340522076,
+     0.3672525535366222
+    ],
+    "frozen": [
+     0.03451374234052211,
+     0.3672525535366222
+    ],
+    "max_abs_diff": 3.469446951953614e-17
+   },
+   "AT-Trunk": {
+    "independent": [
+     0.04369642468092914,
+     0.4477982186730548
+    ],
+    "frozen": [
+     0.04369642468092914,
+     0.4477982186730548
+    ],
+    "max_abs_diff": 0.0
+   }
+  }
+ },
+ "files_sha256": {
+  "paper1_uieb_runs/stage4_hicrd2000_best_valA/per_image.csv": "87fc8b6ee0b393002aa245c4ec08f947e504b8cf6dca0874bbd2c257f7f00c27",
+  "paper1_uieb_runs/stage4_hicrd2000_last/per_image.csv": "8145bbd7f62baf2856dfc9ec5ae34c8ddf0f2e76e8be06267f7577a7a11d2726",
+  "paper1_uieb_runs/stage4_hicrd2000_best_valA_G482/per_image.csv": "d2353f95d1a5dfee3c4ddfe386d45b2f8b47f9cc6b7d982da564c6f1c3b3c436",
+  "paper1_uieb_runs/stage4_analysis_best_valA/results.json": "81022786e5f181c523c6d5b0b2b752e2aafee9e1862eca0d95b3d643a5522451",
+  "paper1_uieb_runs/stage4_analysis_last/results.json": "fd8f12c24c147db12d1b91f93bee133afcd775af9fd873c3f09dff31a4224941",
+  "paper1_uieb_runs/stage4_analysis_G482/results.json": "dedac6455d0a49692c5e2036aae062341c7f1d6187472719d133cb049e32b660",
+  "paper1_uieb_runs/stage4_analysis_best_valA/descriptors_per_image.csv": "ca895bab71efb8beaab7a81cee1ca38f64dd61da562b287333878540aa14433e"
+ }
+}

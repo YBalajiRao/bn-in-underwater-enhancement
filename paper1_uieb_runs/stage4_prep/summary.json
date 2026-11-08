@@ -1,0 +1,107 @@
+{
+ "candidates": {
+  "EUVP_test_515": {
+   "n_inputs_listed": 515,
+   "n_pairs_valid": 515,
+   "missing_reference": [],
+   "geometry_mismatch_pairs": [],
+   "input_sizes": {
+    "(256, 256)": 515
+   },
+   "within_exact_duplicate_inputs": 0,
+   "imbalance_quantiles_0_10_25_50_75_90_100": [
+    0.0172,
+    0.1269,
+    0.1861,
+    0.2683,
+    0.3638,
+    0.4687,
+    0.7224
+   ],
+   "luma_mean_median": 0.39195027555577894,
+   "contrast_median": 0.16452052267201026,
+   "flags": {
+    "EUVP_train+val+unpaired": {
+     "pairs": 286,
+     "exact": 0
+    },
+    "HICRD_paired_train": {
+     "pairs": 10,
+     "exact": 0
+    },
+    "HICRD_test_300": {
+     "pairs": 3,
+     "exact": 0
+    },
+    "LSUI_train+ValA": {
+     "pairs": 482,
+     "exact": 0
+    },
+    "UIEB_890": {
+     "pairs": 13,
+     "exact": 0
+    },
+    "WITHIN": {
+     "pairs": 66,
+     "exact": 0
+    }
+   },
+   "n_pairs_any_flag": 497
+  },
+  "HICRD_test_300": {
+   "n_inputs_listed": 300,
+   "n_pairs_valid": 300,
+   "missing_reference": [],
+   "geometry_mismatch_pairs": [],
+   "input_sizes": {
+    "(1842, 980)": 300
+   },
+   "within_exact_duplicate_inputs": 0,
+   "imbalance_quantiles_0_10_25_50_75_90_100": [
+    0.1137,
+    0.1761,
+    0.2156,
+    0.2307,
+    0.2628,
+    0.2813,
+    0.3932
+   ],
+   "luma_mean_median": 0.2904398599917709,
+   "contrast_median": 0.08098892466620478,
+   "flags": {
+    "EUVP_test_515": {
+     "pairs": 3,
+     "exact": 0
+    },
+    "EUVP_train+val+unpaired": {
+     "pairs": 53,
+     "exact": 0
+    },
+    "HICRD_paired_train": {
+     "pairs": 51,
+     "exact": 0
+    },
+    "LSUI_train+ValA": {
+     "pairs": 31,
+     "exact": 0
+    },
+    "UIEB_890": {
+     "pairs": 21,
+     "exact": 0
+    },
+    "WITHIN": {
+     "pairs": 166,
+     "exact": 0
+    }
+   },
+   "n_pairs_any_flag": 193
+  }
+ },
+ "reference_sets": {
+  "LSUI_train+ValA": 7258,
+  "UIEB_890": 1780,
+  "EUVP_train+val+unpaired": 31515,
+  "HICRD_paired_train": 3400
+ },
+ "seconds": 780.0
+}

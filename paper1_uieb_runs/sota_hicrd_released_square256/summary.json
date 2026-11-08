@@ -1,0 +1,110 @@
+{
+ "meta": {
+  "geometry": "square256",
+  "methods": [
+   "ushape",
+   "wwe_uie",
+   "funie_gan",
+   "nu2net",
+   "clahe",
+   "udcp"
+  ],
+  "not_applicable": {},
+  "n_pairs": 2000,
+  "out": "D:\\MARINE_NET_RESEARCH\\paper1_uieb_runs\\sota_hicrd_released_square256",
+  "out_ushape_minmax": "D:\\MARINE_NET_RESEARCH\\paper1_uieb_runs\\sota_hicrd_released_square256_ushape_minmax",
+  "visual_ids": [
+   "site1_good_2",
+   "site2_good_7",
+   "site4_good_140",
+   "site5_good_641",
+   "site7_good_303",
+   "site8_good_42",
+   "site5_good_708",
+   "site5_good_257",
+   "site7_good_164",
+   "site7_good_225",
+   "site5_good_173",
+   "test94"
+  ],
+  "test_mode": false,
+  "protocol_sha256": "2d29442248a57ac6a164c7e2e3e09420e781a972fdde95b9466748b417da1000",
+  "torch": "2.7.1+cu118",
+  "device": "cuda",
+  "tf_enable_onednn_opts": "0",
+  "udcp_gf_radius": 24,
+  "seconds": 1418.6
+ },
+ "methods": {
+  "ushape": {
+   "exact": true,
+   "max_rel_err": 7.507217011387693e-16,
+   "max_abs_psnr_vs_mse_dB": 1.7692897813503805e-06,
+   "n": 2000,
+   "mean_psnr": 21.72009345948696,
+   "seconds": 183.9,
+   "memory": {
+    "device": "cuda",
+    "free_bytes": 7325351936,
+    "total_bytes": 8589410304,
+    "peak_allocated_bytes": 229954560,
+    "peak_reserved_bytes": 289406976
+   }
+  },
+  "wwe_uie": {
+   "exact": true,
+   "max_rel_err": 1.099924837873036e-15,
+   "max_abs_psnr_vs_mse_dB": 1.7989010530072846e-06,
+   "n": 2000,
+   "mean_psnr": 18.851759501099586,
+   "seconds": 115.4,
+   "memory": {
+    "device": "cuda",
+    "free_bytes": 7396655104,
+    "total_bytes": 8589410304,
+    "peak_allocated_bytes": 94504448,
+    "peak_reserved_bytes": 134217728
+   }
+  },
+  "funie_gan": {
+   "exact": true,
+   "max_rel_err": 7.449361874287674e-16,
+   "max_abs_psnr_vs_mse_dB": 1.7100677212056326e-06,
+   "n": 2000,
+   "mean_psnr": 23.24265784084797,
+   "seconds": 320.7,
+   "determinism_first_batch": "identical"
+  },
+  "nu2net": {
+   "exact": true,
+   "max_rel_err": 6.994142842257634e-16,
+   "max_abs_psnr_vs_mse_dB": 1.6931825541632861e-06,
+   "n": 2000,
+   "mean_psnr": 18.20968122780323,
+   "seconds": 160.4,
+   "memory": {
+    "device": "cuda",
+    "free_bytes": 7375683584,
+    "total_bytes": 8589410304,
+    "peak_allocated_bytes": 107876352,
+    "peak_reserved_bytes": 132120576
+   }
+  },
+  "clahe": {
+   "exact": true,
+   "max_rel_err": 6.298195247988222e-16,
+   "max_abs_psnr_vs_mse_dB": 1.9677400331374884e-06,
+   "n": 2000,
+   "mean_psnr": 18.066376184523104,
+   "seconds": 150.5
+  },
+  "udcp": {
+   "exact": true,
+   "max_rel_err": 6.316848946370975e-16,
+   "max_abs_psnr_vs_mse_dB": 1.7472226829795545e-06,
+   "n": 2000,
+   "mean_psnr": 15.70853120982647,
+   "seconds": 166.3
+  }
+ }
+}

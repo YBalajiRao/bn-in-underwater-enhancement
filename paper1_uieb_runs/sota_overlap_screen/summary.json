@@ -1,0 +1,42 @@
+{
+ "label": "SOTA-prep leakage screen; CPU; no inference",
+ "n_uieb_pairs": 787,
+ "n_uieb_images": 1574,
+ "pool_counts": {
+  "LSUI": 8558,
+  "EUVP": 32545
+ },
+ "euvp_dirs": [
+  "Paired/underwater_dark/trainA",
+  "Paired/underwater_dark/trainB",
+  "Paired/underwater_dark/validation",
+  "Paired/underwater_imagenet/trainA",
+  "Paired/underwater_imagenet/trainB",
+  "Paired/underwater_imagenet/validation",
+  "Paired/underwater_scenes/trainA",
+  "Paired/underwater_scenes/trainB",
+  "Paired/underwater_scenes/validation",
+  "Unpaired/trainA",
+  "Unpaired/trainB",
+  "Unpaired/validation",
+  "test_samples/Inp",
+  "test_samples/GTr"
+ ],
+ "exact_matches": [],
+ "flagged_dhash64_le_10": {
+  "LSUI": 97,
+  "EUVP": 182
+ },
+ "flagged_unique_uieb_pairs": {
+  "LSUI": 63,
+  "EUVP": 114
+ },
+ "visual_review_candidates": 30,
+ "thresholds": {
+  "dhash64": 10,
+  "review_dhash256_lt": 50,
+  "review_corr_ge": 0.7
+ },
+ "script_sha256": "6e6d53bc324be0753568b3eb0a0412265ee8c1c90a82bb33941261f46ebfd4eb",
+ "seconds": 449.9
+}

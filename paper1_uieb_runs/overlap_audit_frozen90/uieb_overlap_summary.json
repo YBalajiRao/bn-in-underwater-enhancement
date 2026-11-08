@@ -1,0 +1,93 @@
+{
+ "n_uieb_pairs": 90,
+ "n_lsui_records": 3629,
+ "lsui_splits": [
+  "train",
+  "val_A"
+ ],
+ "threshold": 10,
+ "threshold_status": "PROVISIONAL, not validated for UIEB",
+ "n_exact_match": 0,
+ "n_flag_protocol": 9,
+ "n_flag_cross": 7,
+ "n_flag_any": 9,
+ "protocol_distance_hist_le_thr": {
+  "0": 0,
+  "1": 0,
+  "2": 0,
+  "3": 1,
+  "4": 0,
+  "5": 1,
+  "6": 1,
+  "7": 0,
+  "8": 0,
+  "9": 3,
+  "10": 3
+ },
+ "flagged_filenames": [
+  "102_img_.png",
+  "104_img_.png",
+  "107_img_.png",
+  "11064.png",
+  "121_img_.png",
+  "12348.png",
+  "131_img_.png",
+  "136_img_.png",
+  "15_img_.png"
+ ],
+ "rule": "no pair removed; primary evaluation uses all pairs; the unflagged subset is a separate labelled sensitivity analysis",
+ "script_sha256": "94ed34023dd0e7f1fb49768e7cc80bd39f3577d13d40a2c9ba903e83b9547c13",
+ "git_head": "4bebf0198889c43e5ce400776e43d529aebff547",
+ "python": "3.12.0",
+ "command": [
+  "v2_tools/uieb_overlap_audit.py",
+  "--uieb-phrase",
+  "UIEB approved",
+  "--uieb-manifest",
+  "datasets/splits/candidate_v1/uieb_test_frozen_90.json",
+  "--uieb-manifest-sha256",
+  "0a807f28a33a891d63c93b1bcec2ea945952d5a9b5ad00fdbc3570814d364daf",
+  "--uieb-expected-pairs",
+  "90",
+  "--uieb-pairing",
+  "stem",
+  "--uieb-path-marker",
+  "UIEB",
+  "--thr",
+  "10",
+  "--out",
+  "paper1_uieb_runs/overlap_audit_frozen90"
+ ],
+ "mode": "manifest",
+ "manifest": {
+  "recorded_hashes_checked": 180,
+  "manifest_meta": {
+   "dataset": "UIEB Benchmark",
+   "total_available": 890,
+   "evaluation_subset_size": 90
+  },
+  "pairing_rule": "stem",
+  "manifest_path": "D:\\MARINE_NET_RESEARCH\\datasets\\splits\\candidate_v1\\uieb_test_frozen_90.json",
+  "manifest_sha256": "0a807f28a33a891d63c93b1bcec2ea945952d5a9b5ad00fdbc3570814d364daf",
+  "provenance_check": {
+   "matches_documented_rule": true,
+   "n_differences": 0,
+   "first_differences": [],
+   "rederived_total_available": 890,
+   "input_dirs_found": [
+    "datasets\\source_copies\\UIEB\\raw-890"
+   ],
+   "gt_dirs_found": [
+    "datasets\\source_copies\\UIEB\\reference-890"
+   ]
+  }
+ },
+ "uieb_input_dir": null,
+ "uieb_ref_dir": null,
+ "lsui_manifest_sha256": {
+  "train": "b4871a988053430c3023f4ee1055282a538be649a3d2b8df748ded54cde0e814",
+  "val_A": "2d8daae6aeb6f72af4f4b7450c2bbe53ebee6866f68cce0daedb14d15cf9ddc1"
+ },
+ "seconds": 142.3,
+ "per_pair_csv_sha256": "42f4f559ffdc1e19ac2459e9b118742ee534734b35f5f221f40129fac12fc4ba"
+}

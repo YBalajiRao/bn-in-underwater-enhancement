@@ -1,0 +1,33 @@
+{
+ "criteria": {
+  "A_best_valA_all_match_logged": true,
+  "C_best_valA_coverage": true,
+  "A_last_all_match_logged": true,
+  "C_last_coverage": true,
+  "B_frozen17_equal_committed_regression": true
+ },
+ "details": {
+  "best_valA_not_matching_logged": [],
+  "best_valA_max_abs_dpsnr_vs_logged": 1.2926308556870936e-07,
+  "best_valA_max_abs_dssim_vs_logged": 8.797071071597884e-09,
+  "last_not_matching_logged": [],
+  "last_max_abs_dpsnr_vs_logged": 8.617539037913957e-08,
+  "last_max_abs_dssim_vs_logged": 8.25847479291042e-09,
+  "frozen17_vs_committed_regression_max_abs_diff": {
+   "psnr": 7.181282768442543e-08,
+   "ssim": 6.8222183458033214e-09,
+   "lpips": 5.885874515970668e-07
+  },
+  "frozen17_differences": []
+ },
+ "all_pass": true,
+ "environment": {
+  "python": "3.12.0",
+  "torch": "2.7.1+cu118",
+  "numpy": "2.5.4",
+  "gpu": "NVIDIA GeForce RTX 3070",
+  "git_head": "5cf066b0497312c28ebda97770d4834149d907d6",
+  "script_sha256": "347e9533c9bf8118113721b67c052d451c6d6aefe1e9d593190164b8ad37a514",
+  "frozen_evaluator_sha256": "0607d763dad5f1507ab3327a9af7bf36c90095fa43f8d6d623e2b7d487162c0f"
+ }
+}

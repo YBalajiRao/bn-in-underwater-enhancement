@@ -1,0 +1,59 @@
+{
+ "rule": "dHash 8x9 LANCZOS, Hamming <= 4 on input OR gt",
+ "seed": 0,
+ "assignment": "clusters sorted by first filename, RandomState(0) permutation, greedy to smaller split (tie->A)",
+ "parent_manifest": "datasets\\splits\\derived_v2\\lsui_val_clean.json",
+ "parent_sha256": "dd48c3485d803512b9a0db80530927cabdd4c398b34c37988c24eb254854c571",
+ "train_sha256": "b4871a988053430c3023f4ee1055282a538be649a3d2b8df748ded54cde0e814",
+ "n_images": {
+  "A": 166,
+  "B": 165
+ },
+ "n_clusters": {
+  "A": 165,
+  "B": 165
+ },
+ "multi_image_clusters": {
+  "A": 1,
+  "B": 0
+ },
+ "largest_cluster": 2,
+ "links_le_thr": {
+  "train_A": 0,
+  "train_B": 0,
+  "A_B": 0
+ },
+ "residual_risk_min_train_distance_hist": {
+  "A": {
+   "5": 6,
+   "6": 6,
+   "7": 2,
+   "8": 1,
+   "9": 3,
+   "10": 4
+  },
+  "B": {
+   "5": 3,
+   "6": 6,
+   "7": 3,
+   "8": 8,
+   "9": 7,
+   "10": 7
+  }
+ },
+ "residual_risk_min_train_distance_le10": {
+  "A": 22,
+  "B": 34
+ },
+ "A_B_min_distance_hist": {
+  "5": 0,
+  "6": 1,
+  "7": 0,
+  "8": 2,
+  "9": 0,
+  "10": 0
+ },
+ "val_A_sha256": "2d8daae6aeb6f72af4f4b7450c2bbe53ebee6866f68cce0daedb14d15cf9ddc1",
+ "val_B_sha256": "4b2e1c41cfd520c42e5ace5e24dc707e0cb393bc761081256075f20caea2e081",
+ "clusters_csv_sha256": "9cb3a98f7f6325d9c397496fa4fbdb14ec77735e408d0d3344844790a5e8b187"
+}

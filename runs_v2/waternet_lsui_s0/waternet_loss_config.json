@@ -1,0 +1,23 @@
+{
+ "waternet_commit": "2091896881fe0dfa5fb96007f29021a6067259cb",
+ "waternet_url": "https://github.com/tnwei/waternet.git",
+ "implementation": "UNOFFICIAL PyTorch port (tnwei/waternet), MIT; original is TF1.x + MATLAB",
+ "loss_weights": {
+  "mse": 1.0,
+  "perceptual": 0.05
+ },
+ "pixel_scale": 255.0,
+ "vgg19_file": "vgg19-dcbb9e9d.pth",
+ "vgg19_url": "https://download.pytorch.org/models/vgg19-dcbb9e9d.pth",
+ "vgg19_sha256_pinned": "dcbb9e9dad569fff7a846263a77324fc34978fea2bfb039c012d710e1776ae44",
+ "vgg19_sha256_observed": "dcbb9e9dad569fff7a846263a77324fc34978fea2bfb039c012d710e1776ae44",
+ "log_key_map": {
+  "l1": "mse (0-255 scale)",
+  "gradient": "perceptual (VGG19, unweighted, 0-255 scale)",
+  "ssim": "n/a (always 0)",
+  "color": "n/a (always 0)"
+ },
+ "params": 1090668,
+ "optimizer": "Adam lr 0.00025, MultiStepLR [50] gamma 0.1, clip disabled (1e30)",
+ "preprocessing": "data.transform(rgb uint8) -> (wb, gc, he); net(x, wb, he, gc); OpenCV CLAHE (clipLimit 0.1, 8x8, LAB L) - not MATLAB adapthisteq"
+}

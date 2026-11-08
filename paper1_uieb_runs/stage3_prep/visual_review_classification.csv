@@ -1,0 +1,22 @@
+review_no,uieb_file,compared_with,kind,classification,primary_cohort_action
+1,180_img_.png,646_img_.png,within-UIEB,same photograph (duplicate),exclude 646_img_.png
+2,550_img_.png,558_img_.png,within-UIEB,same photograph (duplicate),exclude 558_img_.png
+3,582_img_.png,648_img_.png,within-UIEB,same photograph (duplicate),exclude 648_img_.png
+4,684_img_.png,815_img_.png,within-UIEB,same photograph (duplicate),exclude 815_img_.png
+5,701_img_.png,786_img_.png,within-UIEB,same photograph (duplicate),exclude 786_img_.png
+6,708_img_.png,829_img_.png,within-UIEB,same photograph (duplicate),exclude 829_img_.png
+7,720_img_.png,831_img_.png,within-UIEB,same photograph (duplicate),exclude 831_img_.png
+8,705_img_.png,828_img_.png,within-UIEB,same photograph (duplicate),exclude 828_img_.png
+9,356_img_.png,61_img_.png,within-UIEB,"same photograph (near-duplicate, small edit)",exclude 61_img_.png
+10,917_img_.png,train:2061.jpg,UIEB vs LSUI train,same photograph (near-duplicate: recoloured/cropped),exclude 917_img_.png
+11,454_img_.png,train:291.jpg,UIEB vs LSUI train,visually unrelated (dark-frame hash collision),keep
+12,727_img_.png,832_img_.png,within-UIEB,"same scene, distinct frame (adjacent video frame; timestamp overlay)",exclude 832_img_.png
+13,460_img_.png,train:3002.jpg,UIEB vs LSUI train,"same scene/photograph (zoomed-crop, recoloured); treated as duplicate",exclude 460_img_.png
+14,454_img_.png,136_img_.png (frozen-90),UIEB remaining vs frozen-90,visually unrelated,keep
+15,743_img_.png,train:1278.jpg,UIEB vs LSUI train,visually unrelated,keep
+16,174_img_.png,train:47.jpg,UIEB vs LSUI train,visually unrelated,keep
+17,6062.png,6082.png,within-UIEB,"same scene, distinct frame (same diver; different moment)",exclude 6082.png
+18,726_img_.png,train:413.jpg,UIEB vs LSUI train,visually unrelated,keep
+19,48_img_.png,train:511.jpg,UIEB vs LSUI train,visually unrelated,keep
+20,711_img_.png,train:1890.jpg,UIEB vs LSUI train,visually unrelated,keep
+21,428_img_.png,train:1625.jpg,UIEB vs LSUI train,visually unrelated,keep

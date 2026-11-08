@@ -1,0 +1,40 @@
+claim,printed,source_value,status,source
+| UIEB frozen-90 (90; curated),+2.56,2.564624833,PASS,post_g1_stats.json best_valA/full90 H1_*
+| UIEB frozen-90 (90; curated),+0.95,0.9521353556,PASS,post_g1_stats.json best_valA/full90 H1_*
+| UIEB frozen-90 (90; curated),+0.89,0.8862046111,PASS,post_g1_stats.json best_valA/full90 H1_*
+| UIEB frozen-90 (90; curated),1.76,1.756522129,PASS,post_g1_stats.json best_valA/full90 H1_*
+| UIEB frozen-90 (90; curated),3.39,3.389864416,PASS,post_g1_stats.json best_valA/full90 H1_*
+| UIEB frozen-90 (90; curated),0.38,0.37650113,PASS,post_g1_stats.json best_valA/full90 H1_*
+| UIEB frozen-90 (90; curated),1.54,1.539761151,PASS,post_g1_stats.json best_valA/full90 H1_*
+| UIEB frozen-90 (90; curated),0.31,0.3065300478,PASS,post_g1_stats.json best_valA/full90 H1_*
+| UIEB frozen-90 (90; curated),1.49,1.486417994,PASS,post_g1_stats.json best_valA/full90 H1_*
+| UIEB frozen-90 (90; curated),+1.47,1.467654933,PASS,post_g1_stats.json best_valA/full90 H1_*
+| UIEB frozen-90 (90; curated),−0.89,-0.8937057175,PASS,post_g1_stats.json best_valA/full90 H1_*
+| UIEB frozen-90 (90; curated),3.83,3.829015584,PASS,post_g1_stats.json best_valA/full90 H1_*
+| UIEB frozen-90 (90; curated),+0.25,0.2512703444,PASS,post_g1_stats.json best_valA/full90 H1_*
+| UIEB frozen-90 (90; curated),+0.32,0.3241684333,PASS,post_g1_stats.json best_valA/full90 H1_*
+| UIEB frozen-90 (90; curated),+0.10,0.1027889,PASS,post_g1_stats.json best_valA/full90 H1_*
+| UIEB frozen-90 (90; curated),+0.23,0.2260758926,PASS,post_g1_stats.json best_valA/full90 H1_*
+| UIEB frozen-90 (90; curated),−0.05,-0.05418388934,PASS,post_g1_stats.json best_valA/full90 H1_*
+| UIEB frozen-90 (90; curated),0.51,0.5063356745,PASS,post_g1_stats.json best_valA/full90 H1_*
+seed-mean Spearman ρ̄ = 0.30 and 0.18,0.30,0.2984143478,PASS,stage3 results.json rho_bar
+seed-mean Spearman ρ̄ = 0.30 and 0.18,0.18,0.1758771457,PASS,stage3 results.json rho_bar
+UIEB 0.155 [,0.155,0.1553425319,PASS,x1_results X1ab_UIEB g_chr
+UIEB 0.155 [,0.098,0.09847860042,PASS,x1_results X1ab_UIEB g_chr
+UIEB 0.155 [,0.213,0.2129406355,PASS,x1_results X1ab_UIEB g_chr
+UIEB 0.155 [,0.157,0.1570350591,PASS,x1_results X1ab_UIEB g_chr
+UIEB 0.155 [,0.101,0.101229791,PASS,x1_results X1ab_UIEB g_chr
+UIEB 0.155 [,0.213,0.2127824538,PASS,x1_results X1ab_UIEB g_chr
+UIEB AT-Trunk −0.105,−0.105,-0.1048604499,PASS,x1_results X1ab_UIEB g_ach AT-Trunk
+UIEB AT-Trunk −0.105,−0.161,-0.1608090921,PASS,x1_results X1ab_UIEB g_ach AT-Trunk
+UIEB AT-Trunk −0.105,−0.048,-0.04778140708,PASS,x1_results X1ab_UIEB g_ach AT-Trunk
+UIEB MARINE-Net −0.052,−0.052,-0.05246235195,PASS,x1_results X1ab_UIEB g_ach MARINE-Net
+UIEB MARINE-Net −0.052,−0.109,-0.1091789432,PASS,x1_results X1ab_UIEB g_ach MARINE-Net
+UIEB MARINE-Net −0.052,0.003,0.003024593728,PASS,x1_results X1ab_UIEB g_ach MARINE-Net
+median reference imbalance 0.045 vs 0.118,0.045,0.04523897724,PASS,"x1_results descriptor_summaries x_ref[1] (median), HICRD then UIEB"
+median reference imbalance 0.045 vs 0.118,0.118,0.1182810202,PASS,"x1_results descriptor_summaries x_ref[1] (median), HICRD then UIEB"
+"Imbalance and mean luma had ρ = 0.989 on HICRD, against −0.24 on UIEB",0.989,0.9894679499,PASS,stage4 results SUPP.rho_x_b; stage3 descriptor_associations.rho_x_luma_mean
+"Imbalance and mean luma had ρ = 0.989 on HICRD, against −0.24 on UIEB",−0.24,-0.2410070768,PASS,stage4 results SUPP.rho_x_b; stage3 descriptor_associations.rho_x_luma_mean
+consistent only for UIEB AT-Trunk (ρ = −0.182),−0.182,-0.1818258665,PASS,e1r_results UIEB/AT-Trunk/secondary/dC_vs_g_chr
+coverage UIEB,42 %,41.9314 %,PASS,x1_results X1c_info stratum_counts (strata with both counts ≥ 20)
+coverage HICRD,19 %,18.6500 %,PASS,x1_results X1c_info stratum_counts (strata with both counts ≥ 20)

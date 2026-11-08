@@ -1,0 +1,43 @@
+no,category,a,b,inliers_500,cluster_a_T30,cluster_b_T30,stratum_a,stratum_b,visual_classification
+1,A_border_15-30,test41,site5_good_335,15,3,3,site5,site5,inconclusive (dark; possibly same area)
+2,A_border_15-30,test262,site5_good_683,19,7,7,site5,site5,probable same scene (shifted view)
+3,A_border_15-30,site5_good_31,site5_good_189,18,3,3,site5,site5,inconclusive (dark)
+4,A_border_15-30,site5_good_256,site5_good_323,27,3,3,site5,site5,inconclusive (dark)
+5,A_border_15-30,site5_good_588,site5_good_596,24,3,3,site5,site5,same scene
+6,A_border_15-30,test103,test108,15,6,6,site5,site5,same scene
+7,A_border_15-30,test280,test295,20,2,2,TEST_UNASSIGNED,TEST_UNASSIGNED,probable same scene
+8,A_border_15-30,site5_good_576,site5_good_587,26,3,3,site5,site5,probable same scene
+9,B_border_30-60,test155,test211,47,4,4,TEST_UNASSIGNED,TEST_UNASSIGNED,same scene
+10,B_border_30-60,test255,site5_good_135,31,3,3,site5,site5,probable same scene (dark)
+11,B_border_30-60,test118,site5_good_201,40,3,3,site5,site5,inconclusive: possible false merge (different-looking views)
+12,B_border_30-60,test143,test149,42,4,4,TEST_UNASSIGNED,TEST_UNASSIGNED,same scene
+13,B_border_30-60,site5_good_559,site5_good_573,41,3,3,site5,site5,same scene
+14,B_border_30-60,test159,site5_good_590,50,0,0,site5,site5,probable same area (overlapping view)
+15,B_border_30-60,site5_good_250,site5_good_255,41,65,65,site5,site5,same scene
+16,B_border_30-60,site5_good_53,site5_good_97,54,3,3,site5,site5,probable same scene (dark)
+17,C_samesite_diffcluster_hardest,site5_good_68,site5_good_143,5,57,58,site5,site5,different scenes
+18,C_samesite_diffcluster_hardest,site5_good_34,site5_good_192,5,56,63,site5,site5,different scenes
+19,C_samesite_diffcluster_hardest,site8_good_60,site8_good_51,5,174,171,site8,site8,different scenes (sand patches)
+20,C_samesite_diffcluster_hardest,site8_good_11,site8_good_91,5,166,186,site8,site8,different scenes
+21,C_samesite_diffcluster_hardest,site4_good_25,site4_good_49,4,38,40,site4,site4,different scenes
+22,C_samesite_diffcluster_hardest,site4_good_45,site4_good_153,4,40,35,site4,site4,different scenes
+23,C_samesite_diffcluster_hardest,site4_good_154,site4_good_81,4,35,46,site4,site4,different scenes
+24,C_samesite_diffcluster_hardest,site7_good_157,site7_good_367,4,113,144,site7,site7,different scenes
+25,D_samesite_diffcluster_random,site5_good_871,site5_good_100,0,83,57,site5,site5,different scenes
+26,D_samesite_diffcluster_random,site5_good_376,site5_good_660,0,68,77,site5,site5,different scenes
+27,D_samesite_diffcluster_random,site8_good_96,site8_good_10,0,187,166,site8,site8,different scenes
+28,D_samesite_diffcluster_random,site4_good_44,site4_good_132,0,40,52,site4,site4,different scenes
+29,E_samecluster_longgap,site5_good_200,site5_good_556,49,0,0,site5,site5,same scene (revisit; index gap 356)
+30,E_samecluster_longgap,site7_good_21,site7_good_446,30,87,87,site7,site7,same scene (revisit; index gap 425)
+31,E_samecluster_longgap,site5_good_200,site5_good_545,58,0,0,site5,site5,same scene (revisit)
+32,E_samecluster_longgap,site5_good_0,site5_good_944,126,54,54,site5,site5,same scene (revisit; index gap 944)
+33,E_samecluster_longgap,site5_good_523,site5_good_868,33,0,0,site5,site5,same scene (revisit)
+34,E_samecluster_longgap,site5_good_445,site5_good_653,47,0,0,site5,site5,same scene (revisit)
+35,F_transitive_direct<5,test183,site5_good_523,0,0,0,site5,site5,"same reef area, different view"
+36,F_transitive_direct<5,test296,test79,0,2,2,TEST_UNASSIGNED,TEST_UNASSIGNED,"different view, same reef zone"
+37,F_transitive_direct<5,site5_good_595,site5_good_531,0,3,3,site5,site5,different view
+38,F_transitive_direct<5,test152,test137,0,4,4,TEST_UNASSIGNED,TEST_UNASSIGNED,"different view, same reef zone"
+39,F_transitive_direct<5,test162,test241,0,7,7,site5,site5,different view
+40,F_transitive_direct<5,site4_good_145,site4_good_3,0,35,35,site4,site4,different view
+41,F_transitive_direct<5,site5_good_46,site5_good_13,0,56,56,site5,site5,different view
+42,F_transitive_direct<5,site5_good_87,site5_good_111,0,57,57,site5,site5,"different view, same reef zone"

@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+
+# external code and data (not redistributed)
+original_repo/
+datasets/source_copies/
+datasets/*.zip
+sota_assets/
+checkpoints/
+
+# model weights and large arrays
+*.pth
+*.pt
+*.h5
+*.ckpt
+*.npy

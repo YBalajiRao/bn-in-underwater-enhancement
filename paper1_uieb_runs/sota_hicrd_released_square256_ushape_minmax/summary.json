@@ -1,0 +1,38 @@
+{
+ "meta": {
+  "geometry": "square256",
+  "methods": [
+   "ushape",
+   "wwe_uie",
+   "funie_gan",
+   "nu2net",
+   "clahe",
+   "udcp"
+  ],
+  "not_applicable": {},
+  "n_pairs": 2000,
+  "out": "D:\\MARINE_NET_RESEARCH\\paper1_uieb_runs\\sota_hicrd_released_square256",
+  "out_ushape_minmax": "D:\\MARINE_NET_RESEARCH\\paper1_uieb_runs\\sota_hicrd_released_square256_ushape_minmax",
+  "visual_ids": [
+   "site1_good_2",
+   "site2_good_7",
+   "site4_good_140",
+   "site5_good_641",
+   "site7_good_303",
+   "site8_good_42",
+   "site5_good_708",
+   "site5_good_257",
+   "site7_good_164",
+   "site7_good_225",
+   "site5_good_173",
+   "test94"
+  ],
+  "test_mode": false,
+  "source": "same U-Shape forward pass; official per-image min-max"
+ },
+ "check": {
+  "exact": true,
+  "max_rel_err": 7.575601652623187e-16,
+  "max_abs_psnr_vs_mse_dB": 1.953130034593187e-06
+ }
+}

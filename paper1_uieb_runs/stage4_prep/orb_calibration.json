@@ -1,0 +1,46 @@
+{
+ "same_scene_labelled": {
+  "test298~test297": 993,
+  "test189~test200": 775,
+  "test296~test297": 1026,
+  "test36~test37": 1136,
+  "test149~test150": 873,
+  "test134~test145": 929,
+  "test234~test236": 979,
+  "test117~test119": 727,
+  "test105~test106": 691,
+  "test267~test269": 851,
+  "test77~test65": 1047,
+  "test222~test211": 565,
+  "test233~test222": 772,
+  "test225~test224": 883,
+  "test29~test102": 462
+ },
+ "different_visual": {
+  "test227~test41": 0
+ },
+ "cross_site_negatives": {
+  "n": 200,
+  "max": 8,
+  "q99": 6.009999999999991,
+  "median": 0.0
+ },
+ "same_min": 462,
+ "same_values_sorted": [
+  462,
+  565,
+  691,
+  727,
+  772,
+  775,
+  851,
+  873,
+  883,
+  929,
+  979,
+  993,
+  1026,
+  1047,
+  1136
+ ]
+}

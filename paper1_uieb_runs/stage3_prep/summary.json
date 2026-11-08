@@ -1,0 +1,101 @@
+{
+ "input_dirs_found": [
+  "datasets\\source_copies\\UIEB\\raw-890"
+ ],
+ "gt_dirs_found": [
+  "datasets\\source_copies\\UIEB\\reference-890"
+ ],
+ "n_input_files": 890,
+ "n_reference_files": 890,
+ "total_pairs_rederived": 890,
+ "frozen90_equals_first90": {
+  "matches_documented_rule": true,
+  "n_differences": 0,
+  "first_differences": [],
+  "rederived_total_available": 890,
+  "input_dirs_found": [
+   "datasets\\source_copies\\UIEB\\raw-890"
+  ],
+  "gt_dirs_found": [
+   "datasets\\source_copies\\UIEB\\reference-890"
+  ]
+ },
+ "n_remaining": 800,
+ "lsui": {
+  "n_lsui_records": 3629,
+  "lsui_splits": [
+   "train",
+   "val_A"
+  ],
+  "threshold": 10,
+  "n_exact_match": 0,
+  "n_flag_protocol": 55,
+  "n_flag_cross": 59,
+  "n_flag_any": 63,
+  "protocol_distance_hist_le_thr": {
+   "0": 0,
+   "1": 1,
+   "2": 1,
+   "3": 0,
+   "4": 2,
+   "5": 1,
+   "6": 2,
+   "7": 5,
+   "8": 11,
+   "9": 14,
+   "10": 18
+  }
+ },
+ "within_uieb_exact_sha_duplicate_groups": {},
+ "n_remaining_flag_vs_frozen90": 14,
+ "n_remaining_flag_vs_remaining": 51,
+ "n_remaining_any_flag": 93,
+ "calibration_frozen90_labelled": {
+  "15_img_.png vs train:1013.jpg": {
+   "label": "confirmed_duplicate",
+   "dhash16_input_input": 27,
+   "corr_input_input": 0.8609648046277907
+  },
+  "136_img_.png vs train:2860.jpg": {
+   "label": "unrelated",
+   "dhash16_input_input": 49,
+   "corr_input_input": 0.620000207255903
+  },
+  "104_img_.png vs train:1278.jpg": {
+   "label": "unrelated",
+   "dhash16_input_input": 56,
+   "corr_input_input": 0.531462213740696
+  },
+  "11064.png vs train:1670.jpg": {
+   "label": "unrelated",
+   "dhash16_input_input": 93,
+   "corr_input_input": 0.7666586915156746
+  },
+  "121_img_.png vs train:3306.jpg": {
+   "label": "unrelated",
+   "dhash16_input_input": 79,
+   "corr_input_input": 0.1273208801695237
+  },
+  "12348.png vs train:1014.jpg": {
+   "label": "unrelated",
+   "dhash16_input_input": 83,
+   "corr_input_input": -0.37489299774119494
+  },
+  "102_img_.png vs train:2420.jpg": {
+   "label": "unrelated",
+   "dhash16_input_input": 90,
+   "corr_input_input": 0.41317776692369645
+  },
+  "107_img_.png vs train:1688.jpg": {
+   "label": "unrelated",
+   "dhash16_input_input": 78,
+   "corr_input_input": 0.46510845430583503
+  },
+  "131_img_.png vs train:1162.jpg": {
+   "label": "unrelated",
+   "dhash16_input_input": 102,
+   "corr_input_input": 0.06397224270751803
+  }
+ },
+ "seconds": 86.4
+}

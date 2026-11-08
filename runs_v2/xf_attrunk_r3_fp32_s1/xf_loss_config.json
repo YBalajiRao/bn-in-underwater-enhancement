@@ -1,0 +1,148 @@
+{
+ "experiment": "XFMS: the XF experiment (AT-Trunk, R3 loss, fp32, cosine floor 2e-8) repeated for seed 1 as the matched baseline for XFIN; model, loss, recipe and precision are XF seed 0's",
+ "run_name": "xf_attrunk_r3_fp32_s1",
+ "recipe_name": "XF_R3_fp32_floor",
+ "model": "at_trunk",
+ "params": 1952768,
+ "seed": 1,
+ "baseline_reference": {
+  "primary": "xf_attrunk_r3_fp32_s0",
+  "primary_recipe": "XF_R3_fp32_floor",
+  "result_json_read_by_tooling": true,
+  "note": "the existing XF seed-0 result.json (train + val_A manifests only) is read by the preflight and the gate for the args pairing and must have the pinned SHA-256; the AMP stage4a_at_trunk_s* runs are not opened",
+  "result_json_sha256": "ecdaf4dcc1a1f6f6f906a8dc0bbe71c6e0e6e5baebdd5a37bccd384bc22cdc18",
+  "reference_numbers": {
+   "xf_s0": {
+    "best_psnr": 28.5012,
+    "last10_psnr": 28.3836,
+    "best_ssim": 0.9338,
+    "last10_ssim": 0.93256,
+    "run_seconds": 18431.8
+   },
+   "xfin_s0": {
+    "best_psnr": 30.4617,
+    "last10_psnr": 30.4513,
+    "best_ssim": 0.9391,
+    "last10_ssim": 0.93914,
+    "run_seconds": 20442.6
+   },
+   "at_trunk_r3_amp_seed_range_best_psnr": 0.408
+  },
+  "comparison_rule": "paired per seed with XFIN of the same seed; see PAIRED_THRESHOLDS; all Val-A numbers are exploratory"
+ },
+ "recipe_args": {
+  "epochs": 100,
+  "warmup": 3,
+  "bs": 4,
+  "accum": 1,
+  "lr": 0.0002,
+  "wd": 1e-05,
+  "eta_min": 2e-08,
+  "clip": 1.0,
+  "amp": false,
+  "loss_in_autocast": false,
+  "skip_zero_weight_perceptual": true,
+  "no_jitter": true,
+  "stop_after": null,
+  "select_on": "val_A"
+ },
+ "differs_from_r3": {
+  "amp": [
+   true,
+   false
+  ],
+  "eta_min": [
+   1e-06,
+   2e-08
+  ]
+ },
+ "data": {
+  "manifest_scope": "ONLY the train and val_A manifests are hashed / loaded; val_B, val and val_clean are removed from train_v2.MANIFESTS before train_v2.main() runs; UIEB is never referenced",
+  "allowed_manifests": [
+   "train",
+   "val_A"
+  ],
+  "expected_counts": {
+   "train": 3463,
+   "val_A": 166
+  },
+  "hash_prefixes": {
+   "train": "b4871a98",
+   "val_A": "2d8daae6"
+  }
+ },
+ "loss": {
+  "implementation": "original_repo/marine_net_model.py :: MARINELoss (unchanged, SHA-256 pinned) via train_v2.build exactly as for the AT-Trunk R3 runs: train_v2.FinalOutputLoss (auxiliary L1 terms fed the target, exactly 0) and train_v2.ZeroLoss for the weight-0.0 perceptual term",
+  "weights": {
+   "l1": 1.0,
+   "aux_l1_each": 0.3,
+   "ssim11": 0.5,
+   "perceptual": 0.0,
+   "gradient": 0.4,
+   "color_stats": 0.2
+  },
+  "equation": "1.0*L1(clamp(pred),clamp(y)) + 0.5*(1-SSIM11) + 0.4*GradientL1 + 0.2*ColourStats(mean MSE + std MSE) [+ 0.3*(aux1+aux2)=0] [+ 0.0*perceptual]",
+  "clamp": "pred and target are clamped to [0,1] inside the loss; AT-Trunk's output is already clamped inside the model, so this is identical to the AT-Trunk R3 runs",
+  "precision": "fp32 forward and fp32 loss (amp False, no GradScaler); convolution TF32 is left at the PyTorch default and recorded under 'runtime'",
+  "non_finite_guard": "train_v2.step is replaced by the reviewed XR guarded_step wrapped by a recorder: clip_grad_norm_ as before, a non-finite total norm raises FloatingPointError BEFORE optimizer.step (train_v2.step would step with NaN gradients under fp32)",
+  "r3_internal_nan_guards": "MARINELoss replaces a non-finite term by a constant; that masking is part of the R3 definition and is NOT altered; the driver and gate additionally stop on non-finite gradient norms"
+ },
+ "clip_logging": {
+  "file": "xf_clip_log.jsonl",
+  "one_line_per_epoch": [
+   "steps",
+   "n_clipped",
+   "frac_clipped",
+   "mean_scale",
+   "gnorm_mean",
+   "gnorm_p50",
+   "gnorm_p90",
+   "gnorm_p99",
+   "gnorm_max",
+   "clip"
+  ],
+  "clipped_means": "clip_grad_norm_ rescaled the gradient (scale = min(1, clip / (norm + 1e-6)) < 1)",
+  "note": "observation only: the recorder reads the pre-clip norm that the step already returns; no training arithmetic is changed; no earlier run logged this, so there is no baseline fraction"
+ },
+ "unchanged": [
+  "AT-Trunk architecture, output clamp, initialisation and parameter count",
+  "MARINELoss and its weights",
+  "train_v2 training loop, optimizer AdamW, warm-up 3, clip 1.0, batch 4, lr 2e-4, 100 epochs",
+  "paired horizontal flips only, same data and data order for seed 0",
+  "frozen evaluator train_v2.evaluate and Val-A best-PSNR selection"
+ ],
+ "remaining_confounders": [
+  "one seed per run; Val-A selects the checkpoint (best-epoch selection inflates noisy curves); all Val-A numbers are exploratory",
+  "cuDNN is not bitwise deterministic and the fp32 convolutions may use TF32 (PyTorch default, recorded in xf_loss_config.json): the same seed does not reproduce a run exactly",
+  "these runs only measure the XF baseline spread; no normalisation change is tested here, so nothing about InstanceNorm can be concluded from them alone",
+  "the AMP AT-Trunk R3 seeds 1 and 2 (stage4a_at_trunk_s1 / _s2) are NOT matched baselines (AMP, cosine floor 1e-6) and are not opened by this tooling"
+ ],
+ "decision_rule": {
+  "primary": "last-10-epoch mean Val-A PSNR, XFIN minus XF of the same seed",
+  "secondary": "best PSNR; last-10 mean SSIM; SSIM at the best epoch",
+  "thresholds": {
+   "supports_min_delta_each": 0.5,
+   "supports_min_delta_mean": 1.0,
+   "weakens_max_delta_mean": 0.3,
+   "ssim_max_drop": 0.005
+  },
+  "tolerance": 1e-09,
+  "classes": "supports_in_helps: all deltas >= +0.5, mean >= +1.0, mean > XF seed range, best-PSNR deltas > 0, SSIM deltas >= -0.005; weakens_in_hypothesis: mean <= +0.3; else inconclusive"
+ },
+ "runtime": {
+  "cudnn_allow_tf32": true,
+  "cuda_matmul_allow_tf32": false,
+  "float32_matmul_precision": "highest",
+  "cudnn_benchmark": false,
+  "torch": "2.7.1+cu118"
+ },
+ "code": {
+  "git_commit_full": "a328b0bd35f8fb87cee91d5f2fc89ff7dd4322e8",
+  "xr_commit": "a1261b53387b9d5b0d982d2c64ec1973e4b94764",
+  "untracked_dependency": "original_repo/marine_net_model.py",
+  "untracked_dependency_sha256": "8c3a265408c2d71dfdc61d299503d6174549ac5ef58d03231369c94f3dad0c91",
+  "pinned_sha256": "8c3a265408c2d71dfdc61d299503d6174549ac5ef58d03231369c94f3dad0c91",
+  "untracked_dependency_note": "original_repo/ is git-ignored; its SHA-256 is pinned in xr_config and re-verified before launch, while training, after training and in the gate",
+  "xf_commit": "c943032d454825d3bceb383ed64abc5381732a3c"
+ }
+}

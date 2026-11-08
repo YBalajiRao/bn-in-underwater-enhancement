@@ -1,0 +1,34 @@
+scene,hf_train,hf_test,hf_both,hf_neither,paper_validation_figure_example,paper_split_otherwise,conflict
+1,1,0,0,0,0,UNKNOWN (paper lists no IDs),
+2,1,0,0,0,0,UNKNOWN (paper lists no IDs),
+3,1,0,0,0,0,UNKNOWN (paper lists no IDs),
+4,1,0,0,0,0,UNKNOWN (paper lists no IDs),
+5,1,0,0,0,0,UNKNOWN (paper lists no IDs),
+6,1,0,0,0,0,UNKNOWN (paper lists no IDs),
+7,1,0,0,0,0,UNKNOWN (paper lists no IDs),
+8,1,0,0,0,0,UNKNOWN (paper lists no IDs),
+9,0,1,0,0,0,UNKNOWN (paper lists no IDs),
+10,1,0,0,0,1,UNKNOWN (paper lists no IDs),"paper=validation, HF=train only"
+11,1,0,0,0,0,UNKNOWN (paper lists no IDs),
+12,1,0,0,0,0,UNKNOWN (paper lists no IDs),
+13,1,0,0,0,0,UNKNOWN (paper lists no IDs),
+14,0,1,0,0,0,UNKNOWN (paper lists no IDs),
+15,1,1,1,0,1,UNKNOWN (paper lists no IDs),HF both splits
+16,0,0,0,1,0,UNKNOWN (paper lists no IDs),in no HF split
+17,1,0,0,0,0,UNKNOWN (paper lists no IDs),
+18,1,1,1,0,0,UNKNOWN (paper lists no IDs),HF both splits
+19,0,1,0,0,0,UNKNOWN (paper lists no IDs),
+20,1,1,1,0,1,UNKNOWN (paper lists no IDs),HF both splits
+21,0,0,0,1,0,UNKNOWN (paper lists no IDs),in no HF split
+22,1,1,1,0,0,UNKNOWN (paper lists no IDs),HF both splits
+23,0,0,0,1,0,UNKNOWN (paper lists no IDs),in no HF split
+24,1,1,1,0,0,UNKNOWN (paper lists no IDs),HF both splits
+25,0,0,0,1,0,UNKNOWN (paper lists no IDs),in no HF split
+26,1,0,0,0,0,UNKNOWN (paper lists no IDs),
+27,1,0,0,0,0,UNKNOWN (paper lists no IDs),
+28,1,0,0,0,0,UNKNOWN (paper lists no IDs),
+29,1,1,1,0,0,UNKNOWN (paper lists no IDs),HF both splits
+30,0,0,0,1,0,UNKNOWN (paper lists no IDs),in no HF split
+31,1,0,0,0,0,UNKNOWN (paper lists no IDs),
+32,1,0,0,0,0,UNKNOWN (paper lists no IDs),
+33,0,0,0,1,0,UNKNOWN (paper lists no IDs),in no HF split

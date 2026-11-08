@@ -1,0 +1,54 @@
+{
+ "meta": {
+  "geometry": "square256",
+  "models": [
+   "waternet_lsui_s0",
+   "wwe_uie_lsui_s0"
+  ],
+  "status": "EXPLORATORY: each Group T baseline is a single training run (n = 1). Contrasts against it describe these specific trained models only and cannot support any training-seed-level superiority claim; the baseline's seed variability is unknown.",
+  "n_pairs": 2000,
+  "out": "D:\\MARINE_NET_RESEARCH\\paper1_uieb_runs\\sota_hicrd_retrained_square256",
+  "batch": 16,
+  "test_mode": false,
+  "checkpoints": {
+   "waternet_lsui_s0": "af168d31cf1632bb2f9c550e32670eab1c39f28714c2a60bdfedbfc30c3565b3",
+   "wwe_uie_lsui_s0": "fc9ebbeaffb1f56ca4297ef5d9a5b914274e5d6db32845cfd067fad490ca4bf5"
+  },
+  "protocol_sha256": "2d29442248a57ac6a164c7e2e3e09420e781a972fdde95b9466748b417da1000",
+  "torch": "2.7.1+cu118",
+  "device": "cuda",
+  "seconds": 698.5
+ },
+ "models": {
+  "waternet_lsui_s0": {
+   "exact": true,
+   "max_rel_err": 1.0662022518412187e-15,
+   "max_abs_psnr_vs_mse_dB": 1.8745724688074006e-06,
+   "n": 2000,
+   "mean_psnr": 22.347374019026756,
+   "memory": {
+    "device": "cuda",
+    "free_bytes": 7434403840,
+    "total_bytes": 8589410304,
+    "peak_allocated_bytes": 3546721280,
+    "peak_reserved_bytes": 5947523072
+   },
+   "checkpoint_unchanged": true
+  },
+  "wwe_uie_lsui_s0": {
+   "exact": true,
+   "max_rel_err": 1.3259118770822863e-15,
+   "max_abs_psnr_vs_mse_dB": 1.8712794904729435e-06,
+   "n": 2000,
+   "mean_psnr": 20.93386303603649,
+   "memory": {
+    "device": "cuda",
+    "free_bytes": 6889144320,
+    "total_bytes": 8589410304,
+    "peak_allocated_bytes": 1337198080,
+    "peak_reserved_bytes": 1480589312
+   },
+   "checkpoint_unchanged": true
+  }
+ }
+}

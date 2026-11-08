@@ -1,0 +1,117 @@
+{
+ "meta": {
+  "dataset": "uieb_stage3",
+  "label": "Stage 3 registered run (last)",
+  "out": "D:\\MARINE_NET_RESEARCH\\paper1_uieb_runs\\stage3_uieb800_last",
+  "checkpoint": "last",
+  "manifest_sha256": "dcab4ac2589586dec9eb90d25ec2bb1390c368b46fbd220df3ca0a87a46fdf08",
+  "protocol_sha256": "66149a57cbea2791e5da8f82c65cd4cdc0f7843689283ac7e0cc0f4e60bb3f67",
+  "script_sha256": "a98ddc6df88f11d1690c571dac932524c88d3dec67d74a3fbf4f79f3d56bde97",
+  "models": [
+   "marinenet_bn_s0",
+   "marinenet_bn_s1",
+   "marinenet_bn_s2",
+   "marinenet_in_s0",
+   "marinenet_in_s1",
+   "marinenet_in_s2",
+   "attrunk_bn_s0",
+   "attrunk_bn_s1",
+   "attrunk_bn_s2",
+   "attrunk_in_s0",
+   "attrunk_in_s1",
+   "attrunk_in_s2"
+  ],
+  "n_images": 800,
+  "created": "2026-11-02 07:45:10",
+  "torch": "2.7.1+cu118",
+  "numpy": "2.5.4",
+  "gpu": "NVIDIA GeForce RTX 3070",
+  "recorded_hashes_checked": 1600
+ },
+ "models": {
+  "marinenet_bn_s0": {
+   "run": "marinenet_bn_r3_fp32_s0",
+   "checkpoint_sha256": "60bb875522b0b4f9325f5e8f070358dba7d5f11a5ca867b450046de758da425a",
+   "psnr": 20.561062145978212,
+   "ssim": 0.8592208414152265,
+   "nonfinite_before_clamp": 0
+  },
+  "marinenet_bn_s1": {
+   "run": "marinenet_bn_r3_fp32_s1",
+   "checkpoint_sha256": "dc5c2f22eecbd407f6419d2a35123d8be920229c15421c562f41265e528fdf07",
+   "psnr": 21.826468562334775,
+   "ssim": 0.8872828184813261,
+   "nonfinite_before_clamp": 0
+  },
+  "marinenet_bn_s2": {
+   "run": "marinenet_bn_r3_fp32_s2",
+   "checkpoint_sha256": "485f45d82b878d60c8ea6afd0faae6c0ad56c17b02af49856c75f1547706139a",
+   "psnr": 21.719815239310265,
+   "ssim": 0.8846193527430296,
+   "nonfinite_before_clamp": 0
+  },
+  "marinenet_in_s0": {
+   "run": "marinenet_in_r3_fp32_s0",
+   "checkpoint_sha256": "2d02f6e40a087d83038a801039b42788560fd8fb253caf3256e27f0807155cb3",
+   "psnr": 22.925480260699988,
+   "ssim": 0.8957453904300928,
+   "nonfinite_before_clamp": 0
+  },
+  "marinenet_in_s1": {
+   "run": "marinenet_in_r3_fp32_s1",
+   "checkpoint_sha256": "5d9f6973b04b37dd5c9e4a0b3551ffc47088fb482ce20cfbaa23d484012b2ef4",
+   "psnr": 22.913784559071065,
+   "ssim": 0.8950779732689261,
+   "nonfinite_before_clamp": 0
+  },
+  "marinenet_in_s2": {
+   "run": "marinenet_in_r3_fp32_s2",
+   "checkpoint_sha256": "46610e6345daf7c6eb13dfefce5c8dd91470f8901c4fab6c4629df429deca5c8",
+   "psnr": 22.842910900712013,
+   "ssim": 0.8944477620720863,
+   "nonfinite_before_clamp": 0
+  },
+  "attrunk_bn_s0": {
+   "run": "xf_attrunk_r3_fp32_s0",
+   "checkpoint_sha256": "bf5e9fb1a3b2f844f55d085df49469811c32598f181b04b2483ad88d7e2e4ae7",
+   "psnr": 21.826264999061824,
+   "ssim": 0.8907950301654637,
+   "nonfinite_before_clamp": 0
+  },
+  "attrunk_bn_s1": {
+   "run": "xf_attrunk_r3_fp32_s1",
+   "checkpoint_sha256": "cf46887e096486bc5ad0df8dec3893ff62b9d65ea40f2efffe4a60777c24e30e",
+   "psnr": 21.47981731854379,
+   "ssim": 0.8866748874168843,
+   "nonfinite_before_clamp": 0
+  },
+  "attrunk_bn_s2": {
+   "run": "xf_attrunk_r3_fp32_s2",
+   "checkpoint_sha256": "e79183f995f9b71d45952e99c10117efe325718c1091bdb5fe8e84f3ef81d097",
+   "psnr": 21.79495858773589,
+   "ssim": 0.8881822323054075,
+   "nonfinite_before_clamp": 0
+  },
+  "attrunk_in_s0": {
+   "run": "xfin_attrunk_in_r3_fp32_s0",
+   "checkpoint_sha256": "96c8f48f677b595907d9ef8b1d4c185fd950221cbc2e9ebc64f2968d81e13b4b",
+   "psnr": 22.03626929819584,
+   "ssim": 0.8883370217680931,
+   "nonfinite_before_clamp": 0
+  },
+  "attrunk_in_s1": {
+   "run": "xfin_attrunk_in_r3_fp32_s1",
+   "checkpoint_sha256": "5e362fb4cca1b6d02b20289687691df379b6491a04338979dac3961925d266da",
+   "psnr": 22.255841064453126,
+   "ssim": 0.8910388115048409,
+   "nonfinite_before_clamp": 0
+  },
+  "attrunk_in_s2": {
+   "run": "xfin_attrunk_in_r3_fp32_s2",
+   "checkpoint_sha256": "654435b286105f0f9aefd05aac78504d835aa96169f8a84774ed877a1dc05963",
+   "psnr": 22.215014772117136,
+   "ssim": 0.8918800831958652,
+   "nonfinite_before_clamp": 0
+  }
+ }
+}

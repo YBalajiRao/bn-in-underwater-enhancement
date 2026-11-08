@@ -1,0 +1,637 @@
+{
+  "dataset": "UIEB Benchmark",
+  "total_available": 890,
+  "evaluation_subset_size": 90,
+  "pairs": [
+    {
+      "filename": "100_img_.png",
+      "input_path": "datasets/source_copies/UIEB/raw-890/100_img_.png",
+      "gt_path": "datasets/source_copies/UIEB/reference-890/100_img_.png",
+      "input_sha256": "503f0bd4279ef6dc159a929856d92159409ecae9228170a85b95349909d9ae25",
+      "gt_sha256": "779dab75a0d328a9b27cc4ecd4b4421766bdd75cd4e3976b28d2977121b0df71"
+    },
+    {
+      "filename": "10139.png",
+      "input_path": "datasets/source_copies/UIEB/raw-890/10139.png",
+      "gt_path": "datasets/source_copies/UIEB/reference-890/10139.png",
+      "input_sha256": "39a64270b662773af09fb39e3152acc58a3a80f8f4891a982fc4caeb57462069",
+      "gt_sha256": "2e094e79641d13639c426ec9cedae6c5613fb4b497f7789b9591e9a29de7fbfb"
+    },
+    {
+      "filename": "10151.png",
+      "input_path": "datasets/source_copies/UIEB/raw-890/10151.png",
+      "gt_path": "datasets/source_copies/UIEB/reference-890/10151.png",
+      "input_sha256": "13566c7b5203633abcae9675fbf255910ce2ce95505649b9203c61201ad02d43",
+      "gt_sha256": "4115340a907c2250b05f7a5b140c3b1f7fdb00e149b73451cc44a6674613dfbd"
+    },
+    {
+      "filename": "101_img_.png",
+      "input_path": "datasets/source_copies/UIEB/raw-890/101_img_.png",
+      "gt_path": "datasets/source_copies/UIEB/reference-890/101_img_.png",
+      "input_sha256": "a7010409ba6f224b77e6a8f1b7677c73a86b0153e16e5b8ba6321b31219cae68",
+      "gt_sha256": "67ee1b2a0fe8fab24e39f869aa6799a8848b982bb353b00c813aa88c394f52bc"
+    },
+    {
+      "filename": "102_img_.png",
+      "input_path": "datasets/source_copies/UIEB/raw-890/102_img_.png",
+      "gt_path": "datasets/source_copies/UIEB/reference-890/102_img_.png",
+      "input_sha256": "4256b76f664cd19b3c8ba210ced411ae593fd53546166277c4bef83727f0ecb7",
+      "gt_sha256": "3368de80006a913590c3d80fd9c7322e6df30b7dc37bd19021d2e2a1ce36d1bb"
+    },
+    {
+      "filename": "104_img_.png",
+      "input_path": "datasets/source_copies/UIEB/raw-890/104_img_.png",
+      "gt_path": "datasets/source_copies/UIEB/reference-890/104_img_.png",
+      "input_sha256": "496a0c906100a596fb11361433e557024141719a076cb2c1eef6c5e3081efa50",
+      "gt_sha256": "59a3e41faccc9a74e521968b3d5a95c2b6aec6ae93c47d69d20f1e4ff8edda59"
+    },
+    {
+      "filename": "105_img_.png",
+      "input_path": "datasets/source_copies/UIEB/raw-890/105_img_.png",
+      "gt_path": "datasets/source_copies/UIEB/reference-890/105_img_.png",
+      "input_sha256": "476ba7ed5b01bf348ad64ffb035a1bd533903128a67364081b5f9199a3604167",
+      "gt_sha256": "56bd1ec0971a60d7438c0a96b0da9868b31f88c14c22c8986db915144c870fbf"
+    },
+    {
+      "filename": "106_img_.png",
+      "input_path": "datasets/source_copies/UIEB/raw-890/106_img_.png",
+      "gt_path": "datasets/source_copies/UIEB/reference-890/106_img_.png",
+      "input_sha256": "58b3d62b61841bd7ace5a1c5247bdb8c03ae66685647430769b6f122ebbc12ac",
+      "gt_sha256": "eb8225df92e65be11409177147c90087ec38931b9e988e676d2ea4c927bd5b90"
+    },
+    {
+      "filename": "107_img_.png",
+      "input_path": "datasets/source_copies/UIEB/raw-890/107_img_.png",
+      "gt_path": "datasets/source_copies/UIEB/reference-890/107_img_.png",
+      "input_sha256": "90c29a05b49744014ea1ff1de18aff42c4eedd22354f8bdd3a2c7f0077e26d5d",
+      "gt_sha256": "101edf1e9372d478df54f6e65163648c14f18a9c353f65ff73c7d0a46e772316"
+    },
+    {
+      "filename": "108_img_.png",
+      "input_path": "datasets/source_copies/UIEB/raw-890/108_img_.png",
+      "gt_path": "datasets/source_copies/UIEB/reference-890/108_img_.png",
+      "input_sha256": "52f1504ac982c68a66a12d43ae335972d7c13feca4a8cbcfd0103c8c98819b68",
+      "gt_sha256": "fcc7065ed8dbd6978de507ff210b5ef10136bc64064ea1642a7aedaa281573a1"
+    },
+    {
+      "filename": "10909.png",
+      "input_path": "datasets/source_copies/UIEB/raw-890/10909.png",
+      "gt_path": "datasets/source_copies/UIEB/reference-890/10909.png",
+      "input_sha256": "d872b4772f4564bdd074c1fe507fecdd8220d6f5a475ec63cc67edbebe73454a",
+      "gt_sha256": "0e8a00ef4f50e3405fff80edb19114fa9a735e42757e795d8f00e0636faba3da"
+    },
+    {
+      "filename": "10945.png",
+      "input_path": "datasets/source_copies/UIEB/raw-890/10945.png",
+      "gt_path": "datasets/source_copies/UIEB/reference-890/10945.png",
+      "input_sha256": "a9d8d5d5a7bc5f78511efe133840e8cb57f87327c755d928d663fca749668011",
+      "gt_sha256": "dd836e15e3f421630e2b57fa7fcf949c9c6cfa52ec2995b3842522402564db79"
+    },
+    {
+      "filename": "109_img_.png",
+      "input_path": "datasets/source_copies/UIEB/raw-890/109_img_.png",
+      "gt_path": "datasets/source_copies/UIEB/reference-890/109_img_.png",
+      "input_sha256": "86bcc4320e5c7391f24c13a5359b009d5fe655b15dc7f9d2cac17dd9186e075b",
+      "gt_sha256": "86586322da4618ea2e882bf1cf9651e31a273994abfdd4ab57d0309e63994d61"
+    },
+    {
+      "filename": "10_img_.png",
+      "input_path": "datasets/source_copies/UIEB/raw-890/10_img_.png",
+      "gt_path": "datasets/source_copies/UIEB/reference-890/10_img_.png",
+      "input_sha256": "05b1052b71f2812c8b5e6fcf85ab0822871396cd0c07f6822889289e6d299c71",
+      "gt_sha256": "1aca06b6dac9a15a2c6bbc56fe20d0a04818838bbd682fa9c2fc281ccf60320e"
+    },
+    {
+      "filename": "11052.png",
+      "input_path": "datasets/source_copies/UIEB/raw-890/11052.png",
+      "gt_path": "datasets/source_copies/UIEB/reference-890/11052.png",
+      "input_sha256": "ee2ad65f31d5b1fa0ba9ef13abc861f628b8ca03590594b1458148677574df01",
+      "gt_sha256": "48a42b4d5570946f0e8f702b9020b3ec6533bbcfd07d4564ee1ee5a350242bcb"
+    },
+    {
+      "filename": "11064.png",
+      "input_path": "datasets/source_copies/UIEB/raw-890/11064.png",
+      "gt_path": "datasets/source_copies/UIEB/reference-890/11064.png",
+      "input_sha256": "6a0562901e27e1dcdccbf2fc696749016f19296ecc5fcc24f40d51c96af3359e",
+      "gt_sha256": "c2496137d28145f36806b624595c6ee5737529c1cac694bb175c408b7c85bd07"
+    },
+    {
+      "filename": "111_img_.png",
+      "input_path": "datasets/source_copies/UIEB/raw-890/111_img_.png",
+      "gt_path": "datasets/source_copies/UIEB/reference-890/111_img_.png",
+      "input_sha256": "024f3042cc946d3f58cad824c0dc57583f5b869646d50ab7604bbef7f4e2655e",
+      "gt_sha256": "20fed55ff91c1a17c9aecc504fd10dffd18c2009358f45483f770c9bace123d6"
+    },
+    {
+      "filename": "112_img_.png",
+      "input_path": "datasets/source_copies/UIEB/raw-890/112_img_.png",
+      "gt_path": "datasets/source_copies/UIEB/reference-890/112_img_.png",
+      "input_sha256": "3d54cfe5010d62455d8d624083ed8b20aa7a7e1dc04d97cde27c194db3f0da96",
+      "gt_sha256": "2cd698fe41e1415f2cc249fa95d717952c96b883b45e07e44041f38bde3ff226"
+    },
+    {
+      "filename": "11374.png",
+      "input_path": "datasets/source_copies/UIEB/raw-890/11374.png",
+      "gt_path": "datasets/source_copies/UIEB/reference-890/11374.png",
+      "input_sha256": "aefb2649a40aef59957d47f1f0e7010f183f86534bae7395de15997c66563aa3",
+      "gt_sha256": "9ae41b1161fa240edc0a9628808d41de0424f6b64828394d6f33121302b73bf8"
+    },
+    {
+      "filename": "11398.png",
+      "input_path": "datasets/source_copies/UIEB/raw-890/11398.png",
+      "gt_path": "datasets/source_copies/UIEB/reference-890/11398.png",
+      "input_sha256": "47677bebccbcaa71c321251d02af4e6014e752745e130742a71ebd94e3ccf617",
+      "gt_sha256": "a423a315bcd1d20d48b209c9f0aa2f354fd92a5e1e72bba94304fca3688cf1c0"
+    },
+    {
+      "filename": "113_img_.png",
+      "input_path": "datasets/source_copies/UIEB/raw-890/113_img_.png",
+      "gt_path": "datasets/source_copies/UIEB/reference-890/113_img_.png",
+      "input_sha256": "8b6d9c625a0c6abf7eb71194965b8be1e86102185a3c26935b5a4d5ec2557f7f",
+      "gt_sha256": "8f5c84dddaf05aa3a0fc739d13e71341555f9df367c80e1761d187e628ca7227"
+    },
+    {
+      "filename": "114_img_.png",
+      "input_path": "datasets/source_copies/UIEB/raw-890/114_img_.png",
+      "gt_path": "datasets/source_copies/UIEB/reference-890/114_img_.png",
+      "input_sha256": "b00ad9526f31d8c0761dcb382d535bc2a14c1caedced2e7aa365af94fcab4845",
+      "gt_sha256": "1963e9dd873dfe30bf66751dcb3678fcaff4500e855ae5c216dd9a5ff88548e1"
+    },
+    {
+      "filename": "115_img_.png",
+      "input_path": "datasets/source_copies/UIEB/raw-890/115_img_.png",
+      "gt_path": "datasets/source_copies/UIEB/reference-890/115_img_.png",
+      "input_sha256": "bf33dbe848a77353d197f9ee374e701cb7c6a1a523e23f25fb291e0367501e1f",
+      "gt_sha256": "eb9c0d038aebceb04d3757846622d7c27670c0d10326349ef1da57c63a766948"
+    },
+    {
+      "filename": "116_img_.png",
+      "input_path": "datasets/source_copies/UIEB/raw-890/116_img_.png",
+      "gt_path": "datasets/source_copies/UIEB/reference-890/116_img_.png",
+      "input_sha256": "f5c49433ff296d21b8b0ff78485826fc60bc041093133ea06cf362f4d548dac3",
+      "gt_sha256": "62fca62be716b6a3f47460a1dcb6af1faec9aef0c5935f3016e9313d4a97d3f0"
+    },
+    {
+      "filename": "117_img_.png",
+      "input_path": "datasets/source_copies/UIEB/raw-890/117_img_.png",
+      "gt_path": "datasets/source_copies/UIEB/reference-890/117_img_.png",
+      "input_sha256": "27c283b7aaae629eb295cdb8e65ec16a817c9fe15d368e957bec11e194ff513e",
+      "gt_sha256": "9f414d4eae9df9afc882c1b470548b0546c56b69bb9525d1b64ab57d0456e013"
+    },
+    {
+      "filename": "118_img_.png",
+      "input_path": "datasets/source_copies/UIEB/raw-890/118_img_.png",
+      "gt_path": "datasets/source_copies/UIEB/reference-890/118_img_.png",
+      "input_sha256": "88ee12b5b1be07a6e3864b6ff6f91a115e469eb05ac3959ae4942c3b15c61b27",
+      "gt_sha256": "55109d88f6500dfb42ce7465381dedfc2c8786c2ebba768a6aa2378fba81982d"
+    },
+    {
+      "filename": "11_img_.png",
+      "input_path": "datasets/source_copies/UIEB/raw-890/11_img_.png",
+      "gt_path": "datasets/source_copies/UIEB/reference-890/11_img_.png",
+      "input_sha256": "c99ee62a493824eaa8060334b41e579dd8d1373d392ede2bee9ac8b7673f4b7e",
+      "gt_sha256": "d1f92bf90be63d8b961e2e448edb8c9cf085057266a6b5075393d7ad5533a053"
+    },
+    {
+      "filename": "120_img_.png",
+      "input_path": "datasets/source_copies/UIEB/raw-890/120_img_.png",
+      "gt_path": "datasets/source_copies/UIEB/reference-890/120_img_.png",
+      "input_sha256": "1fa5273dbd639e4c1733e7d918f003ff89d066de191a488c1758e7a14adf996e",
+      "gt_sha256": "19196c50b1d5f59bf2e93bd5b1721ab701f05e9293cb01811130fcc6ba6157c4"
+    },
+    {
+      "filename": "121_img_.png",
+      "input_path": "datasets/source_copies/UIEB/raw-890/121_img_.png",
+      "gt_path": "datasets/source_copies/UIEB/reference-890/121_img_.png",
+      "input_sha256": "c903b9d6dbe76a3fcd6773630b251eaae5bfe9d30ef8994ba8a4603cf30d859e",
+      "gt_sha256": "0501a3575b3d917a63174dd6f5c3335875181fcbb61099f1c7d5707c70612d5e"
+    },
+    {
+      "filename": "1225.png",
+      "input_path": "datasets/source_copies/UIEB/raw-890/1225.png",
+      "gt_path": "datasets/source_copies/UIEB/reference-890/1225.png",
+      "input_sha256": "1097a8ffe603f615c4e824d356ac5e191a5642e60f3e6d3f59557dd84b73d33f",
+      "gt_sha256": "bd8bdb356e01b3bd6d650da49b8a4ce49ec39eb6bab989a1ef0254a846746428"
+    },
+    {
+      "filename": "12290.png",
+      "input_path": "datasets/source_copies/UIEB/raw-890/12290.png",
+      "gt_path": "datasets/source_copies/UIEB/reference-890/12290.png",
+      "input_sha256": "3df9cea025c8115da9e297f2d531e2956ac4c0c8db8105146495dc81b601b5c9",
+      "gt_sha256": "1a53732de095e73c9a6d49b9ead2dee03c5de0e60ab2cdede7e00910861d0077"
+    },
+    {
+      "filename": "12299.png",
+      "input_path": "datasets/source_copies/UIEB/raw-890/12299.png",
+      "gt_path": "datasets/source_copies/UIEB/reference-890/12299.png",
+      "input_sha256": "06fd3ae663ac4c7e6c46dabba68fc36ad6d89aafe9ea8ffb33e2de7ef0e62918",
+      "gt_sha256": "33dabcd28f98d3941ba4e7a7cbece2f45aa9f3349bf4329ee9eafc329318fb5a"
+    },
+    {
+      "filename": "122_img_.png",
+      "input_path": "datasets/source_copies/UIEB/raw-890/122_img_.png",
+      "gt_path": "datasets/source_copies/UIEB/reference-890/122_img_.png",
+      "input_sha256": "154707fef3b670ad9e15db9d6936fb5b3a03c062ea1394371317260cc69a70c1",
+      "gt_sha256": "1306c688c8d185b1f0a40ebb9810b224ab1ab08184e8b38a08217bc18bda3766"
+    },
+    {
+      "filename": "12324.png",
+      "input_path": "datasets/source_copies/UIEB/raw-890/12324.png",
+      "gt_path": "datasets/source_copies/UIEB/reference-890/12324.png",
+      "input_sha256": "e3dc02dbff703123f41290207434a97de9c0518cd71c934addaa26881a6c4532",
+      "gt_sha256": "0a4450df313751bf340d2e8a824db12dc1478316ac745f4f127c7095d8bfdf18"
+    },
+    {
+      "filename": "12336.png",
+      "input_path": "datasets/source_copies/UIEB/raw-890/12336.png",
+      "gt_path": "datasets/source_copies/UIEB/reference-890/12336.png",
+      "input_sha256": "b6f2e268a6fea6c57ed6eb9ac0a253a8883a08950909dd128dcfd57901f3c639",
+      "gt_sha256": "eb8f93b2bbf483b5c610fced9b7d70f3e171d84e74118d14a38b43bed341a147"
+    },
+    {
+      "filename": "12348.png",
+      "input_path": "datasets/source_copies/UIEB/raw-890/12348.png",
+      "gt_path": "datasets/source_copies/UIEB/reference-890/12348.png",
+      "input_sha256": "7f8485109a82745b8620240b7e7abb81b3bcd5ecda29f7d1d670b0cc22370739",
+      "gt_sha256": "c4fa91f9fc55f28c9ce5b37c2ebd1b1af05a9de7d8e600b7954c22e779f4718d"
+    },
+    {
+      "filename": "123_img_.png",
+      "input_path": "datasets/source_copies/UIEB/raw-890/123_img_.png",
+      "gt_path": "datasets/source_copies/UIEB/reference-890/123_img_.png",
+      "input_sha256": "783183ed5c577cce60c620ea645934c1448df46fafe1d3bdfaeef1dbd9e8b742",
+      "gt_sha256": "e005905bcd3e1d8bf33359e110375df181d602854db4fb30a95779d229d3f734"
+    },
+    {
+      "filename": "12422.png",
+      "input_path": "datasets/source_copies/UIEB/raw-890/12422.png",
+      "gt_path": "datasets/source_copies/UIEB/reference-890/12422.png",
+      "input_sha256": "015e8cc399adedf6185bb3cf5c371619a45335d5108543b035c3ac5cb20ae6ac",
+      "gt_sha256": "a2fb4ae45d38d254dc46a9715234fc8fb7877b2ef393210a2f88db0e668be0e5"
+    },
+    {
+      "filename": "12433.png",
+      "input_path": "datasets/source_copies/UIEB/raw-890/12433.png",
+      "gt_path": "datasets/source_copies/UIEB/reference-890/12433.png",
+      "input_sha256": "2e23a7c9d0d89bc91bdd8629daca90003da1ca2be9bf5f563c09ca132bf2d3d4",
+      "gt_sha256": "adaa5f43f3e78edf41f97fa0a7679dc1d194312c95abb955b0d76ac959e6fcb6"
+    },
+    {
+      "filename": "12445.png",
+      "input_path": "datasets/source_copies/UIEB/raw-890/12445.png",
+      "gt_path": "datasets/source_copies/UIEB/reference-890/12445.png",
+      "input_sha256": "4d11264221b6e8146dbd17484e2806ccdb5ac3634fda88c9474932f634b54733",
+      "gt_sha256": "dc61a3296626a96cc7d432856bce2f0870ca2c7232b319f3d3faa90c2fb91af6"
+    },
+    {
+      "filename": "124_img_.png",
+      "input_path": "datasets/source_copies/UIEB/raw-890/124_img_.png",
+      "gt_path": "datasets/source_copies/UIEB/reference-890/124_img_.png",
+      "input_sha256": "fbc55c4b9faf54b228270aa3b64fdf8633f51059101f07fbab6e10962a23efee",
+      "gt_sha256": "129bbc53a5d15905bb1ae3ccf436c6016a1f47958409b213b866836c6fc35c76"
+    },
+    {
+      "filename": "125_img_.png",
+      "input_path": "datasets/source_copies/UIEB/raw-890/125_img_.png",
+      "gt_path": "datasets/source_copies/UIEB/reference-890/125_img_.png",
+      "input_sha256": "6cc6bc8b3239f47fa84e8868a1bbcaecaafe2f364802656de9eebf0cc4adafd3",
+      "gt_sha256": "32ccb064687b4f7f3da286aa16242fcf240de97dc2b5798dbcf8b96ef7ce1b3e"
+    },
+    {
+      "filename": "12900.png",
+      "input_path": "datasets/source_copies/UIEB/raw-890/12900.png",
+      "gt_path": "datasets/source_copies/UIEB/reference-890/12900.png",
+      "input_sha256": "7ba562d303592b30b5031d8a29c461f7c15d13d1925730ad9f551b5ecfe26dd2",
+      "gt_sha256": "9cbd0e6cda819d3038d6776370820d8b016ba581f436d8608e205034dc54daf7"
+    },
+    {
+      "filename": "129_img_.png",
+      "input_path": "datasets/source_copies/UIEB/raw-890/129_img_.png",
+      "gt_path": "datasets/source_copies/UIEB/reference-890/129_img_.png",
+      "input_sha256": "4bbb1e7e97ba14d6c118df360428086b67046d6609482189da93bebbca46e4c0",
+      "gt_sha256": "2368a22d33e8e23adfec82e8e4ef592a9821f883acb4bf73b42e6fe6d063f44b"
+    },
+    {
+      "filename": "130_img_.png",
+      "input_path": "datasets/source_copies/UIEB/raw-890/130_img_.png",
+      "gt_path": "datasets/source_copies/UIEB/reference-890/130_img_.png",
+      "input_sha256": "52d0e4b11a58903097f6201fbab3ee79ae34cd1763b51265ff9c9cf6030b0070",
+      "gt_sha256": "c9360b26b507d4d4f4b20d64b3daf5bae573dd879caa72e133f723d2e5286ce8"
+    },
+    {
+      "filename": "131_img_.png",
+      "input_path": "datasets/source_copies/UIEB/raw-890/131_img_.png",
+      "gt_path": "datasets/source_copies/UIEB/reference-890/131_img_.png",
+      "input_sha256": "25ba9af101f1921ca43a011a5ebeb539081080677ab207a887825cf5dc0407d1",
+      "gt_sha256": "4d1dcd2bbd948a57b77bc5d6d0982ea4821fe273fbfaef9e39d09f716f9a2933"
+    },
+    {
+      "filename": "133_img_.png",
+      "input_path": "datasets/source_copies/UIEB/raw-890/133_img_.png",
+      "gt_path": "datasets/source_copies/UIEB/reference-890/133_img_.png",
+      "input_sha256": "851f2d8a5411ff963e9a59a0533e9de7a2042f8a8bc2e2ce85acf91fd65e9046",
+      "gt_sha256": "8372a2ebe76ffba9e951c2aa6605e460aa9fd82add2458aab99e5464586ee359"
+    },
+    {
+      "filename": "135_img_.png",
+      "input_path": "datasets/source_copies/UIEB/raw-890/135_img_.png",
+      "gt_path": "datasets/source_copies/UIEB/reference-890/135_img_.png",
+      "input_sha256": "dbf1cf84ba048a54a8dbb41d997b33b78be18d84eec5227fd69d72150bce94a6",
+      "gt_sha256": "0c5da46feb0fe9eff75097da624136ba6116be9c45d397d90eece1f5110151bd"
+    },
+    {
+      "filename": "136_img_.png",
+      "input_path": "datasets/source_copies/UIEB/raw-890/136_img_.png",
+      "gt_path": "datasets/source_copies/UIEB/reference-890/136_img_.png",
+      "input_sha256": "1124ef7c67d4de371b9594921011de6aa34c0b00556581966ae02beb02303337",
+      "gt_sha256": "84019a6d7914768dee991f49c04150f3418296637b0abfb0101082beb34b2e06"
+    },
+    {
+      "filename": "137_img_.png",
+      "input_path": "datasets/source_copies/UIEB/raw-890/137_img_.png",
+      "gt_path": "datasets/source_copies/UIEB/reference-890/137_img_.png",
+      "input_sha256": "a1b9ade4f702a7a4614917f0769009b4576babf69e96fdd521a52770db0f01f2",
+      "gt_sha256": "95553bbfbea2809cdf41497cce52a7411c6ec15ef704ddcb249ca301aa52e1b1"
+    },
+    {
+      "filename": "138_img_.png",
+      "input_path": "datasets/source_copies/UIEB/raw-890/138_img_.png",
+      "gt_path": "datasets/source_copies/UIEB/reference-890/138_img_.png",
+      "input_sha256": "edd6cd44d8694d778b8bc8cf3714dcc397d052d981030ab2043737dbe89dcff2",
+      "gt_sha256": "f536aa6639620cff68b057a8052c5af94a5da49d85633be6a20fd4d3961ab72a"
+    },
+    {
+      "filename": "139_img_.png",
+      "input_path": "datasets/source_copies/UIEB/raw-890/139_img_.png",
+      "gt_path": "datasets/source_copies/UIEB/reference-890/139_img_.png",
+      "input_sha256": "2343ecb1d47f3a92627f5c7305ea41e28ad9d57ec37ff3916b8511b2bb463f55",
+      "gt_sha256": "fe5ba62ce1311c351c6c18f62c7180c35ee3069fab4a9e5a7998e2d8a7c774f1"
+    },
+    {
+      "filename": "13_img_.png",
+      "input_path": "datasets/source_copies/UIEB/raw-890/13_img_.png",
+      "gt_path": "datasets/source_copies/UIEB/reference-890/13_img_.png",
+      "input_sha256": "a30bd0fbf0dc654474a626174aa1ec7678c513111ef2a0f061e489cd838439a1",
+      "gt_sha256": "861ab90a4be8457555e1eb92109f05f2e59c4e9257f53fd5c0c88714372579bf"
+    },
+    {
+      "filename": "1407.png",
+      "input_path": "datasets/source_copies/UIEB/raw-890/1407.png",
+      "gt_path": "datasets/source_copies/UIEB/reference-890/1407.png",
+      "input_sha256": "9e72c779e6f38592e2eead4f41eaefc7bb05a574fff5b27c01572f9d04b2f499",
+      "gt_sha256": "34deb7d67ecb3898025c3a833f52f79362f0740445a2966b789b1f4e2f82ffac"
+    },
+    {
+      "filename": "140_img_.png",
+      "input_path": "datasets/source_copies/UIEB/raw-890/140_img_.png",
+      "gt_path": "datasets/source_copies/UIEB/reference-890/140_img_.png",
+      "input_sha256": "8459d2ce913a4990b50b3854add27e711dc062281b2354e2c48fbf2c7adc3ea0",
+      "gt_sha256": "94a35217a850925702d25cc600b25ce2c97fc4bf9a78aefd6db195bde0d1f3b8"
+    },
+    {
+      "filename": "141_img_.png",
+      "input_path": "datasets/source_copies/UIEB/raw-890/141_img_.png",
+      "gt_path": "datasets/source_copies/UIEB/reference-890/141_img_.png",
+      "input_sha256": "206cda23156e739b065aae236f12797792cee8701999747e020fdf7a8311d413",
+      "gt_sha256": "ed68315776b2641d6eb663b151fc75946f4dc7dceac2f8e9fddf9cbc0a6c7b8f"
+    },
+    {
+      "filename": "142_img_.png",
+      "input_path": "datasets/source_copies/UIEB/raw-890/142_img_.png",
+      "gt_path": "datasets/source_copies/UIEB/reference-890/142_img_.png",
+      "input_sha256": "f4ae95865aaebdb7dc3c57d49fac8983d82d26f62ef57ba03172f18de602552e",
+      "gt_sha256": "906f6b30dae026b316eebc9b8ebae09c73085309ff4572097ad86a369bf48be3"
+    },
+    {
+      "filename": "143_img_.png",
+      "input_path": "datasets/source_copies/UIEB/raw-890/143_img_.png",
+      "gt_path": "datasets/source_copies/UIEB/reference-890/143_img_.png",
+      "input_sha256": "8b886043e69e7b52d953cf18b9cfc2cab920ed1d70ebea41948ddc7c3181dca7",
+      "gt_sha256": "64fb6d330b5a1aca77ffed6826f289c9b8c52cac627a611a465859fe009400a2"
+    },
+    {
+      "filename": "144_img_.png",
+      "input_path": "datasets/source_copies/UIEB/raw-890/144_img_.png",
+      "gt_path": "datasets/source_copies/UIEB/reference-890/144_img_.png",
+      "input_sha256": "97eb07c98944bbc69c55df3aed46df7a7015edd6cc009bf9b42e49419084c4b0",
+      "gt_sha256": "cea4933b98bcfcd84bed0d54faa29c8b359a1af275e906a60e94f7c7780d8140"
+    },
+    {
+      "filename": "145_img_.png",
+      "input_path": "datasets/source_copies/UIEB/raw-890/145_img_.png",
+      "gt_path": "datasets/source_copies/UIEB/reference-890/145_img_.png",
+      "input_sha256": "abae3e8c269fff5256d2200da8ed87b248cca1eeebecd5b90014f84349e1aab2",
+      "gt_sha256": "02fcae233029e7c86ad4d6ffee7e9b467c8c32ea1890b15a4e666fce60b36004"
+    },
+    {
+      "filename": "146_img_.png",
+      "input_path": "datasets/source_copies/UIEB/raw-890/146_img_.png",
+      "gt_path": "datasets/source_copies/UIEB/reference-890/146_img_.png",
+      "input_sha256": "fbdd14e96d324e7da4a69d31f64ee3700bb34a7492a1134de9b838709ff830ce",
+      "gt_sha256": "89f6cb7e3149bea46c2624383a8cac72ca011cca0d31628949b9a856fe6b2f9f"
+    },
+    {
+      "filename": "148_img_.png",
+      "input_path": "datasets/source_copies/UIEB/raw-890/148_img_.png",
+      "gt_path": "datasets/source_copies/UIEB/reference-890/148_img_.png",
+      "input_sha256": "88ce369b78d3f8f0458b0624badd554b4157d5121ee0ef22ae11dff91361bf29",
+      "gt_sha256": "c0cc3146eb14e14219ee9bfb62f108afb81be9d8ab4e9a2ab03165417a2e8fd3"
+    },
+    {
+      "filename": "1491.png",
+      "input_path": "datasets/source_copies/UIEB/raw-890/1491.png",
+      "gt_path": "datasets/source_copies/UIEB/reference-890/1491.png",
+      "input_sha256": "84eb5be5496afaf07d4bae0e669ea2b51b23e569a46593659bfa487b099b4abb",
+      "gt_sha256": "7d3fbe33314430787818fee8f7b134c9bdad043cbd1e484d6c772f2ec0b03b09"
+    },
+    {
+      "filename": "149_img_.png",
+      "input_path": "datasets/source_copies/UIEB/raw-890/149_img_.png",
+      "gt_path": "datasets/source_copies/UIEB/reference-890/149_img_.png",
+      "input_sha256": "486fd9d04c91fd3f3b36d3437cae8fed8c90dd597bc609e917a82bdf773acdec",
+      "gt_sha256": "0af4b7bb1bf9a9fe4e4f63301ce7001e8fdcc44056ea643815e73dd84e60a4f1"
+    },
+    {
+      "filename": "14_img_.png",
+      "input_path": "datasets/source_copies/UIEB/raw-890/14_img_.png",
+      "gt_path": "datasets/source_copies/UIEB/reference-890/14_img_.png",
+      "input_sha256": "88decd19c7d9e6ecc528286c97104ae2006c00944ca23a9e8fdc3fd2d0b783df",
+      "gt_sha256": "72bfca3b2bb7486d75299661aa07a729ed1aafb4fe8cb16899b9b56064e9e7f2"
+    },
+    {
+      "filename": "15001.png",
+      "input_path": "datasets/source_copies/UIEB/raw-890/15001.png",
+      "gt_path": "datasets/source_copies/UIEB/reference-890/15001.png",
+      "input_sha256": "de852c0bf8499914c35618f61070d61d57e8d7fdf8fbca17a17c4ddae2f2717f",
+      "gt_sha256": "a0a9581eceef0dc3800959a457483be20da41df685c3fb792edb63faa1c4617a"
+    },
+    {
+      "filename": "15003.png",
+      "input_path": "datasets/source_copies/UIEB/raw-890/15003.png",
+      "gt_path": "datasets/source_copies/UIEB/reference-890/15003.png",
+      "input_sha256": "d6c9be9197e39e72d604ddf61deec89e48e150d6ba4dfc24869b0f5db32321a7",
+      "gt_sha256": "b8275e4de9ab3237ddc5dc1746116eaa9582ac775216a02f7ff139a5d1b4b1cc"
+    },
+    {
+      "filename": "15045.png",
+      "input_path": "datasets/source_copies/UIEB/raw-890/15045.png",
+      "gt_path": "datasets/source_copies/UIEB/reference-890/15045.png",
+      "input_sha256": "2a0fe4632e696f30d07d73f9d9fa03690e5a9a5938241c2051e6b9f7203a40c7",
+      "gt_sha256": "f102b8e480d1893fd11d3348bcf5f04e73d22c17db38c48988b9203dc51a0815"
+    },
+    {
+      "filename": "15094.png",
+      "input_path": "datasets/source_copies/UIEB/raw-890/15094.png",
+      "gt_path": "datasets/source_copies/UIEB/reference-890/15094.png",
+      "input_sha256": "4d11819cfec6ada5c1a7c0f8ce1d737f1834a6bc12bedbc8a18e8965c7ba5af3",
+      "gt_sha256": "789a3c89eb9d3baa28e90270843c3a75fcfaf390f0c362f4346d607bcee62bab"
+    },
+    {
+      "filename": "150_img_.png",
+      "input_path": "datasets/source_copies/UIEB/raw-890/150_img_.png",
+      "gt_path": "datasets/source_copies/UIEB/reference-890/150_img_.png",
+      "input_sha256": "c884ad092dcd905059324f55330e6c507510ed7adc2bc1f284c19870f021a012",
+      "gt_sha256": "41ea642292994abea00163e30a4555e412101a47a9d63706ff8090eec2ae0e56"
+    },
+    {
+      "filename": "15113.png",
+      "input_path": "datasets/source_copies/UIEB/raw-890/15113.png",
+      "gt_path": "datasets/source_copies/UIEB/reference-890/15113.png",
+      "input_sha256": "0bc041605aae5b4fef23df1ca53a4208384a704e3f89c80e451d7d9c0e9ca430",
+      "gt_sha256": "16deaf787038e7126bebf2706e36298fd1a742c316a16347afe6aec2ec099539"
+    },
+    {
+      "filename": "15136.png",
+      "input_path": "datasets/source_copies/UIEB/raw-890/15136.png",
+      "gt_path": "datasets/source_copies/UIEB/reference-890/15136.png",
+      "input_sha256": "c42242a7afbe3b84d4e2e3dd6eb3be6ce412657146fdcbed0068b38c990ef237",
+      "gt_sha256": "91c2ae11308ed5512b1a294efffa94e4bcccb9752c6e4b2f1ae85c57d34e168c"
+    },
+    {
+      "filename": "151_img_.png",
+      "input_path": "datasets/source_copies/UIEB/raw-890/151_img_.png",
+      "gt_path": "datasets/source_copies/UIEB/reference-890/151_img_.png",
+      "input_sha256": "d01d9b7f738167a7e703758e77412f5958fbabc867b8c0e07edf6d9e56abb8e2",
+      "gt_sha256": "3fcadd5e25ac8df4fce3af10c778f32b4b39218a91b702335d4a4d57c027db64"
+    },
+    {
+      "filename": "152_img_.png",
+      "input_path": "datasets/source_copies/UIEB/raw-890/152_img_.png",
+      "gt_path": "datasets/source_copies/UIEB/reference-890/152_img_.png",
+      "input_sha256": "6d31d6c04c7871b6b4f8d0f096a0b858e8e8b03b24b6a950718b6814a81654a1",
+      "gt_sha256": "5af95ff6b5b0071f4a6ea4f690a009f0dbe0b89227fcb5e3e25677f7f6f4785a"
+    },
+    {
+      "filename": "1539.png",
+      "input_path": "datasets/source_copies/UIEB/raw-890/1539.png",
+      "gt_path": "datasets/source_copies/UIEB/reference-890/1539.png",
+      "input_sha256": "517a9df5aaea3135deaa340f2430f00c7cbca147f0064962c3627c708bf173be",
+      "gt_sha256": "98cdef4cf382fa9d2b56b186f51053b59620a1fc248880b0db28d82faed4036a"
+    },
+    {
+      "filename": "153_img_.png",
+      "input_path": "datasets/source_copies/UIEB/raw-890/153_img_.png",
+      "gt_path": "datasets/source_copies/UIEB/reference-890/153_img_.png",
+      "input_sha256": "d4d2ae7d3132ebfecbc61a23b4d0b7f6410c75cc61e88dbc7aaf00a3d1255984",
+      "gt_sha256": "f682abf26c0fd3e78cf0634da72585a46b5e5a3dcd72ac8e6f0244000d85e049"
+    },
+    {
+      "filename": "15418.png",
+      "input_path": "datasets/source_copies/UIEB/raw-890/15418.png",
+      "gt_path": "datasets/source_copies/UIEB/reference-890/15418.png",
+      "input_sha256": "6085923bfb5b0db8f397475d2eb3569d26f45cfec1f7a03f91390b8e4204ca94",
+      "gt_sha256": "1ffb743acb46b50a9b7fa5d21fd1d39513515e458021ed5b91ed7ca493e913fe"
+    },
+    {
+      "filename": "15426.png",
+      "input_path": "datasets/source_copies/UIEB/raw-890/15426.png",
+      "gt_path": "datasets/source_copies/UIEB/reference-890/15426.png",
+      "input_sha256": "32a3b9fe65a899c7b970952e5f57018f5fc7a478fa36583ec5474186866818ed",
+      "gt_sha256": "a4a8c062f3da63c278fa0cf0d0d232db013741c43a042ada591173c89c2ee7d2"
+    },
+    {
+      "filename": "154_img_.png",
+      "input_path": "datasets/source_copies/UIEB/raw-890/154_img_.png",
+      "gt_path": "datasets/source_copies/UIEB/reference-890/154_img_.png",
+      "input_sha256": "c154eb5736edb8cb5826c6eae30baa6eef1b16a2c96292c1a11c559c6780f794",
+      "gt_sha256": "7eb2a1970fc2c2893bf741d324c4c41f920a0ebeacf5ebfb60136beec51be25c"
+    },
+    {
+      "filename": "15544.png",
+      "input_path": "datasets/source_copies/UIEB/raw-890/15544.png",
+      "gt_path": "datasets/source_copies/UIEB/reference-890/15544.png",
+      "input_sha256": "8c492e2d21ab4dbe7aab8aa823d179059301e7f1fd2e799dcc899ccea42fa1cb",
+      "gt_sha256": "2da40cc2f7b6a11a54f91b47969af101d77a3315bbacb0fbdbb850c3ab3fce43"
+    },
+    {
+      "filename": "155_img_.png",
+      "input_path": "datasets/source_copies/UIEB/raw-890/155_img_.png",
+      "gt_path": "datasets/source_copies/UIEB/reference-890/155_img_.png",
+      "input_sha256": "3adc2500ba3ff6be3d8d0d86cb7fe3edb7bffbb788eba02799580f26055d689d",
+      "gt_sha256": "221b60072d3e3a9a48a0ff08865310e3ea8e171048d3fc552ff09eb426794e34"
+    },
+    {
+      "filename": "156_img_.png",
+      "input_path": "datasets/source_copies/UIEB/raw-890/156_img_.png",
+      "gt_path": "datasets/source_copies/UIEB/reference-890/156_img_.png",
+      "input_sha256": "bb3c71a753ef716d3ea358bead5610be227e4cb34379d3e4b7b4cbfdeb28ae50",
+      "gt_sha256": "3264b7ecfe984512d511c52cbea21cb4aaa14a0cc054b30f0b159d33c9b95856"
+    },
+    {
+      "filename": "15704.png",
+      "input_path": "datasets/source_copies/UIEB/raw-890/15704.png",
+      "gt_path": "datasets/source_copies/UIEB/reference-890/15704.png",
+      "input_sha256": "18be4608edbed8e07f30dde0bfcacad98fddea6348b194c7ac9be743fa872e55",
+      "gt_sha256": "0c1e66c843c20581ec5527b035ef07b707dc0abe30963ed66012742d8aaafc8c"
+    },
+    {
+      "filename": "1573.png",
+      "input_path": "datasets/source_copies/UIEB/raw-890/1573.png",
+      "gt_path": "datasets/source_copies/UIEB/reference-890/1573.png",
+      "input_sha256": "d14d79e47c4ec61fd3b0f3634ab30ccc41a91e177ea3092e97e179036859d811",
+      "gt_sha256": "4e889e37306fbf9d7b85eee1b4e48dbe51e820e809d58d881e3a1b0d0f044984"
+    },
+    {
+      "filename": "157_img_.png",
+      "input_path": "datasets/source_copies/UIEB/raw-890/157_img_.png",
+      "gt_path": "datasets/source_copies/UIEB/reference-890/157_img_.png",
+      "input_sha256": "a79f3df27057a6451782f4dc070e388453cf4e96bb08408832cdfe84f81ca9ad",
+      "gt_sha256": "cc40affd8f269e4cbcc2c5e54c5287a7b81801e36fb2e34526e5baef53c59b13"
+    },
+    {
+      "filename": "158_img_.png",
+      "input_path": "datasets/source_copies/UIEB/raw-890/158_img_.png",
+      "gt_path": "datasets/source_copies/UIEB/reference-890/158_img_.png",
+      "input_sha256": "2ab193998488f2423853dc8c03b570715e76ac640c47489224838e7da6757bd2",
+      "gt_sha256": "a986b1bb781c3d381e2316c47388e72b00290cc967ab8cdc50de11c1eb64d30d"
+    },
+    {
+      "filename": "159_img_.png",
+      "input_path": "datasets/source_copies/UIEB/raw-890/159_img_.png",
+      "gt_path": "datasets/source_copies/UIEB/reference-890/159_img_.png",
+      "input_sha256": "0f2dbc47d7486111ea19f566120d8d3abf56c0081a83725dc9a2211477e20a39",
+      "gt_sha256": "9e3aabbf5ff2e0ce303233bc5ed58590668234e722bc5729ce7f7df380412405"
+    },
+    {
+      "filename": "15_img_.png",
+      "input_path": "datasets/source_copies/UIEB/raw-890/15_img_.png",
+      "gt_path": "datasets/source_copies/UIEB/reference-890/15_img_.png",
+      "input_sha256": "02c5c79f3561de917d6e48173dd87f1789efc05e765f9e439cf7ecf572483a2c",
+      "gt_sha256": "a8750b9f6312d54014ce4de78d886e8c55af922773272c59ae63d567a89a0f3c"
+    },
+    {
+      "filename": "160_img_.png",
+      "input_path": "datasets/source_copies/UIEB/raw-890/160_img_.png",
+      "gt_path": "datasets/source_copies/UIEB/reference-890/160_img_.png",
+      "input_sha256": "8019a7eb7b2b183a3139bcf23199d404960cdd2df5853e0de60cc7603956d951",
+      "gt_sha256": "ecb2af21f378c459473ea54e515578ae894ce841a3e14dc978c2c869d14a38da"
+    },
+    {
+      "filename": "161_img_.png",
+      "input_path": "datasets/source_copies/UIEB/raw-890/161_img_.png",
+      "gt_path": "datasets/source_copies/UIEB/reference-890/161_img_.png",
+      "input_sha256": "894afd2ad456deda35c5d8834cee627d88daba8c06d7fea7f4cbeda43da70fff",
+      "gt_sha256": "cbaabe8dd40bf84ecbdc9795f91c9528529e439bcd6761fe0ec474d062806e29"
+    }
+  ]
+}

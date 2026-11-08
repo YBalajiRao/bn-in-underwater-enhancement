@@ -1,0 +1,46 @@
+{
+  "stage": "candidate_manifest_creation_v1",
+  "status": "PASS",
+  "repair_policy": {
+    "train_exact_duplicates_removed": 28,
+    "train_type_b_quarantined": 8,
+    "cross_split_type_b_quarantined": {
+      "train": 1,
+      "val": 1
+    },
+    "cross_split_val_removed_type_a_and_c": 10,
+    "test_preserved_unchanged": 400
+  },
+  "split_counts": {
+    "train": 3463,
+    "val": 368,
+    "test": 400,
+    "total_active_pool": 4231
+  },
+  "cross_split_overlaps": {
+    "train_vs_val": {
+      "input_overlap": 0,
+      "target_overlap": 0,
+      "pair_overlap": 0
+    },
+    "train_vs_test": {
+      "input_overlap": 0,
+      "target_overlap": 0,
+      "pair_overlap": 0
+    },
+    "val_vs_test": {
+      "input_overlap": 0,
+      "target_overlap": 0,
+      "pair_overlap": 0
+    }
+  },
+  "test_manifest_identical_to_original": true,
+  "deliverables": [
+    "D:\\MARINE_NET_RESEARCH\\datasets\\splits\\candidate_v1\\lsui_train_3463.json",
+    "D:\\MARINE_NET_RESEARCH\\datasets\\splits\\candidate_v1\\lsui_val_368.json",
+    "D:\\MARINE_NET_RESEARCH\\datasets\\splits\\candidate_v1\\lsui_test_400.json",
+    "D:\\MARINE_NET_RESEARCH\\datasets\\splits\\candidate_v1\\split_change_log.csv",
+    "D:\\MARINE_NET_RESEARCH\\datasets\\splits\\candidate_v1\\candidate_validation_report.md",
+    "D:\\MARINE_NET_RESEARCH\\datasets\\splits\\candidate_v1\\candidate_summary.json"
+  ]
+}

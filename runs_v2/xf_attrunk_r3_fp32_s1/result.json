@@ -1,0 +1,61 @@
+{
+ "model": "at_trunk",
+ "params": 1952768,
+ "seed": 1,
+ "epochs": 100,
+ "args": {
+  "model": "at_trunk",
+  "run_name": "xf_attrunk_r3_fp32_s1",
+  "epochs": 100,
+  "warmup": 3,
+  "bs": 4,
+  "accum": 1,
+  "lr": 0.0002,
+  "wd": 1e-05,
+  "eta_min": 2e-08,
+  "clip": 1.0,
+  "seed": 1,
+  "workers": 2,
+  "amp": false,
+  "loss_in_autocast": false,
+  "skip_zero_weight_perceptual": true,
+  "no_jitter": true,
+  "stop_after": null,
+  "time_iters": 0,
+  "smoke": 0,
+  "train_limit": null,
+  "resume": false,
+  "underfit_n": 300,
+  "select_on": "val_A",
+  "recipe": "XF_R3_fp32_floor"
+ },
+ "train_300_random": {
+  "n": 300,
+  "psnr_mean": 29.311898426214853,
+  "psnr_median": 29.468733072280884,
+  "ssim_mean": 0.9381043287118276
+ },
+ "manifest_sha256": {
+  "train": "b4871a988053430c3023f4ee1055282a538be649a3d2b8df748ded54cde0e814",
+  "val_A": "2d8daae6aeb6f72af4f4b7450c2bbe53ebee6866f68cce0daedb14d15cf9ddc1"
+ },
+ "env": {
+  "git_commit": "a328b0b",
+  "python": "3.12.0",
+  "torch": "2.7.1+cu118",
+  "gpu": "NVIDIA GeForce RTX 3070",
+  "command": "v2_tools/train_v2_no_valb_xfms.py --recipe XF_R3_fp32_floor --model at_trunk --seed 1 --run_name xf_attrunk_r3_fp32_s1"
+ },
+ "best_valA_epoch": 97,
+ "best_valA": {
+  "n": 166,
+  "psnr_mean": 28.221683990524475,
+  "psnr_median": 28.631364107131958,
+  "ssim_mean": 0.9312416634645807
+ },
+ "checkpoint_sha256": {
+  "best_valA.pth": "a3669cace97b97b7997c92ad892d1157c8bd68ecc4bbbbc3e91fc451fc897080",
+  "last.pth": "cf46887e096486bc5ad0df8dec3893ff62b9d65ea40f2efffe4a60777c24e30e"
+ },
+ "run_seconds": 18449.058043718338
+}

@@ -1,0 +1,174 @@
+{
+ "meta": {
+  "dataset": "s5_e1r",
+  "out": "D:\\MARINE_NET_RESEARCH\\paper1_uieb_runs\\s5_e1r",
+  "checkpoint": "best_valA",
+  "script_sha256": "24ef8a6919f90d25dcbd7e318ad4491920b2fed16d2c9a8e4c5da8e3d61ff0c1",
+  "models": [
+   "marinenet_bn_s0",
+   "marinenet_bn_s1",
+   "marinenet_bn_s2",
+   "marinenet_in_s0",
+   "marinenet_in_s1",
+   "marinenet_in_s2",
+   "attrunk_bn_s0",
+   "attrunk_bn_s1",
+   "attrunk_bn_s2",
+   "attrunk_in_s0",
+   "attrunk_in_s1",
+   "attrunk_in_s2"
+  ],
+  "seconds": 1046.8,
+  "torch": "2.7.1+cu118",
+  "gpu": "NVIDIA GeForce RTX 3070",
+  "checkpoints_unchanged_after_run": true,
+  "n_uieb": 787,
+  "n_hicrd": 2000
+ },
+ "exactness": {
+  "UIEB|marinenet_bn_s0": {
+   "exact": true,
+   "max_rel_err": 8.911226564411496e-16,
+   "max_abs_err_Rsplit": 6.938893903907228e-18,
+   "n_const_channels": 0
+  },
+  "UIEB|marinenet_bn_s1": {
+   "exact": true,
+   "max_rel_err": 1.1727018146441265e-15,
+   "max_abs_err_Rsplit": 3.469446951953614e-18,
+   "n_const_channels": 0
+  },
+  "UIEB|marinenet_bn_s2": {
+   "exact": true,
+   "max_rel_err": 1.8627424998893286e-15,
+   "max_abs_err_Rsplit": 3.469446951953614e-18,
+   "n_const_channels": 0
+  },
+  "UIEB|marinenet_in_s0": {
+   "exact": true,
+   "max_rel_err": 2.444107882070061e-15,
+   "max_abs_err_Rsplit": 3.469446951953614e-18,
+   "n_const_channels": 0
+  },
+  "UIEB|marinenet_in_s1": {
+   "exact": true,
+   "max_rel_err": 3.355369760034915e-15,
+   "max_abs_err_Rsplit": 3.469446951953614e-18,
+   "n_const_channels": 0
+  },
+  "UIEB|marinenet_in_s2": {
+   "exact": true,
+   "max_rel_err": 2.7313313570371302e-15,
+   "max_abs_err_Rsplit": 6.938893903907228e-18,
+   "n_const_channels": 0
+  },
+  "UIEB|attrunk_bn_s0": {
+   "exact": true,
+   "max_rel_err": 1.7645310015532872e-15,
+   "max_abs_err_Rsplit": 3.469446951953614e-18,
+   "n_const_channels": 0
+  },
+  "UIEB|attrunk_bn_s1": {
+   "exact": true,
+   "max_rel_err": 1.9672212035193213e-15,
+   "max_abs_err_Rsplit": 3.469446951953614e-18,
+   "n_const_channels": 0
+  },
+  "UIEB|attrunk_bn_s2": {
+   "exact": true,
+   "max_rel_err": 1.0152395320499229e-15,
+   "max_abs_err_Rsplit": 3.469446951953614e-18,
+   "n_const_channels": 0
+  },
+  "UIEB|attrunk_in_s0": {
+   "exact": true,
+   "max_rel_err": 2.1808059535945133e-15,
+   "max_abs_err_Rsplit": 6.938893903907228e-18,
+   "n_const_channels": 0
+  },
+  "UIEB|attrunk_in_s1": {
+   "exact": true,
+   "max_rel_err": 1.4106947759080016e-15,
+   "max_abs_err_Rsplit": 3.469446951953614e-18,
+   "n_const_channels": 0
+  },
+  "UIEB|attrunk_in_s2": {
+   "exact": true,
+   "max_rel_err": 1.6917170525218618e-15,
+   "max_abs_err_Rsplit": 6.938893903907228e-18,
+   "n_const_channels": 0
+  },
+  "HICRD|marinenet_bn_s0": {
+   "exact": true,
+   "max_rel_err": 1.278507942619424e-15,
+   "max_abs_err_Rsplit": 4.336808689942018e-19,
+   "n_const_channels": 0
+  },
+  "HICRD|marinenet_bn_s1": {
+   "exact": true,
+   "max_rel_err": 1.7705375428081342e-15,
+   "max_abs_err_Rsplit": 3.2526065174565133e-19,
+   "n_const_channels": 0
+  },
+  "HICRD|marinenet_bn_s2": {
+   "exact": true,
+   "max_rel_err": 1.147159607098209e-15,
+   "max_abs_err_Rsplit": 4.336808689942018e-19,
+   "n_const_channels": 0
+  },
+  "HICRD|marinenet_in_s0": {
+   "exact": true,
+   "max_rel_err": 1.137282109784818e-15,
+   "max_abs_err_Rsplit": 3.2526065174565133e-19,
+   "n_const_channels": 0
+  },
+  "HICRD|marinenet_in_s1": {
+   "exact": true,
+   "max_rel_err": 1.0198210744590827e-15,
+   "max_abs_err_Rsplit": 2.168404344971009e-19,
+   "n_const_channels": 0
+  },
+  "HICRD|marinenet_in_s2": {
+   "exact": true,
+   "max_rel_err": 1.103216050588583e-15,
+   "max_abs_err_Rsplit": 2.168404344971009e-19,
+   "n_const_channels": 0
+  },
+  "HICRD|attrunk_bn_s0": {
+   "exact": true,
+   "max_rel_err": 1.282848019453909e-15,
+   "max_abs_err_Rsplit": 2.168404344971009e-19,
+   "n_const_channels": 0
+  },
+  "HICRD|attrunk_bn_s1": {
+   "exact": true,
+   "max_rel_err": 1.5354332525208415e-15,
+   "max_abs_err_Rsplit": 1.6263032587282567e-19,
+   "n_const_channels": 0
+  },
+  "HICRD|attrunk_bn_s2": {
+   "exact": true,
+   "max_rel_err": 1.2387052755365073e-15,
+   "max_abs_err_Rsplit": 2.168404344971009e-19,
+   "n_const_channels": 0
+  },
+  "HICRD|attrunk_in_s0": {
+   "exact": true,
+   "max_rel_err": 1.0106640639449687e-15,
+   "max_abs_err_Rsplit": 2.168404344971009e-19,
+   "n_const_channels": 0
+  },
+  "HICRD|attrunk_in_s1": {
+   "exact": true,
+   "max_rel_err": 8.214945143527889e-16,
+   "max_abs_err_Rsplit": 2.168404344971009e-19,
+   "n_const_channels": 0
+  },
+  "HICRD|attrunk_in_s2": {
+   "exact": true,
+   "max_rel_err": 1.2516374162667361e-15,
+   "max_abs_err_Rsplit": 3.2526065174565133e-19,
+   "n_const_channels": 0
+  }
+ }
+}

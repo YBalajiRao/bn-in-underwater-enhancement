@@ -1,0 +1,61 @@
+{
+ "model": "marine_default_in",
+ "params": 2609401,
+ "seed": 0,
+ "epochs": 100,
+ "args": {
+  "model": "marine_default_in",
+  "run_name": "marinenet_in_r3_fp32_s0",
+  "epochs": 100,
+  "warmup": 3,
+  "bs": 4,
+  "accum": 1,
+  "lr": 0.0002,
+  "wd": 1e-05,
+  "eta_min": 2e-08,
+  "clip": 1.0,
+  "seed": 0,
+  "workers": 2,
+  "amp": false,
+  "loss_in_autocast": false,
+  "skip_zero_weight_perceptual": true,
+  "no_jitter": true,
+  "stop_after": null,
+  "time_iters": 0,
+  "smoke": 0,
+  "train_limit": null,
+  "resume": false,
+  "underfit_n": 300,
+  "select_on": "val_A",
+  "recipe": "XFIN_R3_fp32_floor_IN"
+ },
+ "train_300_random": {
+  "n": 300,
+  "psnr_mean": 34.8821239233017,
+  "psnr_median": 34.27705764770508,
+  "ssim_mean": 0.9498028216759363
+ },
+ "manifest_sha256": {
+  "train": "b4871a988053430c3023f4ee1055282a538be649a3d2b8df748ded54cde0e814",
+  "val_A": "2d8daae6aeb6f72af4f4b7450c2bbe53ebee6866f68cce0daedb14d15cf9ddc1"
+ },
+ "env": {
+  "git_commit": "3bc15ee",
+  "python": "3.12.0",
+  "torch": "2.7.1+cu118",
+  "gpu": "NVIDIA GeForce RTX 3070",
+  "command": "v2_tools/train_v2_no_valb_marinenetms.py --recipe XFIN_R3_fp32_floor_IN --model marine_default_in --seed 0 --run_name marinenet_in_r3_fp32_s0"
+ },
+ "best_valA_epoch": 94,
+ "best_valA": {
+  "n": 166,
+  "psnr_mean": 30.610939149396966,
+  "psnr_median": 29.95205283164978,
+  "ssim_mean": 0.9383874733045877
+ },
+ "checkpoint_sha256": {
+  "best_valA.pth": "a1e5854951250e25ebae5f174c64fef8bf2498506f455ace7cf44b27192b0008",
+  "last.pth": "2d02f6e40a087d83038a801039b42788560fd8fb253caf3256e27f0807155cb3"
+ },
+ "run_seconds": 25243.51833629608
+}

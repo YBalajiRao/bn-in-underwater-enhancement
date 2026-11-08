@@ -1,0 +1,25 @@
+{
+ "n_images": 2000,
+ "n_edges_ge_min": 10205,
+ "seconds": 1308.9,
+ "thresholds": {
+  "15": {
+   "n_clusters": 146,
+   "largest": 213,
+   "singletons": 39,
+   "clusters_spanning_test_and_train": 6
+  },
+  "30": {
+   "n_clusters": 188,
+   "largest": 163,
+   "singletons": 57,
+   "clusters_spanning_test_and_train": 6
+  },
+  "60": {
+   "n_clusters": 303,
+   "largest": 163,
+   "singletons": 134,
+   "clusters_spanning_test_and_train": 6
+  }
+ }
+}

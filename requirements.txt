@@ -1,0 +1,13 @@
+# Environment used for this study: Python 3.12.0, CUDA 11.8 (install PyTorch from https://pytorch.org for your CUDA version)
+torch==2.7.1
+torchvision==0.22.1
+numpy==2.5.4
+scipy==1.18.1
+Pillow==13.0.0
+opencv-python==4.8.1.78
+matplotlib==3.11.2
+
+# Optional: LPIPS in paper1_final_eval.py
+lpips
+# Optional: FUnIE-GAN comparator (released Keras model) in sota_hicrd_infer_r.py
+tf_keras

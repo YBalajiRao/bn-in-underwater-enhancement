@@ -1,0 +1,37 @@
+{
+ "meta": {
+  "geometry": "aspect482",
+  "models": [
+   "waternet_lsui_s0"
+  ],
+  "status": "EXPLORATORY: each Group T baseline is a single training run (n = 1). Contrasts against it describe these specific trained models only and cannot support any training-seed-level superiority claim; the baseline's seed variability is unknown.",
+  "n_pairs": 2000,
+  "out": "D:\\MARINE_NET_RESEARCH\\paper1_uieb_runs\\sota_hicrd_retrained_G482",
+  "batch": 4,
+  "test_mode": false,
+  "checkpoints": {
+   "waternet_lsui_s0": "af168d31cf1632bb2f9c550e32670eab1c39f28714c2a60bdfedbfc30c3565b3"
+  },
+  "protocol_sha256": "2d29442248a57ac6a164c7e2e3e09420e781a972fdde95b9466748b417da1000",
+  "torch": "2.7.1+cu118",
+  "device": "cuda",
+  "seconds": 814.8
+ },
+ "models": {
+  "waternet_lsui_s0": {
+   "exact": true,
+   "max_rel_err": 1.2206071650040852e-15,
+   "max_abs_psnr_vs_mse_dB": 2.1562323269108674e-06,
+   "n": 2000,
+   "mean_psnr": 22.610776958465575,
+   "memory": {
+    "device": "cuda",
+    "free_bytes": 7434403840,
+    "total_bytes": 8589410304,
+    "peak_allocated_bytes": 789326848,
+    "peak_reserved_bytes": 832569344
+   },
+   "checkpoint_unchanged": true
+  }
+ }
+}

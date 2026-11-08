@@ -1,0 +1,46 @@
+{
+ "same_scene_labelled": {
+  "test298~test297": 269,
+  "test189~test200": 198,
+  "test296~test297": 288,
+  "test36~test37": 291,
+  "test149~test150": 205,
+  "test134~test145": 248,
+  "test234~test236": 235,
+  "test117~test119": 202,
+  "test105~test106": 174,
+  "test267~test269": 250,
+  "test77~test65": 281,
+  "test222~test211": 165,
+  "test233~test222": 217,
+  "test225~test224": 226,
+  "test29~test102": 122
+ },
+ "different_visual": {
+  "test227~test41": 0
+ },
+ "cross_site_negatives": {
+  "n": 200,
+  "max": 5,
+  "q99": 4.009999999999991,
+  "median": 0.0
+ },
+ "same_min": 122,
+ "same_values_sorted": [
+  122,
+  165,
+  174,
+  198,
+  202,
+  205,
+  217,
+  226,
+  235,
+  248,
+  250,
+  269,
+  281,
+  288,
+  291
+ ]
+}

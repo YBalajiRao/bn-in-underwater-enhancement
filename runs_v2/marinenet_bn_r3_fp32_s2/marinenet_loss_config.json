@@ -1,0 +1,172 @@
+{
+ "experiment": "MARINENETMS-BN: MARINE-Net original architecture (40 BatchNorm2d), trained under the recipe of XF / XFIN seed 2 (R3 loss, fp32, cosine floor 2e-8); compared with the AT-Trunk run xf_attrunk_r3_fp32_s2 and, across variants, with the other MARINE-Net variant of the same seed",
+ "run_name": "marinenet_bn_r3_fp32_s2",
+ "recipe_name": "XF_R3_fp32_floor",
+ "model": "marine_default",
+ "params": 2609401,
+ "seed": 2,
+ "baseline_reference": {
+  "primary": "xf_attrunk_r3_fp32_s2",
+  "primary_recipe": "XF_R3_fp32_floor",
+  "result_json_read_by_tooling": true,
+  "note": "the result.json of the AT-Trunk run of this seed (train + val_A manifests only) is read by the preflight and the gate for the args pairing and must have its pinned SHA-256; no other run's result.json is opened (the MARINE-Net R3 AMP runs are deliberately not opened)",
+  "result_json_sha256": "3d2f5cd854d37fe6d9e2344f266f24ab37566758fb8d0081cce5a8bee6ac058a",
+  "comparison_rule": "descriptive paired report only (Option A): no class, threshold or margin; all Val-A numbers are exploratory"
+ },
+ "recipe_args": {
+  "epochs": 100,
+  "warmup": 3,
+  "bs": 4,
+  "accum": 1,
+  "lr": 0.0002,
+  "wd": 1e-05,
+  "eta_min": 2e-08,
+  "clip": 1.0,
+  "amp": false,
+  "loss_in_autocast": false,
+  "skip_zero_weight_perceptual": true,
+  "no_jitter": true,
+  "stop_after": null,
+  "select_on": "val_A"
+ },
+ "differs_from_r3": {
+  "amp": [
+   true,
+   false
+  ],
+  "eta_min": [
+   1e-06,
+   2e-08
+  ]
+ },
+ "data": {
+  "manifest_scope": "ONLY the train and val_A manifests are hashed / loaded; val_B, val and val_clean are removed from train_v2.MANIFESTS before train_v2.main() runs; UIEB is never referenced",
+  "allowed_manifests": [
+   "train",
+   "val_A"
+  ],
+  "expected_counts": {
+   "train": 3463,
+   "val_A": 166
+  },
+  "hash_prefixes": {
+   "train": "b4871a98",
+   "val_A": "2d8daae6"
+  }
+ },
+ "loss": {
+  "implementation": "original_repo/marine_net_model.py :: MARINELoss (unchanged, SHA-256 pinned) via train_v2.build exactly as for the earlier MARINE-Net R3 runs: MARINE-Net has NO final_output_only attribute, so the loss is MARINELoss itself (NOT FinalOutputLoss) and train_v2.ZeroLoss replaces the zero-weight perceptual term",
+  "weights": {
+   "l1": 1.0,
+   "aux_l1_each": 0.3,
+   "ssim11": 0.5,
+   "perceptual": 0.0,
+   "gradient": 0.4,
+   "color_stats": 0.2
+  },
+  "equation": "1.0*L1(clamp(pred),clamp(y)) + 0.5*(1-SSIM11) + 0.4*GradientL1 + 0.2*ColourStats(mean MSE + std MSE) + 0.3*(L1(cnn_output,y) + L1(inr_output,y)) [ACTIVE: real branch outputs] [+ 0.0*perceptual]",
+  "clamp": "pred and target are clamped to [0,1] inside the loss; MARINE-Net clamps enhanced, cnn_output and inr_output inside the model as well",
+  "precision": "fp32 forward and fp32 loss (amp False, no GradScaler); convolution TF32 is left at the PyTorch default and recorded under 'runtime'",
+  "non_finite_guard": "train_v2.step is replaced by the reviewed XR guarded_step wrapped by a recorder: clip_grad_norm_ as before, a non-finite total norm raises FloatingPointError BEFORE optimizer.step (train_v2.step would step with NaN gradients under fp32)",
+  "r3_internal_nan_guards": "MARINELoss replaces a non-finite term by a constant; that masking is part of the R3 definition and is NOT altered; the driver and gate additionally stop on non-finite gradient norms",
+  "auxiliary_terms": "ACTIVE for MARINE-Net (cnn_output and inr_output are real tensors); exactly zero for AT-Trunk (final_output_only). This difference is inherent to the two designs and is not removed"
+ },
+ "clip_logging": {
+  "file": "xf_clip_log.jsonl",
+  "one_line_per_epoch": [
+   "steps",
+   "n_clipped",
+   "frac_clipped",
+   "mean_scale",
+   "gnorm_mean",
+   "gnorm_p50",
+   "gnorm_p90",
+   "gnorm_p99",
+   "gnorm_max",
+   "clip"
+  ],
+  "clipped_means": "clip_grad_norm_ rescaled the gradient (scale = min(1, clip / (norm + 1e-6)) < 1)",
+  "note": "observation only: the recorder reads the pre-clip norm that the step already returns; no training arithmetic is changed; no earlier run logged this, so there is no baseline fraction"
+ },
+ "unchanged": [
+  "recipe values: AdamW lr 2e-4, weight decay 1e-5, 3-epoch warm-up, cosine floor 2e-8, grad-clip 1.0, batch 4, no accumulation, 100 epochs, fp32 (amp False, no GradScaler): exactly those of XF / XFIN",
+  "MARINELoss (R3 weights, SHA-256 pinned) with train_v2.ZeroLoss as perceptual term; NOT wrapped in FinalOutputLoss",
+  "data: the LSUI train (3,463) and Val-A (166) manifests; paired horizontal flips only (no jitter); the data order (sampler seeded with seed*10007+epoch) and the per-sample flip decisions are derived from the seed only, so they equal those of the XF / XFIN run of seed 2",
+  "frozen evaluator train_v2.evaluate (256x256, fp32, TF32 off, clamp [0,1]) and Val-A best-PSNR checkpoint selection",
+  "the MARINE-Net architecture and its forward(); the 40 BatchNorm2d layers"
+ ],
+ "remaining_confounders": [
+  "MARINE-Net and AT-Trunk differ in several components at once (physics-guided attention vs none, INR branch vs none, scalar fusion vs affine colour heads + detail branch, parameter count 2.61 M vs 1.95 M): the 2 x 2 design separates 'architecture family' from 'normalisation', NOT any single component",
+  "the auxiliary CNN / INR L1 loss terms (0.3 each) are ACTIVE for MARINE-Net and exactly zero for AT-Trunk (final_output_only); this is an inherent property of the two designs and is not removed",
+  "the initial weights differ between MARINE-Net and AT-Trunk (different constructors / random-number streams); within a variant the BatchNorm and InstanceNorm MARINE-Net models share bit-identical convolution, linear and INR initialisation for the same seed",
+  "the normalisation mechanism is not separated: the swap removes batch coupling and the train / eval statistics mismatch AND adds per-image channel normalisation",
+  "MARINE-Net was designed with BatchNorm; no tuning for InstanceNorm was done, and full-channel InstanceNorm2d on all 40 sites is only one possible replacement",
+  "the existing MARINE-Net R3 AMP runs (cosine floor 1e-6) are NOT matched baselines and are not opened by this tooling; these runs replace them as the matched baseline",
+  "n = 3 seeds per cell, no significance claim possible; Val-A selects the checkpoint (best-epoch selection inflates noisy curves); cuDNN is not bitwise deterministic; the fp32 convolutions may use TF32 (PyTorch default, recorded in marinenet_loss_config.json)",
+  "MARINE-Net's seed-to-seed spread was large in the earlier AMP runs (about 1.8 dB); the fp32 spread is unknown until the runs exist"
+ ],
+ "runtime": {
+  "cudnn_allow_tf32": true,
+  "cuda_matmul_allow_tf32": false,
+  "float32_matmul_precision": "highest",
+  "cudnn_benchmark": false,
+  "torch": "2.7.1+cu118"
+ },
+ "code": {
+  "git_commit_full": "3bc15eefcbf4814eeb3214f6a2b635f0c3dab887",
+  "untracked_dependency": "original_repo/marine_net_model.py",
+  "untracked_dependency_sha256": "8c3a265408c2d71dfdc61d299503d6174549ac5ef58d03231369c94f3dad0c91",
+  "pinned_sha256": "8c3a265408c2d71dfdc61d299503d6174549ac5ef58d03231369c94f3dad0c91",
+  "untracked_dependency_note": "original_repo/ is git-ignored; its SHA-256 is pinned in xr_config and re-verified before launch, while training, after training and in the gate",
+  "xfin_commit": "5f04019654996076886ca4e8124da67117362131",
+  "xfinms_commit": "ee59b3230707ecbdb0fd667dabff22be7d861548"
+ },
+ "parameter_count": {
+  "trainable": 2609401,
+  "state_dict_elements": 2622241,
+  "bn_buffer_elements": 12840,
+  "source": "reports/stage_1_report.md (2,609,401 trainable + 12,840 BatchNorm buffers = 2,622,241 state elements); the tooling also compares them with the instantiated models"
+ },
+ "decision_rule": {
+  "status": "NONE (Option A: descriptive paired reporting only)",
+  "reporting": "v2_tools/marinenetms_paired_summary.py: exact per-seed deltas, mean, range, sign pattern, largest absolute delta; no class, threshold, margin, significance or equivalence claim",
+  "delta_convention": "delta = FIRST minus SECOND run family of the SAME seed, computed from the exact values in each run's history.jsonl; for PSNR (dB) and SSIM alike a positive delta means the first family is higher. Pairs: norm_effect_in_marinenet = marinenet_in - marinenet_bn; norm_effect_in_attrunk = xfin - xf; arch_effect_under_bn = xf - marinenet_bn; arch_effect_under_in = xfin - marinenet_in. Contrast: interaction_contrast = norm_effect_in_attrunk - norm_effect_in_marinenet (per seed)",
+  "pairs": [
+   [
+    "norm_effect_in_marinenet",
+    "marinenet_in",
+    "marinenet_bn"
+   ],
+   [
+    "norm_effect_in_attrunk",
+    "xfin",
+    "xf"
+   ],
+   [
+    "arch_effect_under_bn",
+    "xf",
+    "marinenet_bn"
+   ],
+   [
+    "arch_effect_under_in",
+    "xfin",
+    "marinenet_in"
+   ]
+  ],
+  "contrast": [
+   "interaction_contrast",
+   "norm_effect_in_attrunk",
+   "norm_effect_in_marinenet"
+  ]
+ },
+ "differs_from_reference": {
+  "reference": "xf_attrunk_r3_fp32_s2",
+  "recorded_args_differ_in": [
+   "model",
+   "run_name"
+  ],
+  "architecture": "MARINE-Net (physics-guided attention, INR branch, scalar fusion) instead of AT-Trunk (colour heads + detail branch, no PGA, no INR): several components differ at once",
+  "loss": "auxiliary CNN / INR L1 terms active (MARINE-Net) vs zero (AT-Trunk)",
+  "parameters": "2,609,401 trainable vs 1,952,768"
+ }
+}

@@ -1,0 +1,57 @@
+{
+ "meta": {
+  "geometry": "aspect482",
+  "methods": [
+   "clahe",
+   "udcp"
+  ],
+  "not_applicable": {
+   "ushape": "fixed 256x256 input",
+   "funie_gan": "Keras input fixed (256,256,3)",
+   "wwe_uie": "H, W must be divisible by 4",
+   "nu2net": "H, W must be multiples of 16"
+  },
+  "n_pairs": 2000,
+  "out": "D:\\MARINE_NET_RESEARCH\\paper1_uieb_runs\\sota_hicrd_released_G482",
+  "out_ushape_minmax": null,
+  "visual_ids": [
+   "site1_good_2",
+   "site2_good_7",
+   "site4_good_140",
+   "site5_good_641",
+   "site7_good_303",
+   "site8_good_42",
+   "site5_good_708",
+   "site5_good_257",
+   "site7_good_164",
+   "site7_good_225",
+   "site5_good_173",
+   "test94"
+  ],
+  "test_mode": false,
+  "protocol_sha256": "2d29442248a57ac6a164c7e2e3e09420e781a972fdde95b9466748b417da1000",
+  "torch": "2.7.1+cu118",
+  "device": "cuda",
+  "tf_enable_onednn_opts": "0",
+  "udcp_gf_radius": 24,
+  "seconds": 1005.7
+ },
+ "methods": {
+  "clahe": {
+   "exact": true,
+   "max_rel_err": 6.203092757269822e-16,
+   "max_abs_psnr_vs_mse_dB": 1.685746543245159e-06,
+   "n": 2000,
+   "mean_psnr": 18.272217624783515,
+   "seconds": 309.3
+  },
+  "udcp": {
+   "exact": true,
+   "max_rel_err": 6.4246517800104495e-16,
+   "max_abs_psnr_vs_mse_dB": 1.6350421994104636e-06,
+   "n": 2000,
+   "mean_psnr": 15.36151540160179,
+   "seconds": 407.8
+  }
+ }
+}

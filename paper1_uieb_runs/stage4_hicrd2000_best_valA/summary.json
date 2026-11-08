@@ -1,0 +1,125 @@
+{
+ "meta": {
+  "dataset": "hicrd_stage4",
+  "label": "Stage 4 primary",
+  "out": "D:\\MARINE_NET_RESEARCH\\paper1_uieb_runs\\stage4_hicrd2000_best_valA",
+  "checkpoint": "best_valA",
+  "geometry": "square256",
+  "manifest_sha256": "29402a7f706dc926effa4a2e05949b93cef664086c40439516d7b6f1eef5621d",
+  "protocol_sha256": {
+   "reports/paper1_narrowed/S4_preregistration_FROZEN_DRAFT.md": "2ea1f6ed3f8b20ff889f79c27f0dfaa795e2c2a7d9d66257b92236751b4a4934",
+   "reports/paper1_narrowed/S4_protocol_amendment_01.md": "8301b73d10ddf574b25b447e686314b6f0905eeb5d7bbe80bf42e872bff8bad3",
+   "reports/paper1_narrowed/S4_protocol_amendment_02.md": "0b0753dcf62182a7b472764cf993dec830ddc0b9afb249d5e24c11f0fa2743f2"
+  },
+  "script_sha256": "2b07877f3e31fe97d1e08afd29c4b3cfdce314b5d7418e7832145408eaa99e1b",
+  "models": [
+   "marinenet_bn_s0",
+   "marinenet_bn_s1",
+   "marinenet_bn_s2",
+   "marinenet_in_s0",
+   "marinenet_in_s1",
+   "marinenet_in_s2",
+   "attrunk_bn_s0",
+   "attrunk_bn_s1",
+   "attrunk_bn_s2",
+   "attrunk_in_s0",
+   "attrunk_in_s1",
+   "attrunk_in_s2"
+  ],
+  "n_images": 2000,
+  "created": "2026-11-02 10:04:20",
+  "torch": "2.7.1+cu118",
+  "numpy": "2.5.4",
+  "gpu": "NVIDIA GeForce RTX 3070",
+  "tensor_hw": [
+   256,
+   256
+  ]
+ },
+ "models": {
+  "marinenet_bn_s0": {
+   "run": "marinenet_bn_r3_fp32_s0",
+   "checkpoint_sha256": "d5e6538af11f141fd1e73e67d408cf002e5c248eeae392fd7d8ccf6018191007",
+   "psnr": 23.888340818285943,
+   "ssim": 0.9352342221736908,
+   "nonfinite_before_clamp": 0
+  },
+  "marinenet_bn_s1": {
+   "run": "marinenet_bn_r3_fp32_s1",
+   "checkpoint_sha256": "41d6abbe27c38779a585658d384bb42b4eebe048cd5285b4511f92860ad161cb",
+   "psnr": 23.37697043478489,
+   "ssim": 0.9121998299360276,
+   "nonfinite_before_clamp": 0
+  },
+  "marinenet_bn_s2": {
+   "run": "marinenet_bn_r3_fp32_s2",
+   "checkpoint_sha256": "a4c61b3dfeb2afb24ccccb644b93ca196e802cd4f77a60b3cc954983597ce47c",
+   "psnr": 21.31578713417053,
+   "ssim": 0.8904879693090916,
+   "nonfinite_before_clamp": 0
+  },
+  "marinenet_in_s0": {
+   "run": "marinenet_in_r3_fp32_s0",
+   "checkpoint_sha256": "a1e5854951250e25ebae5f174c64fef8bf2498506f455ace7cf44b27192b0008",
+   "psnr": 20.462190626859666,
+   "ssim": 0.8769808120131493,
+   "nonfinite_before_clamp": 0
+  },
+  "marinenet_in_s1": {
+   "run": "marinenet_in_r3_fp32_s1",
+   "checkpoint_sha256": "f5ce4a268ebda2b13d989fe52a3a16e01bcefbed3a41be36e5858b36d1d2398d",
+   "psnr": 19.466001930236818,
+   "ssim": 0.8711938319802284,
+   "nonfinite_before_clamp": 0
+  },
+  "marinenet_in_s2": {
+   "run": "marinenet_in_r3_fp32_s2",
+   "checkpoint_sha256": "8759df7e5e318a5c6b496eb39a601a5e5c7ce4d7d28d1355de4a4362d00355ab",
+   "psnr": 19.91875586152077,
+   "ssim": 0.8750521701276303,
+   "nonfinite_before_clamp": 0
+  },
+  "attrunk_bn_s0": {
+   "run": "xf_attrunk_r3_fp32_s0",
+   "checkpoint_sha256": "f594348550d75f76f9f90188e4c151cf6af1d29451773beccbdd9c6d75202941",
+   "psnr": 21.534529890418053,
+   "ssim": 0.9144269344806671,
+   "nonfinite_before_clamp": 0
+  },
+  "attrunk_bn_s1": {
+   "run": "xf_attrunk_r3_fp32_s1",
+   "checkpoint_sha256": "a3669cace97b97b7997c92ad892d1157c8bd68ecc4bbbbc3e91fc451fc897080",
+   "psnr": 22.366209433078765,
+   "ssim": 0.9268548973202705,
+   "nonfinite_before_clamp": 0
+  },
+  "attrunk_bn_s2": {
+   "run": "xf_attrunk_r3_fp32_s2",
+   "checkpoint_sha256": "1301807ecab3a8f25bdad23b2c57ea2428211b0f14c60a6011225af55ffb4592",
+   "psnr": 21.80492079973221,
+   "ssim": 0.9090533046722412,
+   "nonfinite_before_clamp": 0
+  },
+  "attrunk_in_s0": {
+   "run": "xfin_attrunk_in_r3_fp32_s0",
+   "checkpoint_sha256": "28d2b2cf24caf493aa9e5bf596f968e0628bb5bf3a0525df398923fcd4b421e6",
+   "psnr": 19.842127261757852,
+   "ssim": 0.8810599697828293,
+   "nonfinite_before_clamp": 0
+  },
+  "attrunk_in_s1": {
+   "run": "xfin_attrunk_in_r3_fp32_s1",
+   "checkpoint_sha256": "26579f14f89f932f812455a30a8659c482971b245762cb35f5515c4b617e298e",
+   "psnr": 19.172138025164603,
+   "ssim": 0.8761363599002361,
+   "nonfinite_before_clamp": 0
+  },
+  "attrunk_in_s2": {
+   "run": "xfin_attrunk_in_r3_fp32_s2",
+   "checkpoint_sha256": "6d88c6ea8f468e959588b7781a56d16ac8c21bf87ff064b3ba1c6f0e79f9abf3",
+   "psnr": 20.367682213783265,
+   "ssim": 0.879869130551815,
+   "nonfinite_before_clamp": 0
+  }
+ }
+}

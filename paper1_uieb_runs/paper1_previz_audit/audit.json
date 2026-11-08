@@ -1,0 +1,743 @@
+{
+ "checks": [
+  {
+   "check": "hash paper1_uieb_runs/stage3_uieb800_best_valA/per_image.csv",
+   "status": "PASS",
+   "detail": "a792f4e8ed12231c"
+  },
+  {
+   "check": "hash paper1_uieb_runs/stage3_analysis_best_valA/results.json",
+   "status": "PASS",
+   "detail": "21270f0b285eab3b"
+  },
+  {
+   "check": "hash paper1_uieb_runs/stage3_uieb800_last/per_image.csv",
+   "status": "PASS",
+   "detail": "453967e3dd314050"
+  },
+  {
+   "check": "hash paper1_uieb_runs/stage3_analysis_last/results.json",
+   "status": "PASS",
+   "detail": "be9029f7a81ce95b"
+  },
+  {
+   "check": "hash paper1_uieb_runs/stage3_prep/PROPOSED_uieb_stage3_remaining800_manifest.json",
+   "status": "PASS",
+   "detail": "dcab4ac2589586de"
+  },
+  {
+   "check": "hash paper1_uieb_runs/stage3_prep/PROPOSED_primary_exclusions_and_sensitivity_sets.json",
+   "status": "PASS",
+   "detail": "d80aa72a39abf0fb"
+  },
+  {
+   "check": "hash paper1_uieb_runs/stage4_hicrd2000_best_valA/per_image.csv",
+   "status": "PASS",
+   "detail": "87fc8b6ee0b39300"
+  },
+  {
+   "check": "hash paper1_uieb_runs/s5_e1r/e1r_per_image.csv",
+   "status": "PASS",
+   "detail": "384430561c71d7a1"
+  },
+  {
+   "check": "hash reports/paper1_narrowed/HICRD_complete_numerical_results_2026-11-03_v2.md",
+   "status": "PASS",
+   "detail": "c7e15614bdf50290"
+  },
+  {
+   "check": "hash paper1_uieb_runs/sota_hicrd_numerical_verification_v2/verification.json",
+   "status": "PASS",
+   "detail": "2a94e156ee2c9647"
+  },
+  {
+   "check": "hash paper1_uieb_runs/sota_hicrd_analysis/analysis.json",
+   "status": "PASS",
+   "detail": "331a09ab764904a4"
+  },
+  {
+   "check": "UIEB best_valA: per-image rows",
+   "status": "PASS",
+   "detail": "800 rows, primary cohort 787 (13 exclusions)"
+  },
+  {
+   "check": "UIEB best_valA: CSV means (800) equal summary.json",
+   "status": "PASS",
+   "detail": "max |\u0394| 1.78e-08 (CSV has 6 decimals)"
+  },
+  {
+   "check": "UIEB best_valA MARINE-Net: mean d PSNR equals results.json",
+   "status": "PASS",
+   "detail": "2.194383 / 1.161661 / 1.214848"
+  },
+  {
+   "check": "UIEB best_valA MARINE-Net: mean d PSNR equals O1",
+   "status": "PASS",
+   "detail": "per seed and seed mean"
+  },
+  {
+   "check": "UIEB best_valA MARINE-Net: O1 95 % image-bootstrap CIs re-derived independently",
+   "status": "PASS",
+   "detail": "seed-mean CI 1.3303, 1.7313"
+  },
+  {
+   "check": "UIEB best_valA MARINE-Net: seed-level t95 equals O1",
+   "status": "PASS",
+   "detail": "[0.0791, 2.9682], SD 0.5815"
+  },
+  {
+   "check": "UIEB best_valA MARINE-Net: share IN > BN equals O1",
+   "status": "PASS",
+   "detail": "0.6925 / 0.6582 / 0.6455"
+  },
+  {
+   "check": "UIEB best_valA AT-Trunk: mean d PSNR equals results.json",
+   "status": "PASS",
+   "detail": "0.247769 / 0.695379 / 0.472246"
+  },
+  {
+   "check": "UIEB best_valA AT-Trunk: mean d PSNR equals O1",
+   "status": "PASS",
+   "detail": "per seed and seed mean"
+  },
+  {
+   "check": "UIEB best_valA AT-Trunk: O1 95 % image-bootstrap CIs re-derived independently",
+   "status": "PASS",
+   "detail": "seed-mean CI 0.2745, 0.6730"
+  },
+  {
+   "check": "UIEB best_valA AT-Trunk: seed-level t95 equals O1",
+   "status": "PASS",
+   "detail": "[-0.0842, 1.0278], SD 0.2238"
+  },
+  {
+   "check": "UIEB best_valA AT-Trunk: share IN > BN equals O1",
+   "status": "PASS",
+   "detail": "0.5197 / 0.5680 / 0.5476"
+  },
+  {
+   "check": "UIEB last: per-image rows",
+   "status": "PASS",
+   "detail": "800 rows, primary cohort 787 (13 exclusions)"
+  },
+  {
+   "check": "UIEB last: CSV means (800) equal summary.json",
+   "status": "PASS",
+   "detail": "max |\u0394| 1.84e-08 (CSV has 6 decimals)"
+  },
+  {
+   "check": "UIEB last MARINE-Net: mean d PSNR equals results.json",
+   "status": "PASS",
+   "detail": "2.322838 / 1.081261 / 1.111627"
+  },
+  {
+   "check": "UIEB last MARINE-Net: mean d PSNR equals O1",
+   "status": "PASS",
+   "detail": "per seed and seed mean"
+  },
+  {
+   "check": "UIEB last MARINE-Net: O1 95 % image-bootstrap CIs re-derived independently",
+   "status": "PASS",
+   "detail": "seed-mean CI 1.3048, 1.7166"
+  },
+  {
+   "check": "UIEB last MARINE-Net: seed-level t95 equals O1",
+   "status": "PASS",
+   "detail": "[-0.2541, 3.2646], SD 0.7082"
+  },
+  {
+   "check": "UIEB last MARINE-Net: share IN > BN equals O1",
+   "status": "PASS",
+   "detail": "0.6912 / 0.6290 / 0.6429"
+  },
+  {
+   "check": "UIEB last AT-Trunk: mean d PSNR equals results.json",
+   "status": "PASS",
+   "detail": "0.230493 / 0.769975 / 0.410860"
+  },
+  {
+   "check": "UIEB last AT-Trunk: mean d PSNR equals O1",
+   "status": "PASS",
+   "detail": "per seed and seed mean"
+  },
+  {
+   "check": "UIEB last AT-Trunk: O1 95 % image-bootstrap CIs re-derived independently",
+   "status": "PASS",
+   "detail": "seed-mean CI 0.2725, 0.6689"
+  },
+  {
+   "check": "UIEB last AT-Trunk: seed-level t95 equals O1",
+   "status": "PASS",
+   "detail": "[-0.2118, 1.1527], SD 0.2746"
+  },
+  {
+   "check": "UIEB last AT-Trunk: share IN > BN equals O1",
+   "status": "PASS",
+   "detail": "0.5121 / 0.5693 / 0.5349"
+  },
+  {
+   "check": "HICRD v2 verification record",
+   "status": "PASS",
+   "detail": "97 checks; only failure = 16 last-digit discrepancies in the superseded final report (v2 values are the correct ones)"
+  },
+  {
+   "check": "E1r exactness record (24 model \u00d7 dataset rows)",
+   "status": "PASS",
+   "detail": "max rel err 3.36e-15; PSNR vs frozen UIEB 3.43e-06 dB, HICRD 2.66e-06 dB"
+  },
+  {
+   "check": "O7 identity checks record",
+   "status": "PASS",
+   "detail": "exact at both geometries; max |PSNR + 10 log10 MSE| 1.68e-06 dB; zero-MSE pair ['Exp11_Cam1_Stage02']"
+  },
+  {
+   "check": "Draft Tables 1-3 UIEB cells (targeted)",
+   "status": "PASS",
+   "detail": "44 / 44 cells"
+  },
+  {
+   "check": "Draft v2 has no stale O1 statement",
+   "status": "FAIL",
+   "detail": "2 stale sentence(s): O1 has since been computed"
+  }
+ ],
+ "screen_power": {
+  "n_numbers": 242,
+  "false_match_rate_one_unit": 0.890495867768595,
+  "false_match_rate_ten_pct": 0.9214876033057852
+ },
+ "screen_counts": {
+  "match": 237,
+  "magnitude-only": 1,
+  "unmatched": 4
+ },
+ "uieb": {
+  "best_valA": {
+   "n": 787,
+   "arms": {
+    "marinenet_bn": {
+     "psnr": [
+      20.69325113850063,
+      21.70923012833545,
+      21.606559900889454
+     ],
+     "ssim": [
+      0.8613999047013976,
+      0.8865528678526048,
+      0.8823893735705209
+     ]
+    },
+    "marinenet_in": {
+     "psnr": [
+      22.887634508259207,
+      22.870891083862766,
+      22.821407447268104
+     ],
+     "ssim": [
+      0.8952181385006354,
+      0.894483875476493,
+      0.894008958068615
+     ]
+    },
+    "attrunk_bn": {
+     "psnr": [
+      21.773080599745867,
+      21.52883978780178,
+      21.71013474205845
+     ],
+     "ssim": [
+      0.8900520381194408,
+      0.889191790343075,
+      0.8874379263024141
+     ]
+    },
+    "attrunk_in": {
+     "psnr": [
+      22.020849814485388,
+      22.224219269377382,
+      22.1823811905972
+     ],
+     "ssim": [
+      0.8881734904701397,
+      0.8903152376111817,
+      0.8912791817026683
+     ]
+    }
+   },
+   "diff": {
+    "MARINE-Net": {
+     "psnr": {
+      "per_seed": [
+       2.1943833697585755,
+       1.1616609555273194,
+       1.2148475463786546
+      ],
+      "seed_mean": 1.5236306238881834,
+      "seed_sd": 0.5814973240962509,
+      "t95": [
+       0.07911119181878257,
+       2.968150055957584
+      ],
+      "ci95_per_seed": [
+       [
+        1.9056491215374836,
+        2.4888422569885624
+       ],
+       [
+        0.944401993233799,
+        1.3834559320203317
+       ],
+       [
+        1.0164133737928853,
+        1.4223806163595933
+       ]
+      ],
+      "ci95_seed_mean": [
+       1.330334210525202,
+       1.7312926966751385
+      ],
+      "ci97_5_seed_mean": [
+       1.2977662108852184,
+       1.7555899960133428
+      ],
+      "share_IN_gt_BN": [
+       0.6925031766200762,
+       0.6581956797966964,
+       0.6454891994917408
+      ]
+     },
+     "ssim": {
+      "per_seed": [
+       0.03381823379923759,
+       0.007931007623888185,
+       0.011619584498094032
+      ],
+      "seed_mean": 0.017789608640406605,
+      "seed_sd": 0.01400317886056462,
+      "t95": [
+       -0.016996216051506984,
+       0.05257543333232019
+      ],
+      "ci95_per_seed": null,
+      "ci95_seed_mean": null,
+      "share_IN_gt_BN": [
+       0.7852604828462516,
+       0.6645489199491741,
+       0.6607369758576874
+      ]
+     },
+     "rho": {
+      "rho_per_seed": [
+       0.3459783499930995,
+       0.32204840900932885,
+       0.22721628426514107
+      ],
+      "rho_per_seed_ci97_5": [
+       [
+        0.2739735565345442,
+        0.4127102193978159
+       ],
+       [
+        0.24702775011811584,
+        0.3931608902353892
+       ],
+       [
+        0.1488554717288777,
+        0.30271521620186226
+       ]
+      ],
+      "rho_bar": 0.29841434775585646,
+      "rho_bar_ci97_5": [
+       0.2362206956013932,
+       0.3578601669378842
+      ],
+      "partial_bar": 0.2789699595939434,
+      "partial_bar_ci97_5": [
+       0.21379089531914147,
+       0.340863483942998
+      ],
+      "seed_level_descriptive": {
+       "sd": 0.06280950328169013,
+       "t95_df2": [
+        0.1423868919975039,
+        0.45444180351420904
+       ]
+      },
+      "decision": "SUPPORTED"
+     }
+    },
+    "AT-Trunk": {
+     "psnr": {
+      "per_seed": [
+       0.24776921473951702,
+       0.6953794815756038,
+       0.472246448538755
+      ],
+      "seed_mean": 0.47179838161795856,
+      "seed_sd": 0.22380546981082106,
+      "t95": [
+       -0.08416522603510196,
+       1.027761989271019
+      ],
+      "ci95_per_seed": [
+       [
+        0.02214758430749676,
+        0.47421617598475196
+       ],
+       [
+        0.44114461461245263,
+        0.9485822829097839
+       ],
+       [
+        0.24621661397712838,
+        0.6995719768106727
+       ]
+      ],
+      "ci95_seed_mean": [
+       0.2744510842651419,
+       0.673046760249895
+      ],
+      "ci97_5_seed_mean": [
+       0.24978932251164757,
+       0.7001834093657348
+      ],
+      "share_IN_gt_BN": [
+       0.5196950444726811,
+       0.567979669631512,
+       0.5476493011435832
+      ]
+     },
+     "ssim": {
+      "per_seed": [
+       -0.0018785476493011406,
+       0.001123447268106732,
+       0.0038412554002541285
+      ],
+      "seed_mean": 0.0010287183396865734,
+      "seed_sd": 0.00286107792778092,
+      "t95": [
+       -0.006078593236970496,
+       0.008136029916343643
+      ],
+      "ci95_per_seed": null,
+      "ci95_seed_mean": null,
+      "share_IN_gt_BN": [
+       0.4777636594663278,
+       0.5108005082592122,
+       0.5069885641677255
+      ]
+     },
+     "rho": {
+      "rho_per_seed": [
+       0.18052808086849756,
+       0.19723104391020255,
+       0.1498723123544044
+      ],
+      "rho_per_seed_ci97_5": [
+       [
+        0.09999539498522404,
+        0.2574736906744569
+       ],
+       [
+        0.1172178454539317,
+        0.2752007020827918
+       ],
+       [
+        0.06819168538768224,
+        0.23199893532056498
+       ]
+      ],
+      "rho_bar": 0.17587714571103485,
+      "rho_bar_ci97_5": [
+       0.10957208968549155,
+       0.2407102023480773
+      ],
+      "partial_bar": 0.1840148057039127,
+      "partial_bar_ci97_5": [
+       0.11896618998647394,
+       0.2474040400541263
+      ],
+      "seed_level_descriptive": {
+       "sd": 0.024019487130718047,
+       "t95_df2": [
+        0.11620943191271643,
+        0.23554485950935328
+       ]
+      },
+      "decision": "SUPPORTED"
+     }
+    }
+   },
+   "descriptor_assoc": {
+    "rho_x_luma_mean": -0.24100707682071032,
+    "rho_x_contrast": -0.19982462920312247
+   }
+  },
+  "last": {
+   "n": 787,
+   "arms": {
+    "marinenet_bn": {
+     "psnr": [
+      20.551123058449807,
+      21.79966769123253,
+      21.694533714104196
+     ],
+     "ssim": [
+      0.8586500508259212,
+      0.886791956797967,
+      0.8840619682337993
+     ]
+    },
+    "marinenet_in": {
+     "psnr": [
+      22.87396134942821,
+      22.880929083862775,
+      22.806160485387547
+     ],
+     "ssim": [
+      0.8951216785260483,
+      0.8945296620076238,
+      0.8938462287166455
+     ]
+    },
+    "attrunk_bn": {
+     "psnr": [
+      21.773080602287166,
+      21.454261893265567,
+      21.766957809402797
+     ],
+     "ssim": [
+      0.8900520330368487,
+      0.8861294637865312,
+      0.8876061207115629
+     ]
+    },
+    "attrunk_in": {
+     "psnr": [
+      22.003573532401525,
+      22.224236461245233,
+      22.177817498094026
+     ],
+     "ssim": [
+      0.887726250317662,
+      0.8903853900889453,
+      0.8912622007623888
+     ]
+    }
+   },
+   "diff": {
+    "MARINE-Net": {
+     "psnr": {
+      "per_seed": [
+       2.3228382909783982,
+       1.081261392630242,
+       1.111626771283354
+      ],
+      "seed_mean": 1.5052421516306647,
+      "seed_sd": 0.7082217868453536,
+      "t95": [
+       -0.25407829735508214,
+       3.2645626006164115
+      ],
+      "ci95_per_seed": [
+       [
+        2.0147168410737,
+        2.635795511404061
+       ],
+       [
+        0.8615956610546384,
+        1.3032130689644226
+       ],
+       [
+        0.9098184917090213,
+        1.3184733161689948
+       ]
+      ],
+      "ci95_seed_mean": [
+       1.3048216763024136,
+       1.7166325386806427
+      ],
+      "ci97_5_seed_mean": [
+       1.2758034985387545,
+       1.74737347829839
+      ],
+      "share_IN_gt_BN": [
+       0.6912325285895807,
+       0.6289707750952986,
+       0.6429479034307497
+      ]
+     },
+     "ssim": {
+      "per_seed": [
+       0.036471627700127116,
+       0.007737705209656931,
+       0.009784260482846247
+      ],
+      "seed_mean": 0.017997864464210096,
+      "seed_sd": 0.016031439211564698,
+      "t95": [
+       -0.021826438254870753,
+       0.057822167183290946
+      ],
+      "ci95_per_seed": null,
+      "ci95_seed_mean": null,
+      "share_IN_gt_BN": [
+       0.7801778907242694,
+       0.6581956797966964,
+       0.6607369758576874
+      ]
+     },
+     "rho": {
+      "rho_per_seed": [
+       0.3902236319854315,
+       0.3291574161418828,
+       0.20037145049295402
+      ],
+      "rho_per_seed_ci97_5": [
+       [
+        0.3199989124556287,
+        0.4553694052772098
+       ],
+       [
+        0.2552255578390337,
+        0.3993138659425167
+       ],
+       [
+        0.1223739761864399,
+        0.27634528622652893
+       ]
+      ],
+      "rho_bar": 0.3065841662067561,
+      "rho_bar_ci97_5": [
+       0.24637874511365393,
+       0.36451972672881633
+      ],
+      "partial_bar": 0.2813671440783212,
+      "partial_bar_ci97_5": [
+       0.21786154441078615,
+       0.34179237995721035
+      ],
+      "seed_level_descriptive": {
+       "sd": 0.096918142851782,
+       "t95_df2": [
+        0.06582615259583877,
+        0.5473421798176734
+       ]
+      },
+      "decision": "SUPPORTED"
+     }
+    },
+    "AT-Trunk": {
+     "psnr": {
+      "per_seed": [
+       0.23049293011435806,
+       0.7699745679796703,
+       0.4108596886912326
+      ],
+      "seed_mean": 0.470442395595087,
+      "seed_sd": 0.2746319056845962,
+      "t95": [
+       -0.21178107816587838,
+       1.1526658693560523
+      ],
+      "ci95_per_seed": [
+       [
+        0.0033752191550190463,
+        0.45778638856416726
+       ],
+       [
+        0.5073672216327838,
+        1.031022960705209
+       ],
+       [
+        0.17853989583862803,
+        0.6460589501905982
+       ]
+      ],
+      "ci95_seed_mean": [
+       0.27254206213468885,
+       0.6688882256353241
+      ],
+      "ci97_5_seed_mean": [
+       0.2462126860122834,
+       0.700307026413596
+      ],
+      "share_IN_gt_BN": [
+       0.5120711562897078,
+       0.5692503176620076,
+       0.5349428208386277
+      ]
+     },
+     "ssim": {
+      "per_seed": [
+       -0.0023257827191867815,
+       0.0042559263024142336,
+       0.0036560800508259206
+      ],
+      "seed_mean": 0.0018620745446844575,
+      "seed_sd": 0.0036391709534323146,
+      "t95": [
+       -0.00717812726024316,
+       0.010902276349612074
+      ],
+      "ci95_per_seed": null,
+      "ci95_seed_mean": null,
+      "share_IN_gt_BN": [
+       0.4777636594663278,
+       0.5184243964421855,
+       0.5108005082592122
+      ]
+     },
+     "rho": {
+      "rho_per_seed": [
+       0.18231598363159943,
+       0.16740060331532441,
+       0.12553611926415634
+      ],
+      "rho_per_seed_ci97_5": [
+       [
+        0.10231078578089016,
+        0.25906953429732177
+       ],
+       [
+        0.08613294585928978,
+        0.24524416640988464
+       ],
+       [
+        0.04311573981722201,
+        0.20822319197861056
+       ]
+      ],
+      "rho_bar": 0.15841756873702673,
+      "rho_bar_ci97_5": [
+       0.09297569930872612,
+       0.22295451236162656
+      ],
+      "partial_bar": 0.1717248962294244,
+      "partial_bar_ci97_5": [
+       0.1072609022072723,
+       0.2345620362365623
+      ],
+      "seed_level_descriptive": {
+       "sd": 0.02943653226982549,
+       "t95_df2": [
+        0.08529316882239768,
+        0.23154196865165577
+       ]
+      },
+      "decision": "SUPPORTED"
+     }
+    }
+   },
+   "descriptor_assoc": {
+    "rho_x_luma_mean": -0.24100707682071032,
+    "rho_x_contrast": -0.19982462920312247
+   }
+  }
+ },
+ "stale": [
+  "Per-seed bootstrap CIs of the mean difference were not computed for UIEB-787 and HICRD",
+  "Per-seed bootstrap CIs of the mean IN \u2212 BN difference for UIEB-787 and HICRD are not in the frozen outputs"
+ ],
+ "script_sha256": "805f53ad81841b5b9f12fe006c69b150a77f7602f875c6d5feab4f19f98e3693"
+}

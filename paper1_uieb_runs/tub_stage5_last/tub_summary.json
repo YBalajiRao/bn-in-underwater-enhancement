@@ -1,0 +1,132 @@
+{
+ "meta": {
+  "dataset": "tub_stage5",
+  "out": "D:\\MARINE_NET_RESEARCH\\paper1_uieb_runs\\tub_stage5_last",
+  "checkpoint": "last",
+  "geometry": "square256",
+  "script_sha256": "5ed83f068f5cc540de48215f4f3717aca11554ade83d4ee565c8f30b579b8ed9",
+  "protocol_sha256": "1e3382c0797de8031d9cf97ee4ca11e6ae731e76ea02ad56334baa0ae8dfa3d6",
+  "models": [
+   "marinenet_bn_s0",
+   "marinenet_bn_s1",
+   "marinenet_bn_s2",
+   "marinenet_in_s0",
+   "marinenet_in_s1",
+   "marinenet_in_s2",
+   "attrunk_bn_s0",
+   "attrunk_bn_s1",
+   "attrunk_bn_s2",
+   "attrunk_in_s0",
+   "attrunk_in_s1",
+   "attrunk_in_s2"
+  ],
+  "seconds": 346.4,
+  "torch": "2.7.1+cu118",
+  "gpu": "NVIDIA GeForce RTX 3070",
+  "tensor_hw": [
+   256,
+   256
+  ],
+  "batch": 16,
+  "memory_probe": {
+   "marinenet_bn_s0": {
+    "free_before_bytes": 7459569664,
+    "total_bytes": 8589410304,
+    "peak_allocated_bytes": 2229833216
+   },
+   "marinenet_in_s0": {
+    "free_before_bytes": 7331643392,
+    "total_bytes": 8589410304,
+    "peak_allocated_bytes": 2238258688
+   },
+   "attrunk_bn_s0": {
+    "free_before_bytes": 7331643392,
+    "total_bytes": 8589410304,
+    "peak_allocated_bytes": 2453364224
+   },
+   "attrunk_in_s0": {
+    "free_before_bytes": 7331643392,
+    "total_bytes": 8589410304,
+    "peak_allocated_bytes": 2453290496
+   }
+  },
+  "peak_allocated_bytes_per_model": {
+   "marinenet_bn_s0": 4169368576,
+   "marinenet_bn_s1": 4169368576,
+   "marinenet_bn_s2": 4169368576,
+   "marinenet_in_s0": 4169274368,
+   "marinenet_in_s1": 4169274368,
+   "marinenet_in_s2": 4170716160,
+   "attrunk_bn_s0": 2453757952,
+   "attrunk_bn_s1": 2453757952,
+   "attrunk_bn_s2": 2453757952,
+   "attrunk_in_s0": 2453663744,
+   "attrunk_in_s1": 2453663744,
+   "attrunk_in_s2": 2453663744
+  },
+  "checkpoints_unchanged_after_run": true,
+  "n_pairs": 1183
+ },
+ "checks": {
+  "marinenet_bn_s0": {
+   "exact": true,
+   "max_rel_err": 5.807340277383423e-16,
+   "max_abs_psnr_frozen_vs_mse_dB": 1.503306769734536e-06
+  },
+  "marinenet_bn_s1": {
+   "exact": true,
+   "max_rel_err": 4.4015133610427325e-16,
+   "max_abs_psnr_frozen_vs_mse_dB": 1.2266324382892435e-06
+  },
+  "marinenet_bn_s2": {
+   "exact": true,
+   "max_rel_err": 4.505592235813202e-16,
+   "max_abs_psnr_frozen_vs_mse_dB": 1.8295411230440095e-06
+  },
+  "marinenet_in_s0": {
+   "exact": true,
+   "max_rel_err": 4.625420059311055e-16,
+   "max_abs_psnr_frozen_vs_mse_dB": 1.227130212555494e-06
+  },
+  "marinenet_in_s1": {
+   "exact": true,
+   "max_rel_err": 4.5213049990668665e-16,
+   "max_abs_psnr_frozen_vs_mse_dB": 1.2950480652307306e-06
+  },
+  "marinenet_in_s2": {
+   "exact": true,
+   "max_rel_err": 4.4051253600130703e-16,
+   "max_abs_psnr_frozen_vs_mse_dB": 1.3029236338724104e-06
+  },
+  "attrunk_bn_s0": {
+   "exact": true,
+   "max_rel_err": 4.6739884731342865e-16,
+   "max_abs_psnr_frozen_vs_mse_dB": 1.683351786851972e-06
+  },
+  "attrunk_bn_s1": {
+   "exact": true,
+   "max_rel_err": 5.177983579037527e-16,
+   "max_abs_psnr_frozen_vs_mse_dB": 1.5717763375278082e-06
+  },
+  "attrunk_bn_s2": {
+   "exact": true,
+   "max_rel_err": 5.091251529222126e-16,
+   "max_abs_psnr_frozen_vs_mse_dB": 1.2924725858454167e-06
+  },
+  "attrunk_in_s0": {
+   "exact": true,
+   "max_rel_err": 4.261493641297956e-16,
+   "max_abs_psnr_frozen_vs_mse_dB": 1.3229222304289578e-06
+  },
+  "attrunk_in_s1": {
+   "exact": true,
+   "max_rel_err": 4.411953755826287e-16,
+   "max_abs_psnr_frozen_vs_mse_dB": 1.2179887427521408e-06
+  },
+  "attrunk_in_s2": {
+   "exact": true,
+   "max_rel_err": 4.446800027615578e-16,
+   "max_abs_psnr_frozen_vs_mse_dB": 1.2441700256715649e-06
+  }
+ }
+}
