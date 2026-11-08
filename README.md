@@ -1,7 +1,6 @@
 # Cross-dataset reversal of batch vs. instance normalization in underwater image enhancement
 
-Code, frozen protocols and per-image results for the study **"Cross-dataset reversal in the relative performance of batch and instance normalization in two underwater image enhancement networks"** (Yadhav Balaji Rao and Suthir Sriram, Department of Computer Science and Engineering, Amrita School of Computing, Amrita Vishwa Vidyapeetham, Chennai).
-
+Code, frozen protocols and per-image results for the study **"Cross-dataset reversal in the relative performance of batch and instance normalization in two underwater image enhancement networks"**
 Instance normalization (IN) is often preferred to batch normalization (BN) in underwater image enhancement, because it removes per-image feature statistics that vary with water conditions. This repository tests whether that preference holds across evaluation datasets under controlled conditions.
 
 The design:
@@ -143,4 +142,4 @@ and the MARINE-Net base architecture:
 
 ## Contact
 
-Please open an issue in this repository. For checkpoint requests, contact the corresponding author, Suthir Sriram (Amrita Vishwa Vidyapeetham, Chennai).
+Please open an issue in this repository. For checkpoint requests, ybalajirao30@gmail.com
